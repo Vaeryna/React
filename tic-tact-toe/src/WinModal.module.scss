@@ -8,22 +8,42 @@
 
 }
 
-.trophy{
+.trophy {
+  transition: transform 1s ease-in-out;
+  display: inline-block;
+}
+
+@keyframes moveToP1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes moveToP2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+.toP1 {
+  animation: moveToP1 1s ease-in-out forwards;
+}
+
+.toP2 {
+  animation: moveToP2 1s ease-in-out forwards;
 
 }
 
-.toP1{
-  transform: translateX(-150%);
-  transition: left;
-}
-
-.toP2{
-  transform: translateX(150%);
-  transition: right;
-}
 
 .replay {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+

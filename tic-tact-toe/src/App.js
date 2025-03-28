@@ -6,7 +6,6 @@ import {WinModal} from "./WinModal";
 
 
 export function Grille({winner, setWinner}) {
-    const [img, setImg] = useState(null)
     const [player, setPlayer] = useState("P1")
 
     const rows = [
@@ -115,8 +114,9 @@ function App() {
     const [player, setPlayer] = useState("P1")
 
     function resetCases() {
-        setCases()
+        setCases({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
         setPlayer("P1")
+        setWinner(null)
     }
 
     return (
