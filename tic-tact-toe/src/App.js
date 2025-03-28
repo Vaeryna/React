@@ -53,14 +53,14 @@ export function Grille() {
             if (valeurs.every(val => val === "P1")) {
                 console.log("P1 a gagné")
                 alert("Le joueur 1 a gagné ! ")
-                // resetCases()
+                resetCases()
                 setWinner("P1")
 
             }
             if (valeurs.every(val => val === "P2")) {
                 console.log("P2 a gagné")
                 alert("Le joueur 2 a gagné ! ")
-                // resetCases()
+                resetCases()
                 setWinner("P2")
             }
         })
