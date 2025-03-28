@@ -36,12 +36,12 @@ export function Grille() {
     }
 
     const winCombination = [
-        [11, 12, 13], //colonne 1
-        [21, 22, 23], //colonne 2
-        [31, 32, 32], //colonne 3
-        [11, 21, 31], //ligne 1
-        [12, 22, 32], //ligne 2
-        [13, 23, 33], //ligne 3
+        [11, 12, 13], //ligne 1
+        [21, 22, 23], //ligne 2
+        [31, 32, 33], //ligne 3
+        [11, 21, 31], //colonne 1
+        [12, 22, 32], //colonne 2
+        [13, 23, 33], //colonne 3
         [11, 22, 33], //diag 1
         [13, 22, 31] //diag 2
     ]
