@@ -7,7 +7,7 @@ export function WinModal(winner) {
 
 
     return (
-        <div>
+        <>
             <div className={style.modal}>
                 <div id={"P1"} className={style.player}>
                     <img src={fox}/>
@@ -29,7 +29,7 @@ export function WinModal(winner) {
                 <button> Oui ! </button>
                 <button> Nope</button>
             </div>
-        </div>
+        </>
 
     )
 }
