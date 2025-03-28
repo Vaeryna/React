@@ -10,7 +10,6 @@ import {WinModal} from "./WinModal";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <WinModal/>
         <App/>
     </React.StrictMode>
 );

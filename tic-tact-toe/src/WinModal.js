@@ -10,10 +10,10 @@ export function WinModal(winner) {
         <>
             <div className={style.modal}>
                 <div id={"P1"} className={style.player}>
-                    <img src={fox}/>
+                    <img src={fox}/> {winner.winner}
                 </div>
 
-                <div id={"trophy"} className={`${style.trophy} ${winner === "P1" ? style.toP1 : style.toP2}`}>
+                <div id={"trophy"} className={`${style.trophy} ${winner.winner === "P1" ? style.toP1 : style.toP2}`}>
                     <img src={cheese}/>
                 </div>
 

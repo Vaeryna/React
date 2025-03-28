@@ -1,14 +1,14 @@
 import './App.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import fox from './assets/renard.png';
 import crow from './assets/corbeau.png';
 import {WinModal} from "./WinModal";
 
 
-export function Grille() {
+export function Grille({winner, setWinner}) {
     const [img, setImg] = useState(null)
     const [player, setPlayer] = useState("P1")
-    const [winner, setWinner] = useState("")
+
     const rows = [
         [11, 12, 13],
         [21, 22, 23],
@@ -21,10 +21,10 @@ export function Grille() {
         }
     )
 
-    function resetCases() {
-        setCases({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
-        setPlayer("P1")
-    }
+    // function resetCases() {
+    //     setCases({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
+    //     setPlayer("P1")
+    // }
 
     function changePlayer() {
         if (player === "P1") {
@@ -54,17 +54,15 @@ export function Grille() {
 
             if (valeurs.every(val => val === "P1")) {
                 console.log("P1 a gagné")
-                console.log("grille", cases)
-                alert("Le joueur 1 a gagné ! ")
-                resetCases()
+                // alert("Le joueur 1 a gagné ! ")
+                // resetCases()
                 setWinner("P1")
 
             }
             if (valeurs.every(val => val === "P2")) {
                 console.log("P2 a gagné")
-                alert("Le joueur 2 a gagné ! ")
-                console.log("grille", cases)
-                resetCases()
+                // alert("Le joueur 2 a gagné ! ")
+                // resetCases()
                 setWinner("P2")
             }
         })
@@ -78,7 +76,10 @@ export function Grille() {
         }
 
     }
-    chooseWinner(winner)
+
+    useEffect(() => {
+        chooseWinner(winner)
+    }, [cases]);
 
 
     return (
@@ -101,7 +102,6 @@ export function Grille() {
                 ))}
                 </tbody>
             </table>
-            {winner && <WinModal winner={(winner)}/>}
         </>
 
     )
@@ -110,11 +110,23 @@ export function Grille() {
 
 
 function App() {
+    const [winner, setWinner]= useState(null)
+    const [cases, setCases] = useState({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
+    const [player, setPlayer] = useState("P1")
+
+    function resetCases() {
+        setCases()
+        setPlayer("P1")
+    }
+
     return (
         <div className={"body"}>
             <h1> Tic ... Tac... Toe ! 💣 </h1>
-            <Grille/>
-
+            {winner ? (
+                <WinModal winner={winner} resetGame={resetCases}/>
+            ) : (
+                <Grille winner={winner} setWinner={setWinner}/>
+            )}
         </div>
     );
 }
