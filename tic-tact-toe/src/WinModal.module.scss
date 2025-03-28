@@ -47,3 +47,27 @@
   align-items: center;
 }
 
+.yesButton {
+  background: linear-gradient(145deg, #f3e5ab, #f6d365);
+  border: 2px solid #3e3e3e;
+  border-radius: 12px;
+  color: #2e2e2e;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.yesButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(145deg, #f6d365, #f3e5ab);
+}
+
+.yesButton:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

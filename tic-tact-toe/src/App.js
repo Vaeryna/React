@@ -20,10 +20,8 @@ export function Grille({winner, setWinner}) {
         }
     )
 
-    // function resetCases() {
-    //     setCases({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
-    //     setPlayer("P1")
-    // }
+    const [isDraw, setDraw] = useState(false);
+
 
     function changePlayer() {
         if (player === "P1") {
@@ -53,33 +51,45 @@ export function Grille({winner, setWinner}) {
 
             if (valeurs.every(val => val === "P1")) {
                 console.log("P1 a gagné")
-                // alert("Le joueur 1 a gagné ! ")
-                // resetCases()
                 setWinner("P1")
 
             }
             if (valeurs.every(val => val === "P2")) {
                 console.log("P2 a gagné")
-                // alert("Le joueur 2 a gagné ! ")
-                // resetCases()
                 setWinner("P2")
             }
         })
     }
 
+    const noMoreMoves = Object.values(cases).every(val => val !== null);
+
     const handleClick = (player, casesID) => {
-        if (cases[casesID] == null) {
+        const isCellEmpty = cases[casesID] === null;
+        const hasEmptyCells = Object.values(cases).some(val => val === null);
+
+        if (isCellEmpty && hasEmptyCells) {
             const newCases = {...cases, [casesID]: player}
-            setCases(newCases);
+            setCases(newCases)
             changePlayer()
         }
-
     }
+
+    useEffect(() => {
+        if (noMoreMoves && !winner) {
+            setDraw(true)
+        }
+    }, [noMoreMoves, winner]);
 
     useEffect(() => {
         chooseWinner(winner)
     }, [cases]);
 
+    function resetCases() {
+        setCases({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
+        setPlayer("P1")
+        setWinner(null)
+        setDraw(false)
+    }
 
     return (
         <>
@@ -101,6 +111,13 @@ export function Grille({winner, setWinner}) {
                 ))}
                 </tbody>
             </table>
+
+            {isDraw && (
+                <>
+                    <h1> Match nul ! Voulez-vous rejouer ?</h1>
+                    <button className={"yesButton"} onClick={resetCases}> Yes !</button>
+                </>
+            )}
         </>
 
     )
@@ -109,8 +126,18 @@ export function Grille({winner, setWinner}) {
 
 
 function App() {
-    const [winner, setWinner]= useState(null)
-    const [cases, setCases] = useState({11: null, 12: null, 13: null, 21: null, 22: null, 23: null, 31: null, 32: null, 33: null})
+    const [winner, setWinner] = useState(null)
+    const [cases, setCases] = useState({
+        11: null,
+        12: null,
+        13: null,
+        21: null,
+        22: null,
+        23: null,
+        31: null,
+        32: null,
+        33: null
+    })
     const [player, setPlayer] = useState("P1")
 
     function resetCases() {

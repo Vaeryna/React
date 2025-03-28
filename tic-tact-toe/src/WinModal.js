@@ -26,8 +26,8 @@ export function WinModal({winner, resetGame}) {
             <p className={"texte"}> Voulez-vous rejouer ? </p>
             <div className={style.replay}>
 
-                <button onClick={() => resetGame()}> Oui !</button>
-                <button> Nope</button>
+                <button className={style.yesButton} onClick={() => resetGame()}> Oui !</button>
+
             </div>
         </>
 
