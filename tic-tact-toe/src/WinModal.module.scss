@@ -1,0 +1,29 @@
+.modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player {
+
+}
+
+.trophy{
+
+}
+
+.toP1{
+  transform: translateX(-150%);
+  transition: left;
+}
+
+.topP2{
+  transform: translateX(150%);
+  transition: right;
+}
+
+.replay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
