@@ -51,8 +51,10 @@ export function Grille() {
             const valeurs = winCombination.map(
                 id => cases[id]
             )
+
             if (valeurs.every(val => val === "P1")) {
                 console.log("P1 a gagné")
+                console.log("grille", cases)
                 alert("Le joueur 1 a gagné ! ")
                 resetCases()
                 setWinner("P1")
@@ -61,6 +63,7 @@ export function Grille() {
             if (valeurs.every(val => val === "P2")) {
                 console.log("P2 a gagné")
                 alert("Le joueur 2 a gagné ! ")
+                console.log("grille", cases)
                 resetCases()
                 setWinner("P2")
             }
