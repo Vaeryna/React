@@ -11,9 +11,12 @@
     border: black 1px solid;
     align-items: center;
     margin: 50px;
+    height: 300px;
+  width: 300px;
+  table-layout: fixed;
 }
 
-td , tr{
+td{
     height: 100px;
     width: 100px;
     border: black 1px solid;
