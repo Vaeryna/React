@@ -13,12 +13,10 @@
     margin: 50px;
 }
 
-td {
-    min-height: 100px;
-    min-width: 100px;
+td , tr{
+    height: 100px;
+    width: 100px;
     border: black 1px solid;
-
-
 }
 
 img {
