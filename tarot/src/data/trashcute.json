@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Le Lapin Sanguinaire",
+    "number": 0,
+    "description": "Le Lapin Sanguinaire, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Lapin Sanguinaire te juge. Fort."
+  },
+  {
+    "name": "Le Nounours Maudit",
+    "number": 1,
+    "description": "Le Nounours Maudit, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Nounours Maudit te juge. Fort."
+  },
+  {
+    "name": "La Licorne Crado",
+    "number": 2,
+    "description": "La Licorne Crado, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Licorne Crado te juge. Fort."
+  },
+  {
+    "name": "La Fée Déprimée",
+    "number": 3,
+    "description": "La Fée Déprimée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Fée Déprimée te juge. Fort."
+  },
+  {
+    "name": "Le Chat Pyromane",
+    "number": 4,
+    "description": "Le Chat Pyromane, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chat Pyromane te juge. Fort."
+  },
+  {
+    "name": "Le Canard de Jugement",
+    "number": 5,
+    "description": "Le Canard de Jugement, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Canard de Jugement te juge. Fort."
+  },
+  {
+    "name": "Le Renard en Burnout",
+    "number": 6,
+    "description": "Le Renard en Burnout, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Renard en Burnout te juge. Fort."
+  },
+  {
+    "name": "La Bulle Vengeresse",
+    "number": 7,
+    "description": "La Bulle Vengeresse, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Bulle Vengeresse te juge. Fort."
+  },
+  {
+    "name": "Le Cupcake du Destin",
+    "number": 8,
+    "description": "Le Cupcake du Destin, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Cupcake du Destin te juge. Fort."
+  },
+  {
+    "name": "Le Chien Goudron",
+    "number": 9,
+    "description": "Le Chien Goudron, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chien Goudron te juge. Fort."
+  },
+  {
+    "name": "La Peluche Oubliée",
+    "number": 10,
+    "description": "La Peluche Oubliée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Peluche Oubliée te juge. Fort."
+  },
+  {
+    "name": "La Sirène Poilue",
+    "number": 11,
+    "description": "La Sirène Poilue, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Sirène Poilue te juge. Fort."
+  },
+  {
+    "name": "Le Bébé Hurlant",
+    "number": 12,
+    "description": "Le Bébé Hurlant, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Bébé Hurlant te juge. Fort."
+  },
+  {
+    "name": "La Petite Sorcière des Ennuis",
+    "number": 13,
+    "description": "La Petite Sorcière des Ennuis, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Petite Sorcière des Ennuis te juge. Fort."
+  },
+  {
+    "name": "La Gomme Possédée",
+    "number": 14,
+    "description": "La Gomme Possédée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Gomme Possédée te juge. Fort."
+  },
+  {
+    "name": "Le Mouton Agressif",
+    "number": 15,
+    "description": "Le Mouton Agressif, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Mouton Agressif te juge. Fort."
+  },
+  {
+    "name": "Le Panda Cynique",
+    "number": 16,
+    "description": "Le Panda Cynique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Panda Cynique te juge. Fort."
+  },
+  {
+    "name": "La Coccinelle Infernale",
+    "number": 17,
+    "description": "La Coccinelle Infernale, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Coccinelle Infernale te juge. Fort."
+  },
+  {
+    "name": "Le Marshmallow Toxique",
+    "number": 18,
+    "description": "Le Marshmallow Toxique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Marshmallow Toxique te juge. Fort."
+  },
+  {
+    "name": "La Colombe Suspecte",
+    "number": 19,
+    "description": "La Colombe Suspecte, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Colombe Suspecte te juge. Fort."
+  },
+  {
+    "name": "Le Petit Démon Kawaï",
+    "number": 20,
+    "description": "Le Petit Démon Kawaï, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Petit Démon Kawaï te juge. Fort."
+  },
+  {
+    "name": "Le Gâteau Traître",
+    "number": 21,
+    "description": "Le Gâteau Traître, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+    "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Gâteau Traître te juge. Fort."
+  }
+];
