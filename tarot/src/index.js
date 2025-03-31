@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "@fontsource/cinzel";
 import {BrowserRouter, Route, Routes} from "react-router";
 import {NameDraw} from "./draws/NameDraw";
+import {ThreeDraw} from "./draws/ThreeDraw";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,6 +17,7 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/name-draw" element={<NameDraw/>}/>
+                <Route path="/3-draw" element={<ThreeDraw/>}/>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>
