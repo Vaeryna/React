@@ -9,20 +9,27 @@ function Home() {
     const navigate = useNavigate();
 
 
-
     const sendForm = (e: React.FormEvent) => {
         e.preventDefault()
         const form = e.target as HTMLFormElement;
         const name = (form.elements.namedItem("userName") as HTMLInputElement)?.value;
         const draw = (form.elements.namedItem("drawType") as HTMLInputElement)?.value;
 
-        if(name && draw) {
-            navigate('/name-draw', {
-                state: {
-                    userName: name,
-                    drawType: draw
-                }
-            })
+        if (name) {
+            if (draw == "3cards") {
+                navigate('/3-draw', {
+                    state: {
+                        userName: name
+                    }
+                })
+            }
+            if (draw == "firstname") {
+                navigate('/name-draw', {
+                    state: {
+                        userName: name
+                    }
+                })
+            }
         }
         console.log("username", name, draw)
 
@@ -45,7 +52,8 @@ function Home() {
                     <label htmlFor="firstNameDraw" className="form-label"> Tirage au prénom </label>
                 </div>
                 <div className="mb-3 form-check">
-                    <input type="radio" className="form-check-input" id="threeCardsDraw" name="drawType" value="3cards"/>
+                    <input type="radio" className="form-check-input" id="threeCardsDraw" name="drawType"
+                           value="3cards"/>
                     <label className="form-check-label" htmlFor="threeCardsDraw">Tirage à 3 cartes</label>
                 </div>
                 <button type="submit" className="btn btn-primary w-50">
