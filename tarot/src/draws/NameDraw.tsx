@@ -22,7 +22,7 @@ function shuffle(card: { majeures: any[]; mineurs: { couleur: any, element: any,
     const {tone, userName} = location.state
 
     useEffect(() => (console.log("tone", tone)))
-
+useEffect( ()=> shuffle(absurd))
 
     return (
         <>
