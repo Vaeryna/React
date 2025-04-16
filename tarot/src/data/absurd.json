@@ -1,132 +1,154 @@
 {
   "majeures": [
     {
+      "id": 0,
       "name": "Le Poireau Égaré",
       "number": 0,
       "description": "Le Poireau Égaré flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le poireau égaré. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 1,
       "name": "La Chaise Volante",
       "number": 1,
       "description": "La Chaise Volante flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la chaise volante. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 2,
       "name": "L'Échelle Infinie",
       "number": 2,
       "description": "L'Échelle Infinie flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme l'échelle infinie. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 3,
       "name": "Le Miroir qui Tousse",
       "number": 3,
       "description": "Le Miroir qui Tousse flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le miroir qui tousse. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 4,
       "name": "La Baguette Sans Gluten",
       "number": 4,
       "description": "La Baguette Sans Gluten flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la baguette sans gluten. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 5,
       "name": "Le Dindon Oracle",
       "number": 5,
       "description": "Le Dindon Oracle flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le dindon oracle. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 6,
       "name": "L'Ombre de Midi",
       "number": 6,
       "description": "L'Ombre de Midi flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme l'ombre de midi. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 7,
       "name": "Le Clown Triste",
       "number": 7,
       "description": "Le Clown Triste flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le clown triste. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 8,
       "name": "La Trompette Muette",
       "number": 8,
       "description": "La Trompette Muette flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la trompette muette. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 9,
       "name": "Le Vélo Carré",
       "number": 9,
       "description": "Le Vélo Carré flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le vélo carré. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 10,
       "name": "La Montagne Plate",
       "number": 10,
       "description": "La Montagne Plate flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la montagne plate. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 11,
       "name": "Le Fantôme Allergique",
       "number": 11,
       "description": "Le Fantôme Allergique flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le fantôme allergique. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 12,
       "name": "L'Araignée à Plumes",
       "number": 12,
       "description": "L'Araignée à Plumes flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme l'araignée à plumes. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 13,
       "name": "Le Lama Astral",
       "number": 13,
       "description": "Le Lama Astral flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le lama astral. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 14,
       "name": "La Porte Fermée Ouverte",
       "number": 14,
       "description": "La Porte Fermée Ouverte flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la porte fermée ouverte. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 15,
       "name": "Le Coussin Électrique",
       "number": 15,
       "description": "Le Coussin Électrique flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le coussin électrique. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 16,
       "name": "Le Chien Philosophique",
       "number": 16,
       "description": "Le Chien Philosophique flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le chien philosophique. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 17,
       "name": "La Poêle Mystique",
       "number": 17,
       "description": "La Poêle Mystique flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la poêle mystique. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 18,
       "name": "L'Horloge Sans Temps",
       "number": 18,
       "description": "L'Horloge Sans Temps flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme l'horloge sans temps. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 19,
       "name": "La Fourchette Unique",
       "number": 19,
       "description": "La Fourchette Unique flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme la fourchette unique. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 20,
       "name": "Le Pull Sentient",
       "number": 20,
       "description": "Le Pull Sentient flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
       "interpretation": "Ta vie prend une tournure étrange, un peu comme le pull sentient. Tu ne comprends pas, et c’est normal."
     },
     {
+      "id": 21,
       "name": "Le Silence qui Hurle",
       "number": 21,
       "description": "Le Silence qui Hurle flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
@@ -139,59 +161,73 @@
       "element": "Air",
       "cartes": [
         {
-          "nom": "As - La Clé qui n’ouvre rien",
+          "id": 22,
+          "name": "As - La Clé qui n’ouvre rien",
           "description": "Tu t’embarques dans une réflexion inutile, mais passionnée."
         },
         {
-          "nom": "2 - Les Ciseaux sans Lames",
+          "id": 23,
+          "name": "2 - Les Ciseaux sans Lames",
           "description": "Deux idées qui ne coupent rien, mais se battent quand même."
         },
         {
-          "nom": "3 - Le Parapluie Poreux",
+          "id": 24,
+          "name": "3 - Le Parapluie Poreux",
           "description": "Tes pensées protègent mal, mais au moins elles sont là."
         },
         {
-          "nom": "4 - Les Lunettes Inversées",
+          "id": 25,
+          "name": "4 - Les Lunettes Inversées",
           "description": "Tu vois tout à l’envers, mais c’est cohérent pour toi."
         },
         {
-          "nom": "5 - Le Crayon Baveur",
+          "id": 26,
+          "name": "5 - Le Crayon Baveur",
           "description": "Tu penses trop, et ça déborde."
         },
         {
-          "nom": "6 - Les Dés Carrés",
+          "id": 27,
+          "name": "6 - Les Dés Carrés",
           "description": "Le hasard s’est trompé de méthode."
         },
         {
-          "nom": "7 - Le Rubik's Cube Monochrome",
+          "id": 28,
+          "name": "7 - Le Rubik's Cube Monochrome",
           "description": "Complexité sans variation."
         },
         {
-          "nom": "8 - La Montre du Futur Passé",
+          "id": 29,
+          "name": "8 - La Montre du Futur Passé",
           "description": "Tu cogites dans des temporalités incertaines."
         },
         {
-          "nom": "9 - Les Trombones Rebelles",
+          "id": 30,
+          "name": "9 - Les Trombones Rebelles",
           "description": "Rien ne tient ensemble, mais ils s’accrochent quand même."
         },
         {
-          "nom": "10 - Le Casque qui Écoute",
+          "id": 31,
+          "name": "10 - Le Casque qui Écoute",
           "description": "Tes idées t’écoutent parler. Et elles jugent."
         },
         {
-          "nom": "Valet - Le Porte-voix Muet",
+          "id": 32,
+          "name": "Valet - Le Porte-voix Muet",
           "description": "Porte les messages confus avec fierté."
         },
         {
-          "nom": "Cavalier - Le Mégaphone Tournoyant",
+          "id": 33,
+          "name": "Cavalier - Le Mégaphone Tournoyant",
           "description": "Hurle ton nonsense en boucle."
         },
         {
-          "nom": "Reine - La Machine à Douter",
+          "id": 34,
+          "name": "Reine - La Machine à Douter",
           "description": "Génère des hypothèses absurdes avec grâce."
         },
         {
-          "nom": "Roi - Le Penseur Transparent",
+          "id": 35,
+          "name": "Roi - Le Penseur Transparent",
           "description": "Il pense fort, mais personne ne le voit."
         }
       ]
@@ -201,59 +237,73 @@
       "element": "Feu",
       "cartes": [
         {
-          "nom": "As - Le Pigeon qui pète des bulles",
+          "id": 36,
+          "name": "As - Le Pigeon qui pète des bulles",
           "description": "Un élan ridicule, mais pétillant."
         },
         {
-          "nom": "2 - Les Vers Jongleurs",
+          "id": 37,
+          "name": "2 - Les Vers Jongleurs",
           "description": "Coordination sans cause."
         },
         {
-          "nom": "3 - La Chauve-souris Diurne",
+          "id": 38,
+          "name": "3 - La Chauve-souris Diurne",
           "description": "Agir à contre-temps avec conviction."
         },
         {
-          "nom": "4 - Les Moustiques Boxeurs",
+          "id": 39,
+          "name": "4 - Les Moustiques Boxeurs",
           "description": "Petites actions, grands impacts énervants."
         },
         {
-          "nom": "5 - Le Chat Flamant Rose",
+          "id": 40,
+          "name": "5 - Le Chat Flamant Rose",
           "description": "Tu changes de forme sans raison."
         },
         {
-          "nom": "6 - Les Escargots Pressés",
+          "id": 41,
+          "name": "6 - Les Escargots Pressés",
           "description": "L’action existe, mais elle glisse doucement."
         },
         {
-          "nom": "7 - La Grenouille en Armure",
+          "id": 42,
+          "name": "7 - La Grenouille en Armure",
           "description": "Tu te protèges pour bondir dans le vide."
         },
         {
-          "nom": "8 - Le Coq Enroué",
+          "id": 43,
+          "name": "8 - Le Coq Enroué",
           "description": "Affirmer ta présence sans le moindre cri."
         },
         {
-          "nom": "9 - L’Araignée qui tricote",
+          "id": 44,
+          "name": "9 - L’Araignée qui tricote",
           "description": "Créer dans tous les sens, sans objectif clair."
         },
         {
-          "nom": "10 - L’Hippocampe de Compétition",
+          "id": 45,
+          "name": "10 - L’Hippocampe de Compétition",
           "description": "La course vers l’absurde est lancée."
         },
         {
-          "nom": "Valet - L’Oie Tactique",
+          "id": 46,
+          "name": "Valet - L’Oie Tactique",
           "description": "Fonce sans réfléchir, puis réfléchis trop tard."
         },
         {
-          "nom": "Cavalier - Le Lièvre à Roulettes",
+          "id": 47,
+          "name": "Cavalier - Le Lièvre à Roulettes",
           "description": "Toujours prêt à galoper en rond."
         },
         {
-          "nom": "Reine - La Reine des Pigeons",
+          "id": 48,
+          "name": "Reine - La Reine des Pigeons",
           "description": "Inspire des envols erratiques."
         },
         {
-          "nom": "Roi - Le Sceptre Fourmilier",
+          "id": 49,
+          "name": "Roi - Le Sceptre Fourmilier",
           "description": "Autorité étrange sur le chaos animalier."
         }
       ]
@@ -263,59 +313,73 @@
       "element": "Eau",
       "cartes": [
         {
-          "nom": "As - La Soupe qui parle en rimes",
+          "id": 50,
+          "name": "As - La Soupe qui parle en rimes",
           "description": "L’émotion coule en poésie décalée."
         },
         {
-          "nom": "2 - Les Oeufs Émotionnels",
+          "id": 51,
+          "name": "2 - Les Oeufs Émotionnels",
           "description": "Deux sensibilités en équilibre précaire."
         },
         {
-          "nom": "3 - Le Yaourt Hystérique",
+          "id": 52,
+          "name": "3 - Le Yaourt Hystérique",
           "description": "Instabilité douce et sucrée."
         },
         {
-          "nom": "4 - Les Croissants Tristes",
+          "id": 53,
+          "name": "4 - Les Croissants Tristes",
           "description": "Confort en pâte feuilletée nostalgique."
         },
         {
-          "nom": "5 - La Banane qui Pleure",
+          "id": 54,
+          "name": "5 - La Banane qui Pleure",
           "description": "Il y a glissade dans l’air."
         },
         {
-          "nom": "6 - Le Fromage Trop Mûr",
+          "id": 55,
+          "name": "6 - Le Fromage Trop Mûr",
           "description": "Tu gardes en toi des choses qui puent un peu."
         },
         {
-          "nom": "7 - La Glace Fondue",
+          "id": 56,
+          "name": "7 - La Glace Fondue",
           "description": "Tendre, mais ça part en flaque."
         },
         {
-          "nom": "8 - Le Lait Explosif",
+          "id": 57,
+          "name": "8 - Le Lait Explosif",
           "description": "Explosion douce et blanche, mais imprévisible."
         },
         {
-          "nom": "9 - Les Pâtes Al Dente Sentimentales",
+          "id": 58,
+          "name": "9 - Les Pâtes Al Dente Sentimentales",
           "description": "Tout est dans la cuisson des sentiments."
         },
         {
-          "nom": "10 - Le Bonbon Vengeur",
+          "id": 59,
+          "name": "10 - Le Bonbon Vengeur",
           "description": "L’émotion douce devient piquante."
         },
         {
-          "nom": "Valet - Le Petit Pois Boudeur",
+          "id": 60,
+          "name": "Valet - Le Petit Pois Boudeur",
           "description": "Timide mais intense."
         },
         {
-          "nom": "Cavalier - La Carotte Larmoyante",
+          "id": 61,
+          "name": "Cavalier - La Carotte Larmoyante",
           "description": "Il chevauche la mélancolie sucrée."
         },
         {
-          "nom": "Reine - La Sorcière Chocolatée",
+          "id": 62,
+          "name": "Reine - La Sorcière Chocolatée",
           "description": "Maîtrise les émotions avec tendresse sucrée."
         },
         {
-          "nom": "Roi - Le Tyran Meringué",
+          "id": 63,
+          "name": "Roi - Le Tyran Meringué",
           "description": "Gouverne avec douceur autoritaire."
         }
       ]
@@ -325,59 +389,73 @@
       "element": "Terre",
       "cartes": [
         {
-          "nom": "As - La Table bancale à roulettes",
+          "id": 64,
+          "name": "As - La Table bancale à roulettes",
           "description": "Le soutien est là, mais ça tangue."
         },
         {
-          "nom": "2 - Les Chaises ennemies",
+          "id": 65,
+          "name": "2 - Les Chaises ennemies",
           "description": "Difficile de se poser sans conflit."
         },
         {
-          "nom": "3 - Le Lit qui ronfle",
+          "id": 66,
+          "name": "3 - Le Lit qui ronfle",
           "description": "Inertie totale, mais active."
         },
         {
-          "nom": "4 - L’Étagère qui soupire",
+          "id": 67,
+          "name": "4 - L’Étagère qui soupire",
           "description": "Supporte, mais à contrecœur."
         },
         {
-          "nom": "5 - Le Frigo sans fond",
+          "id": 68,
+          "name": "5 - Le Frigo sans fond",
           "description": "Tu accumules, mais rien ne reste froid."
         },
         {
-          "nom": "6 - Le Tapis Grincheux",
+          "id": 69,
+          "name": "6 - Le Tapis Grincheux",
           "description": "Ce qui est sous tes pieds n’est pas content."
         },
         {
-          "nom": "7 - Le Miroir Retardataire",
+          "id": 70,
+          "name": "7 - Le Miroir Retardataire",
           "description": "Ce que tu vois est toujours un peu après."
         },
         {
-          "nom": "8 - Le Lampadaire Introverti",
+          "id": 71,
+          "name": "8 - Le Lampadaire Introverti",
           "description": "Éclaire à peine, mais veut bien faire."
         },
         {
-          "nom": "9 - La Commode qui Mord",
+          "id": 72,
+          "name": "9 - La Commode qui Mord",
           "description": "L'organisation te teste."
         },
         {
-          "nom": "10 - Le Bureau à Ressort",
+          "id": 73,
+          "name": "10 - Le Bureau à Ressort",
           "description": "Instabilité de façade, efficacité cachée."
         },
         {
-          "nom": "Valet - Le Tabouret Enfant",
+          "id": 74,
+          "name": "Valet - Le Tabouret Enfant",
           "description": "Petit, mais déterminé."
         },
         {
-          "nom": "Cavalier - Le Canapé Nomade",
+          "id": 75,
+          "name": "Cavalier - Le Canapé nameade",
           "description": "Confort en mouvement absurde."
         },
         {
-          "nom": "Reine - L’Armoire Sarcastique",
+          "id": 76,
+          "name": "Reine - L’Armoire Sarcastique",
           "description": "Elle cache tout, surtout ses jugements."
         },
         {
-          "nom": "Roi - Le Trône Boudiné",
+          "id": 77,
+          "name": "Roi - Le Trône Boudiné",
           "description": "S’impose avec une grandeur molle."
         }
       ]

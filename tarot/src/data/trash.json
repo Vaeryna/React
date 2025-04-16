@@ -1,0 +1,464 @@
+{
+  "majeures": [
+    {
+      "id": 0,
+      "name": "Le Lapin Sanguinaire",
+      "number": 0,
+      "description": "Le Lapin Sanguinaire, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Lapin Sanguinaire te juge. Fort."
+    },
+    {
+      "id": 1,
+      "name": "Le Nounours Maudit",
+      "number": 1,
+      "description": "Le Nounours Maudit, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Nounours Maudit te juge. Fort."
+    },
+    {
+      "id": 2,
+      "name": "La Licorne Crado",
+      "number": 2,
+      "description": "La Licorne Crado, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Licorne Crado te juge. Fort."
+    },
+    {
+      "id": 3,
+      "name": "La Fée Déprimée",
+      "number": 3,
+      "description": "La Fée Déprimée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Fée Déprimée te juge. Fort."
+    },
+    {
+      "id": 4,
+      "name": "Le Chat Pyromane",
+      "number": 4,
+      "description": "Le Chat Pyromane, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chat Pyromane te juge. Fort."
+    },
+    {
+      "id": 5,
+      "name": "Le Canard de Jugement",
+      "number": 5,
+      "description": "Le Canard de Jugement, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Canard de Jugement te juge. Fort."
+    },
+    {
+      "id": 6,
+      "name": "Le Renard en Burnout",
+      "number": 6,
+      "description": "Le Renard en Burnout, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Renard en Burnout te juge. Fort."
+    },
+    {
+      "id": 7,
+      "name": "La Bulle Vengeresse",
+      "number": 7,
+      "description": "La Bulle Vengeresse, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Bulle Vengeresse te juge. Fort."
+    },
+    {
+      "id": 8,
+      "name": "Le Cupcake du Destin",
+      "number": 8,
+      "description": "Le Cupcake du Destin, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Cupcake du Destin te juge. Fort."
+    },
+    {
+      "id": 9,
+      "name": "Le Chien Goudron",
+      "number": 9,
+      "description": "Le Chien Goudron, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chien Goudron te juge. Fort."
+    },
+    {
+      "id": 10,
+      "name": "La Peluche Oubliée",
+      "number": 10,
+      "description": "La Peluche Oubliée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Peluche Oubliée te juge. Fort."
+    },
+    {
+      "id": 11,
+      "name": "La Sirène Poilue",
+      "number": 11,
+      "description": "La Sirène Poilue, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Sirène Poilue te juge. Fort."
+    },
+    {
+      "id": 12,
+      "name": "Le Bébé Hurlant",
+      "number": 12,
+      "description": "Le Bébé Hurlant, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Bébé Hurlant te juge. Fort."
+    },
+    {
+      "id": 13,
+      "name": "La Petite Sorcière des Ennuis",
+      "number": 13,
+      "description": "La Petite Sorcière des Ennuis, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Petite Sorcière des Ennuis te juge. Fort."
+    },
+    {
+      "id": 14,
+      "name": "La Gomme Possédée",
+      "number": 14,
+      "description": "La Gomme Possédée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Gomme Possédée te juge. Fort."
+    },
+    {
+      "id": 15,
+      "name": "Le Mouton Agressif",
+      "number": 15,
+      "description": "Le Mouton Agressif, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Mouton Agressif te juge. Fort."
+    },
+    {
+      "id": 16,
+      "name": "Le Panda Cynique",
+      "number": 16,
+      "description": "Le Panda Cynique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Panda Cynique te juge. Fort."
+    },
+    {
+      "id": 17,
+      "name": "La Coccinelle Infernale",
+      "number": 17,
+      "description": "La Coccinelle Infernale, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Coccinelle Infernale te juge. Fort."
+    },
+    {
+      "id": 18,
+      "name": "Le Marshmallow Toxique",
+      "number": 18,
+      "description": "Le Marshmallow Toxique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Marshmallow Toxique te juge. Fort."
+    },
+    {
+      "id": 19,
+      "name": "La Colombe Suspecte",
+      "number": 19,
+      "description": "La Colombe Suspecte, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Colombe Suspecte te juge. Fort."
+    },
+    {
+      "id": 20,
+      "name": "Le Petit Démon Kawaï",
+      "number": 20,
+      "description": "Le Petit Démon Kawaï, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Petit Démon Kawaï te juge. Fort."
+    },
+    {
+      "id": 21,
+      "name": "Le Gâteau Traître",
+      "number": 21,
+      "description": "Le Gâteau Traître, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
+      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Gâteau Traître te juge. Fort."
+    }
+  ],
+  "mineurs": [
+    {
+      "couleur": "Peluches Déchirées",
+      "element": "Air",
+      "cartes": [
+        {
+          "id": 22,
+          "name": "As - Le Doudou Perdu",
+          "description": "Une pensée douce abandonnée."
+        },
+        {
+          "id": 23,
+          "name": "2 - Les Oreilles Recousues",
+          "description": "Deux idées rafistolées ensemble."
+        },
+        {
+          "id": 24,
+          "name": "3 - Le Bouton qui Crie",
+          "description": "Un détail mental obsède un peu trop."
+        },
+        {
+          "id": 25,
+          "name": "4 - Le Ruban qui Gratte",
+          "description": "La douceur cognitive irrite sans raison."
+        },
+        {
+          "id": 26,
+          "name": "5 - Les Cils Décousus",
+          "description": "Fatigue mentale en peluche."
+        },
+        {
+          "id": 27,
+          "name": "6 - Le Fil de Trop",
+          "description": "Trop tirer, et tout s’effiloche."
+        },
+        {
+          "id": 28,
+          "name": "7 - Le Cœur Cousu Main",
+          "description": "Pensées tendres, maladroites, sincères."
+        },
+        {
+          "id": 29,
+          "name": "8 - L’Aiguille qui Pique l’Ame",
+          "description": "Le cerveau pique un peu aujourd’hui."
+        },
+        {
+          "id": 30,
+          "name": "9 - Le Nœud qui Pleure",
+          "description": "Conflit intérieur tout mignon."
+        },
+        {
+          "id": 31,
+          "name": "10 - La Couture de la Vérité",
+          "description": "L’intellect se révèle dans un fil tordu."
+        },
+        {
+          "id": 32,
+          "name": "Valet - Le Lapin Troué",
+          "description": "Porte des pensées qui s’effilochent."
+        },
+        {
+          "id": 33,
+          "name": "Cavalier - L’Ours en Velours Fatigué",
+          "description": "Monte la garde des idées en loques."
+        },
+        {
+          "id": 34,
+          "name": "Reine - La Fée Patchée",
+          "description": "Protège les esprits cassés."
+        },
+        {
+          "id": 35,
+          "name": "Roi - Le Général Peluche",
+          "description": "Autorité mentale douce mais ferme."
+        }
+      ]
+    },
+    {
+      "couleur": "Bonbons Dangereux",
+      "element": "Feu",
+      "cartes": [
+        {
+          "id": 36,
+          "name": "As - Le Caramel Collant",
+          "description": "Une impulsion qui te colle aux doigts."
+        },
+        {
+          "id": 37,
+          "name": "2 - Les Dragées Explosives",
+          "description": "Duo d’énergie sucrée et imprévisible."
+        },
+        {
+          "id": 38,
+          "name": "3 - Le Suçon de Feu",
+          "description": "Tu agis avec douceur qui brûle."
+        },
+        {
+          "id": 39,
+          "name": "4 - Le Chewing-gum Éternel",
+          "description": "L’action mâchée trop longtemps."
+        },
+        {
+          "id": 40,
+          "name": "5 - Les Réglisses Rebelles",
+          "description": "Mouvements capricieux et colorés."
+        },
+        {
+          "id": 41,
+          "name": "6 - Le Marshmallow Hyperactif",
+          "description": "Tu bondis sans savoir pourquoi."
+        },
+        {
+          "id": 42,
+          "name": "7 - Le Piment en Bonbonnière",
+          "description": "Surprise piquante sous emballage mignon."
+        },
+        {
+          "id": 43,
+          "name": "8 - Les Fraises Armées",
+          "description": "Douceur agressive."
+        },
+        {
+          "id": 44,
+          "name": "9 - Le Gâteau Fugitif",
+          "description": "Tu poursuis une motivation qui s’enfuit."
+        },
+        {
+          "id": 45,
+          "name": "10 - Le Chupa Volcanique",
+          "description": "C’est trop, mais c’est bon."
+        },
+        {
+          "id": 46,
+          "name": "Valet - Le Bonbon Emballé Trop Fort",
+          "description": "Difficile à ouvrir, mais plein d’élan."
+        },
+        {
+          "id": 47,
+          "name": "Cavalier - Le Cookie en Cavale",
+          "description": "Il court, il court, sans logique."
+        },
+        {
+          "id": 48,
+          "name": "Reine - La Sucrerie Empoisonnée",
+          "description": "Séduction pétillante, mais risquée."
+        },
+        {
+          "id": 49,
+          "name": "Roi - Le Roi Cuberdon",
+          "description": "Trône sucré, cœur fondant et autorité explosive."
+        }
+      ]
+    },
+    {
+      "couleur": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+      "cartes": [
+        {
+          "id": 50,
+          "name": "As - Le Bébé Dragon qui Pleure",
+          "description": "Explosion émotionnelle mini."
+        },
+        {
+          "id": 51,
+          "name": "2 - Les Lutins Gémissants",
+          "description": "Deux émotions fusionnent et font du bruit."
+        },
+        {
+          "id": 52,
+          "name": "3 - Le Hamster Dévasté",
+          "description": "Trop de douceur tue la stabilité."
+        },
+        {
+          "id": 53,
+          "name": "4 - Le Koala Boudeur",
+          "description": "Refus émotif passif-agressif."
+        },
+        {
+          "id": 54,
+          "name": "5 - La Loutre en Crise",
+          "description": "Ça va pas, mais c’est mignon."
+        },
+        {
+          "id": 55,
+          "name": "6 - Les Chinchillas à Larmes",
+          "description": "Tu ris et pleures en même temps."
+        },
+        {
+          "id": 56,
+          "name": "7 - Le Pingouin Incompris",
+          "description": "L’émotion n’est pas logique, et alors ?"
+        },
+        {
+          "id": 57,
+          "name": "8 - La Biche qui Crie",
+          "description": "Hypersensibilité en tutu."
+        },
+        {
+          "id": 58,
+          "name": "9 - Le Chaton Possédé",
+          "description": "Câlin et furie dans un seul corps."
+        },
+        {
+          "id": 59,
+          "name": "10 - Le Panda qui se Jette",
+          "description": "Trop d’émotion, pas assez de sol."
+        },
+        {
+          "id": 60,
+          "name": "Valet - Le Renardeau Tournoyant",
+          "description": "Émotions floues mais sincères."
+        },
+        {
+          "id": 61,
+          "name": "Cavalier - Le Chiot Baveux",
+          "description": "Débordement affectif incontrôlé."
+        },
+        {
+          "id": 62,
+          "name": "Reine - La Sirène à Nœuds Roses",
+          "description": "Gouverne les pleurs comme un art."
+        },
+        {
+          "id": 63,
+          "name": "Roi - L’Hérisson Affectif",
+          "description": "Dirige avec piques et câlins."
+        }
+      ]
+    },
+    {
+      "couleur": "Jouets Cassés",
+      "element": "Terre",
+      "cartes": [
+        {
+          "id": 64,
+          "name": "As - Le Robot Défectueux",
+          "description": "Il clignote, il tombe, mais il est prêt."
+        },
+        {
+          "id": 65,
+          "name": "2 - Les Roues Carrées",
+          "description": "L’avancée est bancale, mais existante."
+        },
+        {
+          "id": 66,
+          "name": "3 - La Boîte à Musique Détraquée",
+          "description": "Tu construis quelque chose de dissonant."
+        },
+        {
+          "id": 67,
+          "name": "4 - Le Puzzle Incomplet",
+          "description": "Tu t’organises avec des pièces manquantes."
+        },
+        {
+          "id": 68,
+          "name": "5 - Le Toupie qui Pleurait",
+          "description": "Ça tourne, mais le cœur n’y est pas."
+        },
+        {
+          "id": 69,
+          "name": "6 - Les Blocs de Sucre",
+          "description": "Construction délicieuse, mais fragile."
+        },
+        {
+          "id": 70,
+          "name": "7 - Le Ballon Crevé",
+          "description": "L’élan du concret perd de l’air."
+        },
+        {
+          "id": 71,
+          "name": "8 - Le Train Mou",
+          "description": "Trajectoire molle mais persistante."
+        },
+        {
+          "id": 72,
+          "name": "9 - Les Légos Invisibles",
+          "description": "Tu construis avec ce qu’on ne voit pas."
+        },
+        {
+          "id": 73,
+          "name": "10 - Le Coffre qui Râle",
+          "description": "L’accumulation se plaint d’elle-même."
+        },
+        {
+          "id": 74,
+          "name": "Valet - Le Yo-yo Tordu",
+          "description": "Va et vient d’actions confuses."
+        },
+        {
+          "id": 75,
+          "name": "Cavalier - La Peluche Rouillée",
+          "description": "Persiste malgré la détérioration."
+        },
+        {
+          "id": 76,
+          "name": "Reine - La Marionnette Sereine",
+          "description": "Tient tout avec calme et ficelles."
+        },
+        {
+          "id": 77,
+          "name": "Roi - Le Golem de Coton",
+          "description": "Structure solide, cœur marshmallow."
+        }
+      ]
+    }
+  ]
+}

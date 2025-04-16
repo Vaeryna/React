@@ -34,7 +34,6 @@ function Home() {
                     state: {
                         userName: name,
                         tone: tone
-
                     }
                 })
             }
