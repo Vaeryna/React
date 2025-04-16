@@ -5,7 +5,10 @@ import {useNavigate} from "react-router-dom";
 function Home() {
     const [userName, setUserName] = useState("")
     const [drawType, setDrawType] = useState("")
-    const [showButton, setShowButton]= useState(true)
+    const [showButton, setShowButton] = useState(true)
+    const [selectedTone, setSelectedTone] = useState<string | null>(null)
+    const [selectedDraw, setSelectedDraw] = useState<string | null>(null)
+    const [selectedName, setSelectedName] = useState<string | null>(null)
 
     const navigate = useNavigate();
 
@@ -15,25 +18,28 @@ function Home() {
         const form = e.target as HTMLFormElement;
         const name = (form.elements.namedItem("userName") as HTMLInputElement)?.value;
         const draw = (form.elements.namedItem("drawType") as HTMLInputElement)?.value;
-        const tone = (form.elements.namedItem("toneType")) as HTMLInputElement?.value;
+        const tone = (form.elements.namedItem("toneType") as HTMLInputElement)?.value;
 
         if (name) {
             if (draw === "3cards") {
                 navigate('/3-draw', {
                     state: {
-                        userName: name
+                        userName: name,
+                        tone: tone
                     }
                 })
             }
             if (draw === "firstname") {
                 navigate('/name-draw', {
                     state: {
-                        userName: name
+                        userName: name,
+                        tone: tone
+
                     }
                 })
             }
         }
-        console.log("username", name, draw)
+        console.log("username", name, draw, tone)
 
     }
 
@@ -45,23 +51,27 @@ function Home() {
             <form onSubmit={sendForm} className={styles.form}>
                 <div className="mb-2">
                     <h2> Quel est ton nom ?</h2>
-                    <input type="text" className="form-control w-50" id="userName"/>
+                    <input type="text" className="form-control w-50" id="userName"
+                           onChange={(e) => setSelectedName(e.target.value)}/>
                 </div>
                 <br/>
                 <h2> Quel tirage désires-tu ? </h2>
                 <div className="mb-3 form-check">
-                    <input className="form-check-input" type="radio" name="drawType" id="firstname" value="firstname"/>
+                    <input className="form-check-input" type="radio" name="drawType" id="firstname"
+                           value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
                     <label htmlFor="firstNameDraw" className="form-label"> Tirage au prénom </label>
                 </div>
                 <div className="mb-3 form-check">
                     <input type="radio" className="form-check-input" id="threeCardsDraw" name="drawType"
-                           value="3cards"/>
+                           value="3cards"
+                           onChange={(e) => setSelectedDraw(e.target.value)}/>
                     <label className="form-check-label" htmlFor="threeCardsDraw">Tirage à 3 cartes</label>
                 </div>
 
                 {showButton && (
                     <button type="button" data-bs-toggle="collapse" data-bs-target="#toggleTone"
-                            className="btn btn-primary w-50" onClick={()=> setShowButton(false)}>
+                            className="btn btn-primary w-50" onClick={() => setShowButton(false)}
+                            disabled={!selectedDraw || !selectedName}>
                         Tirage
                     </button>
 
@@ -71,28 +81,30 @@ function Home() {
                 <div className="collapse" id="toggleTone" aria-expanded="false" aria-controls="toggleTone">
                     <h2> Un choix de tirage ? </h2>
                     <div className="mb-3 form-check">
-                        <input className="form-check-input" type="radio" name="toneType" id="absurd" value="absurd"/>
+                        <input className="form-check-input" type="radio" name="toneType" id="absurd" value="absurd"
+                               onChange={(e) => setSelectedTone(e.target.value)}/>
                         <label htmlFor="toneType" className="form-label"> Absurde</label>
                     </div>
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="cuteTrash"
-                               value="cuteTrash"/>
+                               value="cuteTrash"
+                               onChange={(e) => setSelectedTone(e.target.value)}/>
                         <label htmlFor="toneType" className="form-label"> Mignon </label>
                     </div>
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="confusing"
-                               value="confusing"/>
+                               value="confusing" onChange={(e) => setSelectedTone(e.target.value)}/>
                         <label htmlFor="toneType" className="form-label"> Confus </label>
                     </div>
 
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="random"
-                               value="random"/>
+                               value="random" onChange={(e) => setSelectedTone(e.target.value)}/>
                         <label htmlFor="toneType" className="form-label"> Aléatoire </label>
                     </div>
 
 
-                    <button type="submit" className="btn btn-primary w-50">
+                    <button type="submit" className="btn btn-primary w-50" disabled={!selectedTone}>
                         Tirage
                     </button>
 
