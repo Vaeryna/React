@@ -17,7 +17,7 @@ function shuffle(card: { majeures: any[]; mineurs: { couleur: any, element: any,
 }
 
 
-export function NameDraw() {
+ function NameDraw() {
     const location = useLocation();
     const {tone, userName} = location.state
 
@@ -32,4 +32,4 @@ export function NameDraw() {
     )
 }
 
-NameDraw()
+export NameDraw()
