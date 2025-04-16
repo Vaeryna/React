@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "@fontsource/cinzel";
 import "bootstrap/dist/js/bootstrap.bundle.min.js" ;
 import {BrowserRouter, Route, Routes} from "react-router";
-import {NameDraw} from "./draws/NameDraw";
+import NameDraw from "./draws/NameDraw";
 import {ThreeDraw} from "./draws/ThreeDraw";
 
 
