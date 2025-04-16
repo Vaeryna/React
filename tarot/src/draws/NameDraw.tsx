@@ -32,4 +32,4 @@ function shuffle(card: { majeures: any[]; mineurs: { couleur: any, element: any,
     )
 }
 
-export default NameDraw()
+export default NameDraw;
