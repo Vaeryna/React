@@ -23,6 +23,7 @@ export function WinModal({winner, resetGame}) {
             </div>
 
 
+            <p className={"texte"}> Bravo {winner==="P1" ? "Maitre Renard" : "Maitre Corbeau"}, voici votre fromage !</p>
             <p className={"texte"}> Voulez-vous rejouer ? </p>
             <div className={style.replay}>
 
