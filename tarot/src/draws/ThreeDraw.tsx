@@ -1,3 +1,4 @@
+// tirage de 3 cartes suivant une question
 export function ThreeDraw() {
     return (
 
