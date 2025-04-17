@@ -1,6 +1,7 @@
 // tirage d'autant de cartes que de lettre dans le prénom
 import {useEffect, useState} from "react";
 import {useLocation} from "react-router-dom";
+import absurd from "../data/absurd.json"
 
 export function Cards() {
     const [card, setCard] = useState({});
@@ -17,12 +18,12 @@ function shuffle(card: { majeures: any[]; mineurs: { couleur: any, element: any,
 }
 
 
- function NameDraw() {
+function NameDraw() {
     const location = useLocation();
     const {tone, userName} = location.state
 
     useEffect(() => (console.log("tone", tone)))
-useEffect( ()=> shuffle(absurd))
+    useEffect(() => (shuffle(absurd)))
 
     return (
         <>
