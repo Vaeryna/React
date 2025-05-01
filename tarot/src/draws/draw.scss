@@ -2,13 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 25px;
 }
 
 button {
   background: none;
+  border: none;
+
 }
 
-img{
+img {
   width: 150px;
-  height: 250px;
+  height: 266px;
+
 }
