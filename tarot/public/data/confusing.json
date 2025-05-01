@@ -157,7 +157,7 @@
   ],
   "mineurs": [
     {
-      "couleur": "Brumes Cognitives",
+      "color": "Brumes Cognitives",
       "element": "Air",
       "cartes": [
         {
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "couleur": "Mouvements Incongrus",
+      "color": "Mouvements Incongrus",
       "element": "Feu",
       "cartes": [
         {
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "couleur": "Résonances Inattendues",
+      "color": "Résonances Inattendues",
       "element": "Eau",
       "cartes": [
         {
@@ -385,7 +385,7 @@
       ]
     },
     {
-      "couleur": "Objets Sans Fonction",
+      "color": "Objets Sans Fonction",
       "element": "Terre",
       "cartes": [
         {

@@ -1,34 +1,54 @@
 // tirage d'autant de cartes que de lettre dans le prénom
-import {Key, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {useLocation} from "react-router-dom";
-import absurd from "../data/absurd.json"
 import {shuffle} from "./shuffle";
 import './draw.scss';
-import backCard from "../assets/Dos-tarots.png"
+import getCard from "../methods/get-card"
+import {TarotCard} from "../Data/TarotCard";
 
-export function Cards() {
-    const [card, setCard] = useState({});
-    const [allCards, setAllCards] = useState<any[]>([]);
+
+interface CardsProps {
+    tone?: any
+}
+
+export function Cards({tone}: CardsProps) {
+    const [card, setCard] = useState<TarotCard | null>(null);
     const [shuffleIDS, setShuffleIDS] = useState<number[]>([])
-    const [isFlipped, setIsFlipped] = useState(true)
+    const [cardImg, setCardImg] = useState<Record<number, string>>({})
+    const backCard = "/assets/back-4.jpg"
+    const [isFlipped, setIsFlipped] = useState<Array<number>>([])
 
     useEffect(() => {
         setShuffleIDS(shuffle())
     }, [])
 
-    console.log("ids", shuffleIDS)
+    function flip(cardID: number) {
+        setIsFlipped([...isFlipped, cardID])
+    }
+
+    console.log("shuffle ids", shuffleIDS)
 
     return (<>
         <div className="btn-group" role="group" aria-label="cards">
-            {shuffleIDS.map((card, index) =>
+            {shuffleIDS.map((cardID, index) =>
                 (
-                    <button key={index} onClick={(e) => {
+                    <button key={index} onClick={async () => {
+                        const card: any = await getCard(tone, cardID)
+                        flip(cardID)
 
-                        console.log(card)
-                    }}>
-                       {isFlipped ? <img src={backCard} alt={"dos"}/> : card}
-
-
+                        if (card) {
+                            setCard(card)
+                            setCardImg(
+                                prev => ({
+                                    ...prev, [cardID]: `/assets/cards-${tone}/${cardID}.png`
+                                })
+                            );
+                        }
+                    }
+                    }>
+                        {isFlipped.includes(cardID) ? (<img src={cardImg[cardID]} alt="image"/>) :
+                            <img src={backCard} alt="dos"/>
+                        }
                     </button>
                 )
             )}
@@ -41,13 +61,10 @@ function NameDraw() {
     const location = useLocation();
     const {tone, userName} = location.state
 
-    useEffect(() => (console.log("tone", tone)))
-    // useEffect(() => (shuffle(absurd)))
-
     return (
         <>
             <h1> Bienvenue </h1>
-            <Cards></Cards>
+            <Cards tone={tone}></Cards>
         </>
     )
 }

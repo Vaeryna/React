@@ -157,7 +157,7 @@
   ],
   "mineurs": [
     {
-      "couleur": "Peluches Déchirées",
+      "color": "Peluches Déchirées",
       "element": "Air",
       "cartes": [
         {
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "couleur": "Bonbons Dangereux",
+      "color": "Bonbons Dangereux",
       "element": "Feu",
       "cartes": [
         {
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "couleur": "Créatures Mignonnes Incontrôlables",
+      "color": "Créatures Mignonnes Incontrôlables",
       "element": "Eau",
       "cartes": [
         {
@@ -385,7 +385,7 @@
       ]
     },
     {
-      "couleur": "Jouets Cassés",
+      "color": "Jouets Cassés",
       "element": "Terre",
       "cartes": [
         {
