@@ -24,7 +24,7 @@ function Home() {
             if (draw === "3cards") {
                 navigate('/3-draw', {
                     state: {
-                        userName: name,
+                        username: name,
                         tone: tone
                     }
                 })
@@ -32,13 +32,13 @@ function Home() {
             if (draw === "firstname") {
                 navigate('/name-draw', {
                     state: {
-                        userName: name,
+                        username: name,
                         tone: tone
                     }
                 })
             }
         }
-        console.log("username", name, draw, tone)
+        console.log("username", name, "draw", draw, "tone",  tone)
 
     }
 

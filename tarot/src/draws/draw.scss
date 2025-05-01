@@ -1,4 +1,4 @@
-.btn-group {
+.btn-group, .card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -8,11 +8,19 @@
 button {
   background: none;
   border: none;
-
 }
 
-img {
+img , .card-img-top{
   width: 150px;
   height: 266px;
+}
 
+body {
+  background-image: url("../../public/assets/bg-4k-2-3.png");
+}
+
+#card-group {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
 }
