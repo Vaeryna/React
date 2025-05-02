@@ -25,8 +25,10 @@ function NameDraw() {
     }, [])
 
     function flip(cardID: number, card: TarotCard) {
-        setIsFlipped([...isFlipped, cardID])
-        setSelectedCards(prev => ({...prev, [cardID]: card}))
+        if(isFlipped.length < letters.length) {
+            setIsFlipped([...isFlipped, cardID])
+            setSelectedCards(prev => ({...prev, [cardID]: card}))
+        }
     }
 
 
@@ -43,7 +45,7 @@ function NameDraw() {
                         const card = selectedCards[id]
 
                         return card ? (
-                            <div key={id} className="card">
+                            <div key={id} className="card text-center mb-3">
                                 <img src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"
                                      alt={`selectedCard ${"car"}`}/>
                                 <div className="card-body">
