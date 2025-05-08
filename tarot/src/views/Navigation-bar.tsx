@@ -1,7 +1,9 @@
+import styles from "../scss/Home.module.scss"
+
 function NavigationBar() {
     return (
-        <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className={styles.navigationBar}>
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar w/ text</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,7 +31,7 @@ function NavigationBar() {
             </nav>
 
 
-        </>
+        </div>
     )
 }
 

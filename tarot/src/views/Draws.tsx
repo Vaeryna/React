@@ -101,7 +101,7 @@ function Draws() {
     console.log("debug", draw, isFlipped.length, shuffleIDS)
 
     return (<>
-        {/*<NavigationBar></NavigationBar>*/}
+
 
         {(draw == "firstname" && isFlipped.length == letters.length) || (draw == "3cards" && isFlipped.length == 3) && (
 
