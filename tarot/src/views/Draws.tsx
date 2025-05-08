@@ -98,7 +98,7 @@ function Draws() {
         </>)
     }
 
-    console.log("debug", draw, isFlipped.length, shuffleIDS)
+    console.log("debug :", "draw >", draw, "isFlipped length >", isFlipped.length, "suhffleIDS >", shuffleIDS, "letter length >", letters.length)
 
     return (<>
 
