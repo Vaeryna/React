@@ -1,6 +1,6 @@
 @font-face {
   font-family: "black-chancery";
-  src: local("BlackChancery"), url("../public/assets/fonts/BlackChancery.woff") format("woff");
+  src: local("BlackChancery"), url("../../public/assets/fonts/BlackChancery.woff") format("woff");
 }
 
 .home {
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url("../public/assets/bg-4k-2.png");
+  background-image: url("../../public/assets/bg-4k-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

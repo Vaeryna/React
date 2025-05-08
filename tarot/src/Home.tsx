@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styles from "./Home.module.scss"
+import styles from "./scss/Home.module.scss"
 import {useNavigate} from "react-router-dom";
 
 function Home() {
@@ -71,7 +71,7 @@ function Home() {
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="absurd" value="absurd"
                                onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="absurd" className="form-label"> Absurde</label>
+                        <label htmlFor="absurd" className={styles.formCheckLabel}> Absurde</label>
                     </div>
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="cuteTrash"

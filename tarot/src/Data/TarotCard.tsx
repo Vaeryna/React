@@ -1,9 +1,9 @@
 export interface TarotCard {
-    id : number,
+    id: number,
     name: string,
-    number : number,
+    number: number,
     description: string,
     interpretation: string,
     color?: string,
-    element?: string
+    element?: string,
 }

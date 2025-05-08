@@ -5,7 +5,7 @@ import Home from "./Home"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import {BrowserRouter, Route, Routes} from "react-router";
-import Draws from "./draws/Draws";
+import Draws from "./views/Draws";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
