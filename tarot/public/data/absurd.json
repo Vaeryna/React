@@ -490,6 +490,7 @@
     "name": "Le Petit Pois Boudeur",
     "number": "Valet",
     "description": "Timide mais intense.",
+    "interpretation": "Tu es petit·e, discret·e, mais farouchement décidé·e à rester dans ton coin. On te sous-estime, mais ton intensité ne fait aucun doute.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -498,6 +499,7 @@
     "name": "La Carotte Larmoyante",
     "number": "Cavalier",
     "description": "Il chevauche la mélancolie sucrée.",
+    "interpretation": "Tu avances tout en pleurant, sans forcément qu’on comprenne pourquoi. Ta douceur a besoin d’espace pour s’exprimer librement.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -506,6 +508,7 @@
     "name": "La Sorcière Chocolatée",
     "number": "Reine",
     "description": "Maîtrise les émotions avec tendresse sucrée.",
+    "interpretation": "Tu sais manipuler les émotions avec une tendresse rusée. Derrière ta douceur, se cache une vraie puissance affective.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -514,6 +517,7 @@
     "name": "Le Tyran Meringué",
     "number": "Roi",
     "description": "Gouverne avec douceur autoritaire.",
+    "interpretation": "Tu imposes ta volonté avec des formes sucrées, mais rigides. Attention à ne pas t'effondrer sous ta propre légèreté.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -522,6 +526,7 @@
     "name": "La Table bancale à roulettes",
     "number": "As",
     "description": "Le soutien est là, mais ça tangue.",
+    "interpretation": "Tu offres du soutien, mais instable. On peut te suivre, mais mieux vaut le faire en gardant l’équilibre.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -530,6 +535,7 @@
     "name": "Les Chaises ennemies",
     "number": "2",
     "description": "Difficile de se poser sans conflit.",
+    "interpretation": "Tu veux t’installer, mais rien ne s’aligne. Le conflit t’attend même dans les choses simples. Reste souple, ou change de pièce.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -538,6 +544,7 @@
     "name": "Le Lit qui ronfle",
     "number": "3",
     "description": "Inertie totale, mais active.",
+    "interpretation": "Tu sembles inactif·ve, mais ton esprit travaille en silence. Le repos est plus actif qu’il n’y paraît.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -546,6 +553,7 @@
     "name": "L’Étagère qui soupire",
     "number": "4",
     "description": "Supporte, mais à contrecœur.",
+    "interpretation": "Tu supportes beaucoup, sans te plaindre — ou presque. Ton souffle discret mérite qu’on l’écoute.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -554,6 +562,7 @@
     "name": "Le Frigo sans fond",
     "number": "5",
     "description": "Tu accumules, mais rien ne reste froid.",
+    "interpretation": "Tu accumules souvenirs et émotions, mais rien ne reste vraiment frais. Peut-être est-il temps de faire du tri.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -562,6 +571,7 @@
     "name": "Le Tapis Grincheux",
     "number": "6",
     "description": "Ce qui est sous tes pieds n’est pas content.",
+    "interpretation": "Tu soutiens tout le monde, mais on t’écrase. Ton grognement discret est une revendication : tu mérites d’être vu·e aussi.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -570,6 +580,7 @@
     "name": "Le Miroir Retardataire",
     "number": "7",
     "description": "Ce que tu vois est toujours un peu après.",
+    "interpretation": "Tu as toujours un temps de retard sur ce que tu ressens vraiment. Ce que tu vis te parvient en écho — mais ce n’est pas moins vrai pour autant.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -578,6 +589,7 @@
     "name": "Le Lampadaire Introverti",
     "number": "8",
     "description": "Éclaire à peine, mais veut bien faire.",
+    "interpretation": "Tu veux éclairer le monde, mais tu préfères rester discret·e. Ta lumière douce vaut mieux qu’un grand feu artificiel.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -586,6 +598,7 @@
     "name": "La Commode qui Mord",
     "number": "9",
     "description": "L'organisation te teste.",
+    "interpretation": "Tu proposes du rangement, mais pas sans test. Chaque tentative d’organisation est une morsure d’hésitation ou de contrôle.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -594,6 +607,7 @@
     "name": "Le Bureau à Ressort",
     "number": "10",
     "description": "Instabilité de façade, efficacité cachée.",
+    "interpretation": "On te croit instable, mais c’est ta souplesse qui fait ta force. Ton efficacité jaillit là où on ne l’attend pas.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -602,6 +616,7 @@
     "name": "Le Tabouret Enfant",
     "number": "Valet",
     "description": "Petit, mais déterminé.",
+    "interpretation": "Tu es petit·e, mais déterminé·e. Même sans dossier, tu tiens debout. On peut te sous-estimer, mais pas te faire tomber facilement.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -610,6 +625,7 @@
     "name": "Le Canapé nomade",
     "number": "Cavalier",
     "description": "Confort en mouvement absurde.",
+    "interpretation": "Tu cherches le confort dans l’inconfort. Tu bouges sans cesse, mais tu cherches toujours un endroit où t’ancrer enfin.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -618,6 +634,7 @@
     "name": "L’Armoire Sarcastique",
     "number": "Reine",
     "description": "Elle cache tout, surtout ses jugements.",
+    "interpretation": "Tu caches bien des choses — et ton jugement. Ton ironie est un rempart, mais aussi un miroir. Gare à ce qu’elle reflète.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -626,6 +643,7 @@
     "name": "Le Trône Boudiné",
     "number": "Roi",
     "description": "S’impose avec une grandeur molle.",
+    "interpretation": "Tu prends de la place, sans en imposer. Ta mollesse est peut-être ta ruse, pour gouverner sans forcer.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   }
