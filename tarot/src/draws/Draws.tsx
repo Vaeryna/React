@@ -1,7 +1,7 @@
 // tirage d'autant de cartes que de lettre dans le prénom
 import {useEffect, useState} from "react";
 import {useLocation} from "react-router-dom";
-import {shuffle} from "./shuffle";
+import {shuffle} from "../methods/shuffle";
 import './draw.scss';
 import getCard from "../methods/get-card"
 import {TarotCard} from "../Data/TarotCard";
@@ -18,6 +18,7 @@ function Draws() {
     const [isFlipped, setIsFlipped] = useState<Array<number>>([])
     const letters: Array<string> = Array.from(username)
     const [selectedCards, setSelectedCards] = useState<Record<number, TarotCard>>({})
+    const [lastCard, setLastCard] = useState<TarotCard>()
 
 
     useEffect(() => {
@@ -28,10 +29,12 @@ function Draws() {
         if (draw === "firstname" && isFlipped.length < letters.length && !isFlipped.includes(cardID)) {
             setIsFlipped([...isFlipped, cardID])
             setSelectedCards(prev => ({...prev, [cardID]: card}))
+            setLastCard(card)
         }
         if (draw === "3cards" && isFlipped.length < 3 && !isFlipped.includes(cardID)) {
             setIsFlipped([...isFlipped, cardID])
             setSelectedCards(prev => ({...prev, [cardID]: card}))
+            setLastCard(card)
         }
     }
 
@@ -43,18 +46,19 @@ function Draws() {
                     isFlipped.map((id) => {
                         const card = selectedCards[id]
 
-                        return card ? (
-                            <div key={id} className="card text-center mb-3">
-                                <img src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"
-                                     alt={`selectedCard ${card.name}`}/>
-                                <div className="card-body">
-                                    <h5 className="card-title">
-                                        {card.name}
-                                    </h5>
-                                </div>
-                            </div>
-                        ) : null
+                        return card ?
+                            <img src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"
+                                 alt={`selectedCard ${card.name}`} id={`${card.id}`}/>
+                            : null
                     })}
+            </div>)}
+
+        <br/>
+
+        {selectedCards && lastCard &&
+            (<div className="btn-group" id="card-group" role="group" aria-label="cards">
+                <img src={`/assets/cards-${tone}/${lastCard.id}.png`} className="card-img"
+                     alt={`selectedCard ${lastCard.name}`} id={`${lastCard.id}`}/>
             </div>)}
         <br/>
 

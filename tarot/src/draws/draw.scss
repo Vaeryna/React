@@ -4,6 +4,8 @@
   justify-content: center;
   flex-direction: row;
   gap: 25px;
+  background: none;
+  border: none;
 }
 
 button {
@@ -11,10 +13,24 @@ button {
   border: none;
 }
 
-img , .card-img-top{
+img{
   width: 150px;
   height: 266px;
+
 }
+
+.card-img{
+  width: 282px;
+  height: 500px;
+}
+
+.card-img-top{
+  width: 100px;
+  height: 177px;
+}
+//.card-text{
+//  font: 12px italic;
+//}
 
 body {
   background-image: url("../../public/assets/bg-4k-2-3.png");
@@ -24,4 +40,5 @@ body {
   display: flex;
   flex-direction: row !important;
   flex-wrap: nowrap;
+
 }
