@@ -230,6 +230,7 @@
     "name": "Les Trombones Rebelles",
     "number": "9",
     "description": "Rien ne tient ensemble, mais ils s’accrochent quand même.",
+    "interpretation": "Tout semble se détacher autour de toi. Pourtant, des liens se recréent, chaotiques mais tenaces.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -238,6 +239,7 @@
     "name": "Le Casque qui Écoute",
     "number": "10",
     "description": "Tes idées t’écoutent parler. Et elles jugent.",
+    "interpretation": "Tu es à l’écoute de tes propres pensées, mais elles semblent t’observer en retour. Ce dialogue intérieur te construit en secret.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -246,6 +248,7 @@
     "name": "Le Porte-voix Muet",
     "number": "Valet",
     "description": "Porte les messages confus avec fierté.",
+    "interpretation": "Tu portes en toi un message confus, mais tu le transmets avec force. Le silence peut avoir plus d’écho que tu ne crois.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -254,6 +257,7 @@
     "name": "Le Mégaphone Tournoyant",
     "number": "Cavalier",
     "description": "Hurle ton nonsense en boucle.",
+    "interpretation": "Tu cries des choses sans queue ni tête, encore et encore. Et pourtant, dans ce chaos sonore, quelque chose cherche à se faire entendre.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -262,6 +266,7 @@
     "name": "La Machine à Douter",
     "number": "Reine",
     "description": "Génère des hypothèses absurdes avec grâce.",
+    "interpretation": "Tu remets tout en question, même tes propres doutes. Ton esprit génère des hypothèses absurdes, mais c’est là que naissent les révélations.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -270,6 +275,7 @@
     "name": "Le Penseur Transparent",
     "number": "Roi",
     "description": "Il pense fort, mais personne ne le voit.",
+    "interpretation": "Tu penses fort, mais personne ne le remarque. Ton influence est invisible, mais réelle — comme une idée dans l’air.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -278,6 +284,7 @@
     "name": "Le Pigeon à bulles",
     "number": "As",
     "description": "Un élan ridicule, mais pétillant.",
+    "interpretation": "Tu fonces dans la vie avec une énergie pétillante, mais inutile. Et c’est justement cette légèreté qui te rend unique.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -286,6 +293,7 @@
     "name": "Les Vers Jongleurs",
     "number": "2",
     "description": "Coordination sans cause.",
+    "interpretation": "Tu coordonnes des choses qui n’ont aucun sens. Ton habileté ne sert à rien — sauf à te prouver que tu en es capable.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -294,6 +302,7 @@
     "name": "La Chauve-souris Diurne",
     "number": "3",
     "description": "Agir à contre-temps avec conviction.",
+    "interpretation": "Tu agis à contretemps, mais avec détermination. Tu déranges, tu étonnes, mais tu affirmes ta place dans l’inconfort.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -302,6 +311,7 @@
     "name": "Les Moustiques Boxeurs",
     "number": "4",
     "description": "Petites actions, grands impacts énervants.",
+    "interpretation": "Tu frappes par petites touches agaçantes, mais efficaces. Tes gestes, aussi minimes soient-ils, ont de l’impact.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -390,6 +400,7 @@
     "name": "La Soupe qui parle en rimes",
     "number": "As",
     "description": "L’émotion coule en poésie décalée.",
+    "interpretation": "Tu exprimes tes émotions de façon étrange et poétique. Ton cœur déborde de sentiments absurdes, mais sincères.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -398,6 +409,7 @@
     "name": "Les Oeufs Émotionnels",
     "number": "2",
     "description": "Deux sensibilités en équilibre précaire.",
+    "interpretation": "Tu es fragile, à fleur de coquille. Deux émotions se balancent en toi, prêtes à éclore ou à se briser.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -406,6 +418,7 @@
     "name": "Le Yaourt Hystérique",
     "number": "3",
     "description": "Instabilité douce et sucrée.",
+    "interpretation": "Tu vis une instabilité sucrée, douce en apparence, mais agitée à l’intérieur. Ce n’est pas grave : c’est vivant."
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -414,6 +427,7 @@
     "name": "Les Croissants Tristes",
     "number": "4",
     "description": "Confort en pâte feuilletée nostalgique.",
+    "interpretation": "Tu cherches du réconfort dans des souvenirs moelleux. Tout sent la nostalgie chaude et beurrée.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -422,6 +436,7 @@
     "name": "La Banane qui Pleure",
     "number": "5",
     "description": "Il y a glissade dans l’air.",
+    "interpretation": "Tu ressens une glissade émotionnelle. C’est tendre, maladroit, et un peu ridicule — donc parfaitement humain.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -430,6 +445,7 @@
     "name": "Le Fromage Trop Mûr",
     "number": "6",
     "description": "Tu gardes en toi des choses qui puent un peu.",
+    "interpretation": "Tu gardes en toi des choses lourdes, odorantes, prêtes à exploser. Il est peut-être temps d’ouvrir le frigo intérieur.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -438,6 +454,7 @@
     "name": "La Glace Fondue",
     "number": " 7",
     "description": "Tendre, mais ça part en flaque.",
+    "interpretation": "Tu t’adoucis quand tu devrais tenir bon. Ce n’est pas une faiblesse — juste une preuve que tu ressens fort.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -446,6 +463,7 @@
     "name": "Le Lait Explosif",
     "number": "8",
     "description": "Explosion douce et blanche, mais imprévisible.",
+    "interpretation": "Tu as l’air paisible, mais à l’intérieur, la pression monte. Une explosion blanche et douce n’est jamais anodine.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -454,6 +472,7 @@
     "name": "Les Pâtes Al Dente Sentimentales",
     "number": "9",
     "description": "Tout est dans la cuisson des sentiments.",
+    "interpretation": "Tu es émotionnel·le à point. Trop cuit, tu te brises ; pas assez, tu résistes. Tu cherches la tendresse juste.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -462,6 +481,7 @@
     "name": "Le Bonbon Vengeur",
     "number": "10",
     "description": "L’émotion douce devient piquante.",
+    "interpretation": "Tu caches une blessure sous une couche sucrée. Mais gare à qui croquera trop fort : tu piques quand on s’y attend le moins.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
