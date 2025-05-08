@@ -103,14 +103,14 @@ function Draws() {
     return (<>
 
 
-        {(draw == "firstname" && isFlipped.length == letters.length) || (draw == "3cards" && isFlipped.length == 3) && (
+        {((draw == "firstname" && isFlipped.length == letters.length) || (draw == "3cards" && isFlipped.length == 3)) && (
 
             <EndDrawModal drawnCards={selectedCards} tone={tone} isFlipped={isFlipped}></EndDrawModal>
         )}
 
-        {((draw == "firstname" && isFlipped.length < letters.length) || (draw == "3cards" && isFlipped.length !== 3)) && (
+        {((draw == "firstname" && isFlipped.length < letters.length) || (draw == "3cards" && isFlipped.length !== 3)) && 
             <Cards></Cards>
-        )}
+        }
     </>)
 }
 
