@@ -47,14 +47,11 @@ function NameDraw() {
                         return card ? (
                             <div key={id} className="card text-center mb-3">
                                 <img src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"
-                                     alt={`selectedCard ${"car"}`}/>
+                                     alt={`selectedCard ${card.name}`}/>
                                 <div className="card-body">
                                     <h5 className="card-title">
                                         {card.name}
                                     </h5>
-                                    <p className="card-text">
-                                        {card.description}
-                                    </p>
                                 </div>
                             </div>
                         ) : null
