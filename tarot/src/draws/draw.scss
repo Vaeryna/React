@@ -1,4 +1,4 @@
-.btn-group, .card {
+.btn-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,9 +11,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  flex-direction: column;
   background: none;
   border: none;
+  align-items: center;
+
 }
 
 button {
@@ -24,7 +26,6 @@ button {
 img{
   width: 150px;
   height: 266px;
-
 }
 
 .card-img{
