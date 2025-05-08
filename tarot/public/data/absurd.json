@@ -320,6 +320,7 @@
     "name": "Le Chat Flamant Rose",
     "number": "5",
     "description": "Tu changes de forme sans raison.",
+    "interpretation": "Tu traverses une phase de transformations étranges, élégantes et absurdes. Comme ce chat flamant rose, tu changes de forme sans prévenir, sans toujours savoir pourquoi.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -328,6 +329,7 @@
     "name": "Les Escargots Pressés",
     "number": "6",
     "description": "L’action existe, mais elle glisse doucement.",
+    "interpretation": "Tu avances, certes lentement, mais chaque pas est chargé d’une urgence invisible. Les autres ne voient que lenteur, toi tu sais l’effort que cela demande.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -336,6 +338,7 @@
     "name": "La Grenouille en Armure",
     "number": "7",
     "description": "Tu te protèges pour bondir dans le vide.",
+    "interpretation": "Tu te protèges bien plus que nécessaire. Tu es prêt·e à bondir, mais c’est dans le vide. Une bravoure défensive, teintée d’incertitude.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -344,6 +347,7 @@
     "name": "Le Coq Enroué",
     "number": "8",
     "description": "Affirmer ta présence sans le moindre cri.",
+    "interpretation": "Tu veux affirmer quelque chose, mais ta voix te trahit. On sent que tu es là, mais ton cri reste coincé. Ce silence devient un message en soi.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -352,6 +356,7 @@
     "name": "L’Araignée qui tricote",
     "number": "9",
     "description": "Créer dans tous les sens, sans objectif clair.",
+    "interpretation": "Tu construis des choses, mais sans toujours comprendre leur sens. Ta créativité est chaotique, touchante et sincère, même sans fil conducteur.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -360,6 +365,7 @@
     "name": "L’Hippocampe de Compétition",
     "number": "10",
     "description": "La course vers l’absurde est lancée.",
+    "interpretation": "Tu veux gagner une course qui n’existe pas. Tu t’élances dans des directions absurdes avec une énergie admirable. Rappelle-toi de regarder autour de toi.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -368,6 +374,7 @@
     "name": "L’Oie Tactique",
     "number": "Valet",
     "description": "Fonce sans réfléchir, puis réfléchis trop tard.",
+    "interpretation": "Tu agis avant de réfléchir, et quand tu réfléchis, c’est trop tard. Tu fais des erreurs brillantes. Et parfois, c’est ce qu’il fallait faire.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -376,6 +383,7 @@
     "name": "Le Lièvre à Roulettes",
     "number": "Cavalier",
     "description": "Toujours prêt à galoper en rond.",
+    "interpretation": "Tu bouges beaucoup, mais tu n’avances pas vraiment. Tu tournes peut-être en rond, mais au moins tu le fais avec panache.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -384,6 +392,7 @@
     "name": "La Reine des Pigeons",
     "number": "Reine",
     "description": "Inspire des envols erratiques.",
+    "interpretation": "Tu inspires des mouvements incontrôlables. Ton charisme est chaotique, ton influence réelle, même si personne ne comprend pourquoi.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -392,6 +401,7 @@
     "name": "Le Sceptre Fourmilier",
     "number": "Roi",
     "description": "Autorité étrange sur le chaos animalier.",
+    "interpretation": "Tu détiens un pouvoir étrange sur des choses que les autres jugent sans importance. Pourtant, dans ton royaume de bizarreries, tu imposes le respect.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
