@@ -1,6 +1,8 @@
 # Tic Tac Toe
 https://tic-tac-toe-puce-omega.vercel.app
+
 Jeu de Tic Tac Toe (morpion). 
+
 Framework React avec le langage JavaScript
 
 ### Installation
@@ -9,7 +11,9 @@ Framework React avec le langage JavaScript
 
 # Tarot divinatoire
 https://arcanomancie.vercel.app/
+
 Jeu de tirage de tarto divinatoire. 
+
 Framework React avec le langage TypeScript
 
 ### Installation
