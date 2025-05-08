@@ -25,7 +25,7 @@ function NameDraw() {
     }, [])
 
     function flip(cardID: number, card: TarotCard) {
-        if(isFlipped.length < letters.length) {
+        if(isFlipped.length < letters.length && !isFlipped.includes(cardID)) {
             setIsFlipped([...isFlipped, cardID])
             setSelectedCards(prev => ({...prev, [cardID]: card}))
         }
