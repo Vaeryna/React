@@ -11,6 +11,7 @@
   flex-direction: column;
   font-family: "black-chancery", fantasy;
   color: #151515;
+  font-size: 150% ;
 }
 
 body {
@@ -28,7 +29,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 50vh;
+
 }
+
+.formCheckLabel{
+  cursor: pointer;
+}
+
 
 //.btn-primary {
 //  background-color: #f1c17c ;

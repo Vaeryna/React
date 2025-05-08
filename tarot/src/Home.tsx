@@ -58,13 +58,13 @@ function Home() {
                 <div className="mb-3 form-check">
                     <input className="form-check-input" type="radio" name="drawType" id="firstname"
                            value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
-                    <label htmlFor="firstname" className="form-label"> Tirage au prénom </label>
+                    <label htmlFor="firstname" className={styles.formCheckLabel}> Tirage au prénom </label>
                 </div>
                 <div className="mb-3 form-check">
                     <input type="radio" className="form-check-input" id="threeCardsDraw" name="drawType"
                            value="3cards"
                            onChange={(e) => setSelectedDraw(e.target.value)}/>
-                    <label className="form-check-label" htmlFor="threeCardsDraw">Tirage à 3 cartes</label>
+                    <label className={styles.formCheckLabel} htmlFor="threeCardsDraw">Tirage à 3 cartes</label>
                 </div>
 
                 {showButton && (
@@ -88,18 +88,18 @@ function Home() {
                         <input className="form-check-input" type="radio" name="toneType" id="cuteTrash"
                                value="cuteTrash"
                                onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="cuteTrash" className="form-label"> Mignon </label>
+                        <label htmlFor="cuteTrash" className={styles.formCheckLabel}> Mignon </label>
                     </div>
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="confusing"
                                value="confusing" onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="confusing" className="form-label"> Confus </label>
+                        <label htmlFor="confusing" className={styles.formCheckLabel}> Confus </label>
                     </div>
 
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="random"
                                value="random" onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="random" className="form-label"> Aléatoire </label>
+                        <label htmlFor="random" className={styles.formCheckLabel}> Aléatoire </label>
                     </div>
 
 
