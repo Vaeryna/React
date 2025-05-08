@@ -9,6 +9,8 @@ Framework React avec le langage JavaScript
 - Installation des dépendances : npm install
 - Démarrage de l'application : npm start
 
+<br>
+
 # Tarot divinatoire
 https://arcanomancie.vercel.app/
 
