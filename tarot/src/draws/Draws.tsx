@@ -56,11 +56,22 @@ function Draws() {
         <br/>
 
         {selectedCards && lastCard &&
-            (<div className="btn-group" id="card-group" role="group" aria-label="cards">
+            (<div className="card text-center" id="last-card" role="group" aria-label="cards">
                 <img src={`/assets/cards-${tone}/${lastCard.id}.png`} className="card-img"
                      alt={`selectedCard ${lastCard.name}`} id={`${lastCard.id}`}/>
+                <div className="card-body">
+                    <h5 className="card-title">{lastCard.name}</h5>
+                    { lastCard.color &&
+                        (<h6> {lastCard.color} - {lastCard.element}</h6>)
+                    }
+                    <p className="card-text"> {lastCard.interpretation}</p>
+                </div>
             </div>)}
         <br/>
+
+        {/*<div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    */}
 
         <div className="btn-group" role="group" aria-label="cards">
             {shuffleIDS.map((cardID, index) =>
