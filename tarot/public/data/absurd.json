@@ -158,6 +158,7 @@
     "name": "La Clé qui n’ouvre rien",
     "number": "As",
     "description": "Tu t’embarques dans une réflexion inutile, mais passionnée.",
+    "interpretation": "Tu t’acharnes à comprendre quelque chose qui ne s’ouvrira pas. Et si le verrou était imaginaire ?",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -166,6 +167,7 @@
     "name": "Les Ciseaux sans Lames",
     "number": "2",
     "description": "Deux idées qui ne coupent rien, mais se battent quand même.",
+    "interpretation": "Tu affrontes des conflits sans outils pour trancher. Pourtant, tu persistes, et c’est déjà un acte de courage.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -174,6 +176,7 @@
     "name": "Le Parapluie Poreux",
     "number": "3",
     "description": "Tes pensées protègent mal, mais au moins elles sont là.",
+    "interpretation": "Tu essayes de te protéger de tes propres pensées, mais elles passent au travers. L’essentiel, c’est que tu essaies.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -182,6 +185,7 @@
     "name": "Les Lunettes Inversées",
     "number": "4",
     "description": "Tu vois tout à l’envers, mais c’est cohérent pour toi.",
+    "interpretation": "Ta vision des choses semble décalée, mais elle t’offre un point de vue précieux. Continue à regarder autrement.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -190,6 +194,7 @@
     "name": "Le Crayon Baveur",
     "number": "5",
     "description": "Tu penses trop, et ça déborde.",
+    "interpretation": "Tu penses trop, ça déborde dans tous les sens. Laisse couler : même les pensées floues dessinent des chemins.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -198,6 +203,7 @@
     "name": "Les Dés Carrés",
     "number": "6",
     "description": "Le hasard s’est trompé de méthode.",
+    "interpretation": "Le hasard ne fonctionne plus comme prévu. Les choses tombent à plat, mais pas par malchance — juste par absurdité.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -206,6 +212,7 @@
     "name": "Le Rubik's Cube Monochrome",
     "number": "7",
     "description": "Complexité sans variation.",
+    "interpretation": "Tu cherches à résoudre quelque chose de complexe... qui ne changera jamais. Peut-être que la solution est d’arrêter de chercher.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
@@ -214,6 +221,7 @@
     "name": "La Montre du Futur Passé",
     "number": "8",
     "description": "Tu cogites dans des temporalités incertaines.",
+    "interpretation": "Tu cogites en boucle, entre regrets et projections. Ton esprit voyage dans un temps qui n'existe plus — ou pas encore.",
     "color": "Objets Détraqués",
     "element": "Air"
   },
