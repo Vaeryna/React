@@ -21,27 +21,16 @@ function Home() {
         const tone = (form.elements.namedItem("toneType") as HTMLInputElement)?.value;
 
         if (name) {
-            if (draw === "3cards") {
-                navigate('/3-draw', {
-                    state: {
-                        username: name,
-                        tone: tone
-                    }
-                })
-            }
-            if (draw === "firstname") {
-                navigate('/name-draw', {
-                    state: {
-                        username: name,
-                        tone: tone
-                    }
-                })
-            }
+                      navigate('/draws', {
+                state: {
+                    username: name,
+                    tone: tone,
+                    draw: draw,
+                }
+            })
         }
-        console.log("username", name, "draw", draw, "tone",  tone)
-
+        console.log("username", name, "draw", draw, "tone", tone)
     }
-
 
     return (
         <div className={styles.home}>

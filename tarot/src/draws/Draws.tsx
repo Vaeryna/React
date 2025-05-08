@@ -7,9 +7,9 @@ import getCard from "../methods/get-card"
 import {TarotCard} from "../Data/TarotCard";
 
 
-function NameDraw() {
+function Draws() {
     const location = useLocation();
-    const {tone, username} = location.state
+    const {tone, username, draw} = location.state
 
     const [card, setCard] = useState<TarotCard | null>(null);
     const [shuffleIDS, setShuffleIDS] = useState<number[]>([])
@@ -25,16 +25,15 @@ function NameDraw() {
     }, [])
 
     function flip(cardID: number, card: TarotCard) {
-        if(isFlipped.length < letters.length && !isFlipped.includes(cardID)) {
+        if (draw === "firstname" && isFlipped.length < letters.length && !isFlipped.includes(cardID)) {
+            setIsFlipped([...isFlipped, cardID])
+            setSelectedCards(prev => ({...prev, [cardID]: card}))
+        }
+        if (draw === "3cards" && isFlipped.length < 3 && !isFlipped.includes(cardID)) {
             setIsFlipped([...isFlipped, cardID])
             setSelectedCards(prev => ({...prev, [cardID]: card}))
         }
     }
-
-
-    // console.log("shuffle ids", shuffleIDS)
-    console.log("isFlipped", isFlipped)
-    console.log('isSelected', selectedCards)
 
     return (<>
         <h1> {username}</h1>
@@ -86,4 +85,4 @@ function NameDraw() {
     </>)
 }
 
-export default NameDraw;
+export default Draws;

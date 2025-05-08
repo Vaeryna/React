@@ -5,8 +5,7 @@ import Home from "./Home"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import {BrowserRouter, Route, Routes} from "react-router";
-import NameDraw from "./draws/NameDraw";
-import {ThreeDraw} from "./draws/ThreeDraw";
+import Draws from "./draws/Draws";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,8 +15,7 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/name-draw" element={<NameDraw/>}/>
-                <Route path="/3-draw" element={<ThreeDraw/>}/>
+                <Route path="/draws" element={<Draws/>}/>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>
