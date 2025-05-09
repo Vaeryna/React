@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "black-chancery";
+  src: local("BlackChancery"), url("../../public/assets/fonts/BlackChancery.woff") format("woff");
+}
+
+body {
+  background-image: url("../../public/assets/bg-4k-2-3.png");
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 150%;
+  font-family: "black-chancery", fantasy;
+}
+
 .btn-group {
   display: flex;
   flex-wrap: wrap;
@@ -45,20 +61,6 @@ img {
   max-height: 400px;
 }
 
-body {
-  background-image: url("../../public/assets/bg-4k-2-3.png");
-
-  margin: 50px;
-  display: flex;
-  align-items: center;
-  //justify-content: center;
-  //flex-direction: column;
-  font-family: "black-chancery", fantasy;
-  color: #000000;
-  font-size: 150%;
-
-}
-
 #card-group {
   display: flex;
   flex-direction: row;
@@ -67,11 +69,6 @@ body {
 
 #title {
   color: #151515;
-}
-
-@font-face {
-  font-family: "black-chancery";
-  src: local("BlackChancery"), url("../../public/assets/fonts/BlackChancery.woff") format("woff");
 }
 
 .draw-result {

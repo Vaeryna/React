@@ -1,7 +1,6 @@
 import {DrawResultProps} from "../Data/DrawResultProps";
 
 
-
 export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
 
     return (
@@ -23,6 +22,7 @@ export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
                                     : null
                             })
                         } </div>
+
 
 
                 )}
