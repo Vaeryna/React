@@ -2,7 +2,7 @@ import {TarotCard} from "./TarotCard";
 
 
 
-export interface EndDrawModalProps {
+export interface DrawResultProps {
     drawnCards: Record<number, TarotCard>,
     tone: string,
     isFlipped: Array<number>

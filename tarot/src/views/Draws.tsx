@@ -4,7 +4,7 @@ import {shuffle} from "../methods/shuffle";
 import '../scss/draw.scss';
 import getCard from "../methods/get-card"
 import {TarotCard} from "../Data/TarotCard";
-import {EndDrawModal} from "./end-draw-modal";
+import {DrawResult} from "./draw-result";
 import NavigationBar from "./Navigation-bar";
 
 
@@ -37,11 +37,12 @@ function Draws() {
             setSelectedCards(prev => ({...prev, [cardID]: card}))
             setLastCard(card)
         }
+        window.scrollTo(0,20)
     }
 
     function Cards() {
         return (<>
-            <h1> {username}</h1>
+            <h1 id="title"> Bien, {username}, tirez vos cartes et laissez l'Arcanomancie vous révéler votre avenir...</h1>
             {selectedCards &&
                 (<div className="btn-group" id="card-group" role="group" aria-label="cards">
                     {
@@ -98,17 +99,16 @@ function Draws() {
         </>)
     }
 
-    console.log("debug :", "draw >", draw, "isFlipped length >", isFlipped.length, "suhffleIDS >", shuffleIDS, "letter length >", letters.length)
 
     return (<>
 
 
-        {((draw == "firstname" && isFlipped.length == letters.length) || (draw == "3cards" && isFlipped.length == 3)) && (
+        {((draw === "firstname" && isFlipped.length === letters.length) || (draw === "3cards" && isFlipped.length === 3)) && (
 
-            <EndDrawModal drawnCards={selectedCards} tone={tone} isFlipped={isFlipped}></EndDrawModal>
+            <DrawResult drawnCards={selectedCards} tone={tone} isFlipped={isFlipped}></DrawResult>
         )}
 
-        {((draw == "firstname" && isFlipped.length < letters.length) || (draw == "3cards" && isFlipped.length !== 3)) && 
+        {((draw === "firstname" && isFlipped.length < letters.length) || (draw === "3cards" && isFlipped.length !== 3)) &&
             <Cards></Cards>
         }
     </>)
