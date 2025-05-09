@@ -8,7 +8,7 @@ export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
             <h1 className="text-center"> Voici votre tirage ...</h1>
             {drawnCards &&
                 (
-                    <div className="btn-group" role="group" aria-label="cards">
+                    <div className="card-group" role="group" aria-label="cards">
                         <div className="card-image">
                             {
                                 isFlipped.map((id) => {
