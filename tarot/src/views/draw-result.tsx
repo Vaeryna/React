@@ -1,15 +1,15 @@
 import {DrawResultProps} from "../Data/DrawResultProps";
-import "../scss/draw-result.scss"
+
 
 
 export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
 
     return (
-        <>
+        <div className={"draw-result"}>
             <h1 className="text-center"> Voici votre tirage ...</h1>
             {drawnCards &&
                 (
-                    <div className="btn-group" id="card-group" role="group" aria-label="cards">
+                    <div className="btn-group"  role="group" aria-label="cards">
                         {
                             isFlipped.map((id) => {
                                 const card = drawnCards[id]
@@ -26,7 +26,7 @@ export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
 
 
                 )}
-        </>
+        </div>
 
     )
 }
