@@ -32,7 +32,7 @@
     "name": "La Baguette Sans Gluten",
     "number": "4",
     "description": "La Baguette Sans Gluten flotte dans un monde illogique, avec des objets déplacés et des lois de la physique ignorées.",
-    "interpretation": "Tu cherches la magie dans des ingrédients absents. Tes sorts lèvent mal, mais avec conviction. Tu es peut-être intolérant·e à la logique, et ça te réussit."
+    "interpretation": "Tu cherches la magie dans des ingrédients absents. Tes sorts lèvent mal, mais avec conviction. Tu es peut-être intolérant(e) à la logique, et ça te réussit."
   },
   {
     "id": 5,
@@ -338,7 +338,7 @@
     "name": "La Grenouille en Armure",
     "number": "7",
     "description": "Tu te protèges pour bondir dans le vide.",
-    "interpretation": "Tu te protèges bien plus que nécessaire. Tu es prêt·e à bondir, mais c’est dans le vide. Une bravoure défensive, teintée d’incertitude.",
+    "interpretation": "Tu te protèges bien plus que nécessaire. Tu es prêt(e)) à bondir, mais c’est dans le vide. Une bravoure défensive, teintée d’incertitude.",
     "color": "Créatures Inutiles",
     "element": "Feu"
   },
@@ -482,7 +482,7 @@
     "name": "Les Pâtes Al Dente Sentimentales",
     "number": "9",
     "description": "Tout est dans la cuisson des sentiments.",
-    "interpretation": "Tu es émotionnel·le à point. Trop cuit, tu te brises ; pas assez, tu résistes. Tu cherches la tendresse juste.",
+    "interpretation": "Tu es émotionnel(le à point. Trop cuit, tu te brises ; pas assez, tu résistes. Tu cherches la tendresse juste.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -500,7 +500,7 @@
     "name": "Le Petit Pois Boudeur",
     "number": "Valet",
     "description": "Timide mais intense.",
-    "interpretation": "Tu es petit·e, discret·e, mais farouchement décidé·e à rester dans ton coin. On te sous-estime, mais ton intensité ne fait aucun doute.",
+    "interpretation": "Tu es petit(e), discret(e), mais farouchement décidé(e) à rester dans ton coin. On te sous-estime, mais ton intensité ne fait aucun doute.",
     "color": "Aliments Perturbés",
     "element": "Eau"
   },
@@ -554,7 +554,7 @@
     "name": "Le Lit qui ronfle",
     "number": "3",
     "description": "Inertie totale, mais active.",
-    "interpretation": "Tu sembles inactif·ve, mais ton esprit travaille en silence. Le repos est plus actif qu’il n’y paraît.",
+    "interpretation": "Tu sembles inactif(ve, mais ton esprit travaille en silence. Le repos est plus actif qu’il n’y paraît.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -581,7 +581,7 @@
     "name": "Le Tapis Grincheux",
     "number": "6",
     "description": "Ce qui est sous tes pieds n’est pas content.",
-    "interpretation": "Tu soutiens tout le monde, mais on t’écrase. Ton grognement discret est une revendication : tu mérites d’être vu·e aussi.",
+    "interpretation": "Tu soutiens tout le monde, mais on t’écrase. Ton grognement discret est une revendication : tu mérites d’être vu(e) aussi.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -599,7 +599,7 @@
     "name": "Le Lampadaire Introverti",
     "number": "8",
     "description": "Éclaire à peine, mais veut bien faire.",
-    "interpretation": "Tu veux éclairer le monde, mais tu préfères rester discret·e. Ta lumière douce vaut mieux qu’un grand feu artificiel.",
+    "interpretation": "Tu veux éclairer le monde, mais tu préfères rester discret(e). Ta lumière douce vaut mieux qu’un grand feu artificiel.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
@@ -626,7 +626,7 @@
     "name": "Le Tabouret Enfant",
     "number": "Valet",
     "description": "Petit, mais déterminé.",
-    "interpretation": "Tu es petit·e, mais déterminé·e. Même sans dossier, tu tiens debout. On peut te sous-estimer, mais pas te faire tomber facilement.",
+    "interpretation": "Tu es petit(e), mais déterminé(e). Même sans dossier, tu tiens debout. On peut te sous-estimer, mais pas te faire tomber facilement.",
     "color": "Meubles Inadaptés",
     "element": "Terre"
   },
