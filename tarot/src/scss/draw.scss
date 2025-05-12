@@ -1,6 +1,12 @@
-@font-face {
-  font-family: "black-chancery";
-  src: local("BlackChancery"), url("../../public/assets/fonts/BlackChancery.woff") format("woff");
+@mixin flex-card($direction) {
+  display: flex;
+  flex-wrap: wrap;
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: space-around;
+  align-self: baseline;
+  flex-direction: $direction;
 }
 
 body {
@@ -15,44 +21,22 @@ body {
 }
 
 .btn-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  background: none;
-  border: none;
-}
+  @include flex-card(row);
 
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  gap: 25px;
-  background: none;
-  border: none;
-}
+  img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
 
-.card-image{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-flex-direction: row;
-  gap: 25px;
-  background: none;
-  border: none;
+  button {
+    margin: 1vh;
+    max-width: 15vh;
+  }
 }
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background: none;
-  border: none;
-  align-items: center;
-  justify-content: space-around;
-  align-self: baseline;
-
+  @include flex-card(column);
 }
 
 button {
@@ -60,31 +44,11 @@ button {
   border: none;
 }
 
-img {
-  width: 150px;
-  height: 266px;
-}
-
 .card-img {
-  width: 282px;
-  height: 500px;
+  max-width: 20vh;
+  height: auto;
 }
 
-.card-img-top {
-  width: 100px;
-  height: 177px;
-}
-
-.card-text {
-  width: 282px;
-  max-height: 400px;
-}
-
-#card-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
 
 #title {
   color: #151515;
@@ -94,5 +58,14 @@ img {
   max-width: 100vw;
   width: 100%;
   align-self: baseline;
+
+  .card-group {
+    @include flex-card(row);
+
+    .card {
+      margin: 1vh;
+
+    }
+  }
 }
 

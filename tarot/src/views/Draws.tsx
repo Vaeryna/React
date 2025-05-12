@@ -5,7 +5,6 @@ import '../scss/draw.scss';
 import getCard from "../methods/get-card"
 import {TarotCard} from "../Data/TarotCard";
 import {DrawResult} from "./draw-result";
-import NavigationBar from "./Navigation-bar";
 
 
 function Draws() {
@@ -37,26 +36,27 @@ function Draws() {
             setSelectedCards(prev => ({...prev, [cardID]: card}))
             setLastCard(card)
         }
-        window.scrollTo(0,20)
+        window.scrollTo(0, 20)
     }
 
     function Cards() {
         return (<>
-            <h1 id="title"> Bien, {username}, tirez vos cartes et laissez l'Arcanomancie vous révéler votre avenir...</h1>
-            {selectedCards &&
-                (<div className="btn-group" id="card-group" role="group" aria-label="cards">
-                    {
-                        isFlipped.map((id) => {
-                            const card = selectedCards[id]
+            <h1 id="title" className="text-md-center"> Bien, {username}, tirez vos cartes et laissez l'Arcanomancie vous
+                révéler votre avenir...</h1>
+            {/*{selectedCards &&*/}
+            {/*    (<div className="btn-group" id="card-group" role="group" aria-label="cards">*/}
+            {/*        {*/}
+            {/*            isFlipped.map((id) => {*/}
+            {/*                const card = selectedCards[id]*/}
 
-                            return card ?
-                                <img key={id} src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"
-                                     alt={`selectedCard ${card.name}`} id={`${card.id}`}/>
-                                : null
-                        })}
-                </div>)}
+            {/*                return card ?*/}
+            {/*                    <img key={id} src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"*/}
+            {/*                         alt={`selectedCard ${card.name}`} id={`${card.id}`}/>*/}
+            {/*                    : null*/}
+            {/*            })}*/}
+            {/*    </div>)}*/}
 
-            <br/>
+
 
             {selectedCards && lastCard &&
                 (<div className="card text-center" id="last-card" role="group" aria-label="cards">
@@ -90,7 +90,7 @@ function Draws() {
                         }
                         }>
                             {isFlipped.includes(cardID) ? (<img src={cardImg[cardID]} alt="image"/>) :
-                                <img src={backCard} alt="dos"/>
+                                <img className="backcard" src={backCard} alt="dos"/>
                             }
                         </button>
                     )

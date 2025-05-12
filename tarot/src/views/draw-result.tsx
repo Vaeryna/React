@@ -9,7 +9,6 @@ export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
             {drawnCards &&
                 (
                     <div className="card-group" role="group" aria-label="cards">
-                        <div className="card-image">
                             {
                                 isFlipped.map((id) => {
                                     const card = drawnCards[id]
@@ -23,7 +22,7 @@ export function DrawResult({drawnCards, tone, isFlipped}: DrawResultProps) {
                                         : null
                                 })
                             }
-                        </div>
+
 
                         {
                             isFlipped.map((id) => {
