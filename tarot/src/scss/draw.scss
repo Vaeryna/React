@@ -35,14 +35,16 @@ body {
   }
 }
 
-.card {
-  @include flex-card(column);
-}
-
 button {
   background: none;
   border: none;
 }
+
+.card {
+  @include flex-card(column);
+}
+
+
 
 .card-img {
   max-width: 20vh;

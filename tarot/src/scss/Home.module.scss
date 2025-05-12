@@ -14,7 +14,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
-  //width: 100%;
 
 }
 
@@ -26,7 +25,7 @@ body {
 
 }
 
-.formCheckLabel{
+.formCheckLabel {
   cursor: pointer;
 }
 
@@ -37,4 +36,9 @@ body {
   width: 100%;
   z-index: 1000;
   background: transparent;
+  justify-content: space-around ;
+
+  img {
+    max-width: 15vh;
+  }
 }

@@ -58,7 +58,7 @@ function Home() {
 
                 {showButton && (
                     <button type="button" data-bs-toggle="collapse" data-bs-target="#toggleTone"
-                            className="btn btn-primary w-50" onClick={() => setShowButton(false)}
+                            className="btn btn-dark w-50" onClick={() => setShowButton(false)}
                             disabled={!selectedDraw || !selectedName}>
                         Tirage
                     </button>
@@ -92,7 +92,7 @@ function Home() {
                     </div>
 
 
-                    <button type="submit" className="btn btn-primary w-50" disabled={!selectedTone}>
+                    <button type="submit" className="btn btn-dark w-50" disabled={!selectedTone}>
                         Tirage
                     </button>
 

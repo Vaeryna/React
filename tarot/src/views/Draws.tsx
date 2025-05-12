@@ -102,10 +102,13 @@ function Draws() {
 
     return (<>
 
-
+        {/* username: name,
+                    tone: tone,
+                    draw: draw,
+                    */}
         {((draw === "firstname" && isFlipped.length === letters.length) || (draw === "3cards" && isFlipped.length === 3)) && (
 
-            <DrawResult drawnCards={selectedCards} tone={tone} isFlipped={isFlipped}></DrawResult>
+            <DrawResult drawnCards={selectedCards} tone={tone} isFlipped={isFlipped} draw={draw} username={username} ></DrawResult>
         )}
 
         {((draw === "firstname" && isFlipped.length < letters.length) || (draw === "3cards" && isFlipped.length !== 3)) &&
