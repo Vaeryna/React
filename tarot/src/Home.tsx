@@ -13,7 +13,6 @@ function Home() {
     const navigate = useNavigate();
     const toneData = Object.values(ToneData).map(({name, vf}) => name)
 
-
     const sendForm = (e: React.FormEvent) => {
         e.preventDefault()
         const form = e.target as HTMLFormElement;
@@ -34,7 +33,6 @@ function Home() {
                 }
             })
         }
-        console.log("username", name, "draw", draw, "tone", tone)
     }
 
     return (
@@ -58,8 +56,7 @@ function Home() {
                             <label htmlFor="firstname" className={styles.formCheckLabel}> {vf} </label>
                         </div>
                     )
-                )
-                }
+                )}
 
 
                 {showButton && (
@@ -68,7 +65,6 @@ function Home() {
                             disabled={!selectedDraw || !selectedName}>
                         Tirage
                     </button>
-
                 )}
 
 
@@ -89,8 +85,7 @@ function Home() {
                                     </div>) : null
 
                             })}
-                        </>)
-                    }
+                        </>)}
 
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="random"
@@ -108,6 +103,5 @@ function Home() {
         </div>
     )
 }
-
 
 export default Home;
