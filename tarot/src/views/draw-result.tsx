@@ -5,16 +5,27 @@ import {useLocation, useNavigate} from "react-router-dom";
 export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
     const navigate = useNavigate()
     const location = useLocation();
-    const {tone, username, draw} = location.state
+    let {tone, username, draw} = location.state
 
+    console.log(username, tone, draw)
 
-    function reset() {
-        navigate(0)
+    function resetFirstname() {
+        navigate("/draws",
+            { replace :true, state: {username, tone, draw: "firstname"},
+            })
+        window.location.reload()
+    }
+
+    function reset3cards() {
+        navigate("/draws",
+            { replace :true, state: {username, tone, draw: "3cards"},
+            })
+        window.location.reload()
     }
 
     return (
         <div className="draw-result text-center">
-            <h1 > Voici votre tirage ...</h1>
+            <h1> Voici votre tirage ...</h1>
             {drawnCards &&
                 (
                     <div className="card-group" role="group" aria-label="cards">
@@ -38,7 +49,7 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
 
                                 return card ?
                                     (<div>
-                                        <p className="text-center"> {card.interpretation}</p>
+                                        <p className="interpretation text-center "> {card.interpretation}</p>
                                     </div>)
                                     : null
                             })
@@ -48,8 +59,11 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
                     </div>
 
                 )}
+<div className="retryButton">
+    <button className="btn btn-dark" onClick={() => resetFirstname()}> Nouveau tirage prénom</button>
+    <button className="btn btn-dark" onClick={() => reset3cards()}> Nouveau tirage trois cartes</button>
+</div>
 
-            <button className="btn btn-dark" onClick={() => reset()}> Retry</button>
         </div>
 
     )

@@ -45,7 +45,6 @@ button {
 }
 
 
-
 .card-img {
   max-width: 20vh;
   height: auto;
@@ -68,6 +67,14 @@ button {
       margin: 1vh;
 
     }
+  }
+
+  .interpretation{
+    margin: 2vh;
+  }
+  .retryButton {
+    display: inline-flex;
+    gap: 2vh
   }
 }
 
