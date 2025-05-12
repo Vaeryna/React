@@ -1,16 +1,17 @@
 import React, {useState} from "react";
 import styles from "./scss/Home.module.scss"
 import {useNavigate} from "react-router-dom";
+import {ToneData} from "./Data/Tone";
+import {DrawData, DrawType} from "./Data/DrawType";
 
 function Home() {
-    const [userName, setUserName] = useState("")
-    const [drawType, setDrawType] = useState("")
     const [showButton, setShowButton] = useState(true)
     const [selectedTone, setSelectedTone] = useState<string | null>(null)
     const [selectedDraw, setSelectedDraw] = useState<string | null>(null)
     const [selectedName, setSelectedName] = useState<string | null>(null)
 
     const navigate = useNavigate();
+    const toneData = Object.values(ToneData).map(({name, vf}) => name)
 
 
     const sendForm = (e: React.FormEvent) => {
@@ -18,10 +19,14 @@ function Home() {
         const form = e.target as HTMLFormElement;
         const name = (form.elements.namedItem("userName") as HTMLInputElement)?.value;
         const draw = (form.elements.namedItem("drawType") as HTMLInputElement)?.value;
-        const tone = (form.elements.namedItem("toneType") as HTMLInputElement)?.value;
+        let tone = (form.elements.namedItem("toneType") as HTMLInputElement)?.value;
 
         if (name) {
-                      navigate('/draws', {
+            if (tone === "random") {
+                tone = (toneData[(Math.random() * toneData.length) | 0])
+            }
+
+            navigate('/draws', {
                 state: {
                     username: name,
                     tone: tone,
@@ -44,17 +49,18 @@ function Home() {
                 </div>
                 <br/>
                 <h2> Quel tirage désires-tu ? </h2>
-                <div className="mb-3 form-check">
-                    <input className="form-check-input" type="radio" name="drawType" id="firstname"
-                           value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
-                    <label htmlFor="firstname" className={styles.formCheckLabel}> Tirage au prénom </label>
-                </div>
-                <div className="mb-3 form-check">
-                    <input type="radio" className="form-check-input" id="threeCardsDraw" name="drawType"
-                           value="3cards"
-                           onChange={(e) => setSelectedDraw(e.target.value)}/>
-                    <label className={styles.formCheckLabel} htmlFor="threeCardsDraw">Tirage à 3 cartes</label>
-                </div>
+
+                {DrawType && (
+                    Object.values(DrawData).map(({name, vf}) =>
+                        <div className="mb-3 form-check">
+                            <input className="form-check-input" type="radio" name="drawType" id={name}
+                                   value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
+                            <label htmlFor="firstname" className={styles.formCheckLabel}> {vf} </label>
+                        </div>
+                    )
+                )
+                }
+
 
                 {showButton && (
                     <button type="button" data-bs-toggle="collapse" data-bs-target="#toggleTone"
@@ -68,22 +74,22 @@ function Home() {
 
                 <div className="collapse" id="toggleTone" aria-expanded="false" aria-controls="toggleTone">
                     <h2> Un choix de tirage ? </h2>
-                    <div className="mb-3 form-check">
-                        <input className="form-check-input" type="radio" name="toneType" id="absurd" value="absurd"
-                               onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="absurd" className={styles.formCheckLabel}> Absurde</label>
-                    </div>
-                    <div className="mb-3 form-check">
-                        <input className="form-check-input" type="radio" name="toneType" id="cuteTrash"
-                               value="cuteTrash"
-                               onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="cuteTrash" className={styles.formCheckLabel}> Mignon </label>
-                    </div>
-                    <div className="mb-3 form-check">
-                        <input className="form-check-input" type="radio" name="toneType" id="confusing"
-                               value="confusing" onChange={(e) => setSelectedTone(e.target.value)}/>
-                        <label htmlFor="confusing" className={styles.formCheckLabel}> Confus </label>
-                    </div>
+
+                    {ToneData &&
+                        (<>
+                            {Object.values(ToneData).map(({name, vf}) => {
+                                return ToneData ?
+                                    (<div className="mb-3 form-check">
+                                        <input className="form-check-input" type="radio" name="toneType"
+                                               id={name}
+                                               value={name}
+                                               onChange={(e) => setSelectedTone(e.target.value)}/>
+                                        <label htmlFor="absurd" className={styles.formCheckLabel}> {vf}</label>
+                                    </div>) : null
+
+                            })}
+                        </>)
+                    }
 
                     <div className="mb-3 form-check">
                         <input className="form-check-input" type="radio" name="toneType" id="random"
