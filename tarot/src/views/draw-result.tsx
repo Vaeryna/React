@@ -11,14 +11,16 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
 
     function resetFirstname() {
         navigate("/draws",
-            { replace :true, state: {username, tone, draw: "firstname"},
+            {
+                replace: true, state: {username, tone, draw: "firstname"},
             })
         window.location.reload()
     }
 
     function reset3cards() {
         navigate("/draws",
-            { replace :true, state: {username, tone, draw: "3cards"},
+            {
+                replace: true, state: {username, tone, draw: "3cards"},
             })
         window.location.reload()
     }
@@ -59,10 +61,11 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
                     </div>
 
                 )}
-<div className="retryButton">
-    <button className="btn btn-dark" onClick={() => resetFirstname()}> Nouveau tirage prénom</button>
-    <button className="btn btn-dark" onClick={() => reset3cards()}> Nouveau tirage trois cartes</button>
-</div>
+
+            <div className="retryButton">
+                <button className="btn btn-dark" onClick={() => resetFirstname()}> Nouveau tirage prénom</button>
+                <button className="btn btn-dark" onClick={() => reset3cards()}> Nouveau tirage trois cartes</button>
+            </div>
 
         </div>
 

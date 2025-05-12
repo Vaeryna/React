@@ -23,7 +23,7 @@ function NavigationBar() {
 
                     <Link className="nav-link" to={"/"} > Accueil </Link>
 
-                    <button  className="nav-item"onClick={()=> nextPage()}>
+                    <button  className="nav-item" onClick={()=> nextPage()}>
                         <img src="/assets/arrow-right.png" alt="arrow-left"/>
                     </button>
 
