@@ -52,7 +52,7 @@ function Home() {
 
                 {DrawType && (
                     Object.values(DrawData).map(({name, vf}) =>
-                        <div className="mb-3 form-check">
+                        <div className="mb-3 form-check" key={name}>
                             <input className="form-check-input" type="radio" name="drawType" id={name}
                                    value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
                             <label htmlFor="firstname" className={styles.formCheckLabel}> {vf} </label>
@@ -79,8 +79,9 @@ function Home() {
                         (<>
                             {Object.values(ToneData).map(({name, vf}) => {
                                 return ToneData ?
-                                    (<div className="mb-3 form-check">
+                                    (<div className="mb-3 form-check" key={name}>
                                         <input className="form-check-input" type="radio" name="toneType"
+
                                                id={name}
                                                value={name}
                                                onChange={(e) => setSelectedTone(e.target.value)}/>
