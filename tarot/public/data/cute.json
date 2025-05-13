@@ -37,14 +37,14 @@
     },
     {
       "id": 5,
-      "name": "Le Canard de Jugement",
+      "name": "Le Canard Boucher",
       "number": 5,
       "description": "Le Canard de Jugement, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
       "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Canard de Jugement te juge. Fort."
     },
     {
       "id": 6,
-      "name": "Le Renard en Burnout",
+      "name": "Le Renard Débordé",
       "number": 6,
       "description": "Le Renard en Burnout, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
       "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Renard en Burnout te juge. Fort."
@@ -65,7 +65,7 @@
     },
     {
       "id": 9,
-      "name": "Le Chien Goudron",
+      "name": "Le Chien Ecorcheur",
       "number": 9,
       "description": "Le Chien Goudron, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
       "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chien Goudron te juge. Fort."
