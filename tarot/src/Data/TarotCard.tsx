@@ -2,7 +2,7 @@ export interface TarotCard {
     id: number,
     name: string,
     number: number,
-    description: string,
+    description?: string,
     interpretation: string,
     color?: string,
     element?: string,

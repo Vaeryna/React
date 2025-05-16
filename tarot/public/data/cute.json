@@ -1,0 +1,543 @@
+{
+  "id": 0,
+  "name": "Le Lapin Sanguinaire",
+  "number": 0,
+  "interpretation": "Tes pattes de velours s’enfoncent déjà dans la boue du cœur : bientôt, tes caresses se feront morsures glacées. Renonce à ce chemin avant que ta douceur ne se transforme en soif insatiable."
+},
+{
+  "id": 1,
+  "name": "L’Innocent Acéré",
+  "number": 1,
+    "interpretation": "Ta douceur juvénile manie déjà l’acier : si tu ne tempères pas cette naïveté tranchante, elle lacérera tes certitudes les plus fragiles. Apprends à poser le coupe-papier avant qu’il ne déchire tes rêves."
+},
+{
+  "id": 2,
+  "name": "Le Marionnettiste Mutilant",
+  "number": 2,
+    "interpretation": "Ton rire guilleret tisse des fils barbelés autour des cœurs ; bientôt, ces liens arracheront plus que des larmes. Brise tes propres ficelles avant qu’elles ne t’enserrent à jamais."
+}
+
+,
+    {
+  "id": 3,
+  "name": "La Papesse Poupée",
+  "number": 3,
+    "interpretation": "Tu chuchotes des secrets cousus dans la chair du temps : chaque page arrachée coûte un fragment de ton innocence. Rends ces grimoires pour préserver la pureté de ton âme."
+}
+,
+    {
+  "id": 4,
+  "name": "L’Impératrice Incisive",
+  "number": 4,
+  "interpretation": "Tu règnes avec une grâce tranchante : chaque geste dissèque le voile des apparences pour faire jaillir la vérité."
+}
+,
+ {
+  "id": 5,
+  "name": "L’Empereur Empaleur",
+  "number": 5,
+  "interpretation": "Tu enfonces un pieu dans la chair de la liberté ; sans miséricorde, ton règne gèlera dans un silence funèbre. Dépose-le avant que ta justice ne te scelle un tombeau."
+},
+{
+  "id": 6,
+  "name": "Le Hiérophante Hémoglobine",
+  "number": 6,
+    "interpretation": "Ton crucifix d’os ruisselle de doutes sacrés : si tu persistes, ta foi se muera en obsession sanglante. Reviens à la compassion avant que ton zèle n’ankylose ton esprit."
+}, {
+  "id": 7,
+  "name": "Le Canard Boucher",
+  "number": 7,
+    "interpretation": "Ton tablier s’imbibe de chaque décision tranchante : continue et ton cœur sera aussi fendu que tes victimes. Remets ce couteau de côté pour que ta bonté ne s’effrite pas."
+},    {
+  "id": 8,
+  "name": "Les Amoureux Lobotomisés",
+  "number": 8,
+  "interpretation": "Tu vis un amour fusionnel qui délite les frontières de ton esprit : chaque battement de cœur résonne dans ce crâne partagé, équilibre fragile entre extase et effroi."
+},{
+  "id": 9,
+  "name": "Le Chariot Charnivore",
+  "number": 9,
+  "interpretation": "Ton chariot-jouet, joyeux malgré ses chevaux mécaniques affamés, fonce vers un banquet insatiable de chair ; stoppe cette course dévorante avant qu’elle n’écrase ta joie sous ses roues tranchantes."
+},{
+  "id": 10,
+  "name": "La Force Faucheuse",
+  "number": 10,
+  "interpretation": "Ton petit cabri souriant brandit sa faux géante : bientôt, tu récolteras les fruits de tes choix – et pas tous doux. Redresse ta faux avant qu’elle n’assombrisse ta moisson de regrets."
+},   {
+  "id": 11,
+  "name": "L’Hermite Éviscérateur",
+  "number": 11,
+  "interpretation": "Tes piquants lumineux renferment une lame affamée : continue ta quête d’illumination et tu ouvriras les portes de ton propre cœur. Trouve la clarté sans éviscérer ton essence."
+},
+    {
+  "id": 12,
+  "name": "La Roue Rubiconde",
+  "number": 12,
+  "interpretation": "Ta roue-yo-yo éclabousse ton âme de douces gouttes vermeilles : ce cycle sans fin t’épuise. Arrête la cadence avant que ton cœur ne se brise sous les éclaboussures." 
+},{
+  "id": 13,
+  "name": "La Justice Jivariseuse",
+  "number": 13,
+  "interpretation": "Ton regard de panda impassible pèse les âmes sur des crânes réduits : sans compassion, tes verdicts scelleront des destins brisés. Adoucis ton cœur avant que ta balance ne bascule dans la cruauté."
+},   
+{
+  "id": 14,
+  "name": "Le Pendu Pelucheux",
+  "number": 14,
+  "interpretation": "Ton nounours, suspendu par ses propres entrailles et arborant un sourire cousu, te prédit une impasse émotive : si tu restes accroché à tes peurs, ton cœur finira étranglé par ses fils. Lâche prise avant que l’espoir ne se déchire."
+},
+   {
+  "id": 15,
+  "name": "La Mort Macaron",
+  "number": 15,
+  "interpretation": "Ton macaron rose croque doucement ta colonne vertébrale : c’est le signe qu’une fin sucrée approche. Abandonne tes vieilles structures avant que ce festin vermeil ne te réduise en miettes."
+}, {
+  "id": 16,
+  "name": "La Tempérance Tranchante",
+  "number": 16,
+  "interpretation": "Ton cœur vacille entre deux fioles corrosives, dissolvant peu à peu ta douce harmonie ; rétablis l’équilibre avant que tes émotions ne soient entièrement corrodées."
+}
+,
+{
+  "id": 17,
+  "name": "Le Diable Doudou",
+  "number": 17,
+  "interpretation": "Ses sabots fourchus gravent des croix de clous dans ton cœur naïf : cède à ses câlins piquants et ton âme deviendra son jouet de tourments. Détache-toi avant que la douceur ne se mue en supplice."
+}
+,
+  {
+  "id": 18,
+  "name": "L’Étoile Énucléatrice",
+  "number": 18,
+  "interpretation": "Tu tentes d’arracher la lumière des âmes, croyant qu’elle éclairera ton chemin ; renonce à ce geste avant que ton étoile intérieure ne s’éteigne dans l’obscurité."
+}
+,
+   {
+  "id": 19,
+  "name": "La Lune Lupine",
+  "number": 19,
+  "interpretation": "Sous son air de chiot attendrissant, tu sens monter ta bête intérieure : si tu ne domptes pas ces crocs affamés, ton innocence se noiera dans un sang froid lunaire."
+}
+,{
+  "id": 20,
+  "name": "Le Jugement Joujou",
+  "number": 20,
+  "interpretation": "Ton petit carillon ouvre des cercueils minuscules où somnolent tes erreurs : bientôt, leur chœur funèbre résonnera dans ton âme. Prépare-toi à te libérer avant que le glas ne scelle ton destin."
+}
+,{
+  "id": 21,
+  "name": "La Balle Broyeuse",
+  "number": 21,
+  "interpretation": "Ton petit ballon rebondit joyeusement, broyant les cadavres sous ses sauts : change ta trajectoire avant que tes élans de plaisir ne pulvérisent tes propres fondations."
+}
+,
+        {
+          "id": 22,
+          "name": "As - Le Doudou Perdu",
+          "description": "Une pensée douce abandonnée.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 23,
+          "name": "2 - Les Oreilles Recousues",
+          "description": "Deux idées rafistolées ensemble.",
+          "interpretation": "",
+           "color": "Peluches Déchirées",
+      "element": "Air",
+        },
+        {
+          "id": 24,
+          "name": "3 - Le Bouton qui Crie",
+          "description": "Un détail mental obsède un peu trop.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 25,
+          "name": "4 - Le Ruban qui Gratte",
+          "description": "La douceur cognitive irrite sans raison.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 26,
+          "name": "5 - Les Cils Décousus",
+          "description": "Fatigue mentale en peluche.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 27,
+          "name": "6 - Le Fil de Trop",
+          "description": "Trop tirer, et tout s’effiloche.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 28,
+          "name": "7 - Le Cœur Cousu Main",
+          "description": "Pensées tendres, maladroites, sincères.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 29,
+          "name": "8 - L’Aiguille qui Pique l’Ame",
+          "description": "Le cerveau pique un peu aujourd’hui.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 30,
+          "name": "9 - Le Nœud qui Pleure",
+          "description": "Conflit intérieur tout mignon.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 31,
+          "name": "10 - La Couture de la Vérité",
+          "description": "L’intellect se révèle dans un fil tordu.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 32,
+          "name": "Valet - Le Lapin Troué",
+          "description": "Porte des pensées qui s’effilochent.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 33,
+          "name": "Cavalier - L’Ours en Velours Fatigué",
+          "description": "Monte la garde des idées en loques.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 34,
+          "name": "Reine - La Fée Patchée",
+          "description": "Protège les esprits cassés.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+        },
+        {
+          "id": 35,
+          "name": "Roi - Le Général Peluche",
+          "description": "Autorité mentale douce mais ferme.",
+          "interprétation": "",
+          "element": "Air",
+          "color" : "Peluches Déchirées"
+
+    },
+
+        {
+          "id": 36,
+          "name": "As - Le Caramel Collant",
+          "description": "Une impulsion qui te colle aux doigts.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 37,
+          "name": "2 - Les Dragées Explosives",
+          "description": "Duo d’énergie sucrée et imprévisible.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 38,
+          "name": "3 - Le Suçon de Feu",
+          "description": "Tu agis avec douceur qui brûle.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 39,
+          "name": "4 - Le Chewing-gum Éternel",
+          "description": "L’action mâchée trop longtemps.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 40,
+          "name": "5 - Les Réglisses Rebelles",
+          "description": "Mouvements capricieux et colorés.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 41,
+          "name": "6 - Le Marshmallow Hyperactif",
+          "description": "Tu bondis sans savoir pourquoi.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 42,
+          "name": "7 - Le Piment en Bonbonnière",
+          "description": "Surprise piquante sous emballage mignon.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 43,
+          "name": "8 - Les Fraises Armées",
+          "description": "Douceur agressive.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 44,
+          "name": "9 - Le Gâteau Fugitif",
+          "description": "Tu poursuis une motivation qui s’enfuit.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 45,
+          "name": "10 - Le Chupa Volcanique",
+          "description": "C’est trop, mais c’est bon.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 46,
+          "name": "Valet - Le Bonbon Emballé Trop Fort",
+          "description": "Difficile à ouvrir, mais plein d’élan.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 47,
+          "name": "Cavalier - Le Cookie en Cavale",
+          "description": "Il court, il court, sans logique.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 48,
+          "name": "Reine - La Sucrerie Empoisonnée",
+          "description": "Séduction pétillante, mais risquée.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+        {
+          "id": 49,
+          "name": "Roi - Le Roi Cuberdon",
+          "description": "Trône sucré, cœur fondant et autorité explosive.",
+           "color": "Bonbons Dangereux",
+      "element": "Feu",
+        },
+
+        {
+          "id": 50,
+          "name": "As - Le Bébé Dragon qui Pleure",
+          "description": "Explosion émotionnelle mini.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 51,
+          "name": "2 - Les Lutins Gémissants",
+          "description": "Deux émotions fusionnent et font du bruit.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 52,
+          "name": "3 - Le Hamster Dévasté",
+          "description": "Trop de douceur tue la stabilité.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 53,
+          "name": "4 - Le Koala Boudeur",
+          "description": "Refus émotif passif-agressif.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 54,
+          "name": "5 - La Loutre en Crise",
+          "description": "Ça va pas, mais c’est mignon.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 55,
+          "name": "6 - Les Chinchillas à Larmes",
+          "description": "Tu ris et pleures en même temps.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 56,
+          "name": "7 - Le Pingouin Incompris",
+          "description": "L’émotion n’est pas logique, et alors ?",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 57,
+          "name": "8 - La Biche qui Crie",
+          "description": "Hypersensibilité en tutu.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 58,
+          "name": "9 - Le Chaton Possédé",
+          "description": "Câlin et furie dans un seul corps.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 59,
+          "name": "10 - Le Panda qui se Jette",
+          "description": "Trop d’émotion, pas assez de sol.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 60,
+          "name": "Valet - Le Renardeau Tournoyant",
+          "description": "Émotions floues mais sincères.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 61,
+          "name": "Cavalier - Le Chiot Baveux",
+          "description": "Débordement affectif incontrôlé.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 62,
+          "name": "Reine - La Sirène à Nœuds Roses",
+          "description": "Gouverne les pleurs comme un art.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+        {
+          "id": 63,
+          "name": "Roi - L’Hérisson Affectif",
+          "description": "Dirige avec piques et câlins.",
+           "color": "Créatures Mignonnes Incontrôlables",
+      "element": "Eau",
+        },
+
+        {
+          "id": 64,
+          "name": "As - Le Robot Défectueux",
+          "description": "Il clignote, il tombe, mais il est prêt.",          
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 65,
+          "name": "2 - Les Roues Carrées",
+          "description": "L’avancée est bancale, mais existante.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 66,
+          "name": "3 - La Boîte à Musique Détraquée",
+          "description": "Tu construis quelque chose de dissonant.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 67,
+          "name": "4 - Le Puzzle Incomplet",
+          "description": "Tu t’organises avec des pièces manquantes.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 68,
+          "name": "5 - Le Toupie qui Pleurait",
+          "description": "Ça tourne, mais le cœur n’y est pas.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 69,
+          "name": "6 - Les Blocs de Sucre",
+          "description": "Construction délicieuse, mais fragile.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 70,
+          "name": "7 - Le Ballon Crevé",
+          "description": "L’élan du concret perd de l’air.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 71,
+          "name": "8 - Le Train Mou",
+          "description": "Trajectoire molle mais persistante.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 72,
+          "name": "9 - Les Légos Invisibles",
+          "description": "Tu construis avec ce qu’on ne voit pas.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 73,
+          "name": "10 - Le Coffre qui Râle",
+          "description": "L’accumulation se plaint d’elle-même.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 74,
+          "name": "Valet - Le Yo-yo Tordu",
+          "description": "Va et vient d’actions confuses.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 75,
+          "name": "Cavalier - La Peluche Rouillée",
+          "description": "Persiste malgré la détérioration.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 76,
+          "name": "Reine - La Marionnette Sereine",
+          "description": "Tient tout avec calme et ficelles.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        },
+        {
+          "id": 77,
+          "name": "Roi - Le Golem de Coton",
+          "description": "Structure solide, cœur marshmallow.",
+      "color": "Jouets Cassés",
+      "element": "Terre",
+        }
