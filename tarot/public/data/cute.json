@@ -1,66 +1,62 @@
+{
+  "id": 0,
+  "name": "Le Lapin Sanguinaire",
+  "number": 0,
+  "interpretation": "Tes pattes de velours s’enfoncent déjà dans la boue du cœur : bientôt, tes caresses se feront morsures glacées. Renonce à ce chemin avant que ta douceur ne se transforme en soif insatiable."
+},
+{
+  "id": 1,
+  "name": "L’Innocent Acéré",
+  "number": 1,
+    "interpretation": "Ta douceur juvénile manie déjà l’acier : si tu ne tempères pas cette naïveté tranchante, elle lacérera tes certitudes les plus fragiles. Apprends à poser le coupe-papier avant qu’il ne déchire tes rêves."
+},
+{
+  "id": 2,
+  "name": "Le Marionnettiste Mutilant",
+  "number": 2,
+    "interpretation": "Ton rire guilleret tisse des fils barbelés autour des cœurs ; bientôt, ces liens arracheront plus que des larmes. Brise tes propres ficelles avant qu’elles ne t’enserrent à jamais."
+}
+
+,
     {
-      "id": 0,
-      "name": "Le Lapin Sanguinaire",
-      "number": 0,
-      "description": "Le Lapin Sanguinaire, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Lapin Sanguinaire te juge. Fort."
-    },
+  "id": 3,
+  "name": "La Papesse Poupée",
+  "number": 3,
+    "interpretation": "Tu chuchotes des secrets cousus dans la chair du temps : chaque page arrachée coûte un fragment de ton innocence. Rends ces grimoires pour préserver la pureté de ton âme."
+}
+,
     {
-      "id": 1,
-      "name": "Le Nounours Maudit",
-      "number": 1,
-      "description": "Le Nounours Maudit, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Nounours Maudit te juge. Fort."
-    },
+  "id": 4,
+  "name": "L’Impératrice Incisive",
+  "number": 4,
+  "interpretation": "Tu règnes avec une grâce tranchante : chaque geste dissèque le voile des apparences pour faire jaillir la vérité."
+}
+,
+ {
+  "id": 5,
+  "name": "L’Empereur Empaleur",
+  "number": 5,
+  "interpretation": "Tu enfonces un pieu dans la chair de la liberté ; sans miséricorde, ton règne gèlera dans un silence funèbre. Dépose-le avant que ta justice ne te scelle un tombeau."
+},
+{
+  "id": 6,
+  "name": "Le Hiérophante Hémoglobine",
+  "number": 6,
+    "interpretation": "Ton crucifix d’os ruisselle de doutes sacrés : si tu persistes, ta foi se muera en obsession sanglante. Reviens à la compassion avant que ton zèle n’ankylose ton esprit."
+},
+ {
+  "id": 7,
+  "name": "Le Canard Boucher",
+  "number": 7,
+    "interpretation": "Ton tablier rose s’imbibe de chaque décision tranchante : continue et ton cœur sera aussi fendu que tes victimes. Remets ce couteau de côté pour que ta bonté ne s’effrite pas."
+},
     {
-      "id": 2,
-      "name": "La Licorne Crado",
-      "number": 2,
-      "description": "La Licorne Crado, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Licorne Crado te juge. Fort."
-    },
-    {
-      "id": 3,
-      "name": "La Fée Déprimée",
-      "number": 3,
-      "description": "La Fée Déprimée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Fée Déprimée te juge. Fort."
-    },
-    {
-      "id": 4,
-      "name": "Le Chat Pyromane",
-      "number": 4,
-      "description": "Le Chat Pyromane, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chat Pyromane te juge. Fort."
-    },
-    {
-      "id": 5,
-      "name": "Le Canard Boucher",
-      "number": 5,
-      "description": "Le Canard de Jugement, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Canard de Jugement te juge. Fort."
-    },
-    {
-      "id": 6,
-      "name": "Le Renard Débordé",
-      "number": 6,
-      "description": "Le Renard en Burnout, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Renard en Burnout te juge. Fort."
-    },
-    {
-      "id": 7,
-      "name": "La Bulle Vengeresse",
-      "number": 7,
-      "description": "La Bulle Vengeresse, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Bulle Vengeresse te juge. Fort."
-    },
-    {
-      "id": 8,
-      "name": "Le Cupcake du Destin",
-      "number": 8,
-      "description": "Le Cupcake du Destin, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Cupcake du Destin te juge. Fort."
-    },
+  "id": 8,
+  "name": "Les Amoureux Lobotomisés",
+  "number": 8,
+  "interpretation": "Tu vis un amour fusionnel qui délite les frontières de ton esprit : chaque battement de cœur résonne dans ce crâne partagé, équilibre fragile entre extase et effroi."
+}
+,
     {
       "id": 9,
       "name": "Le Chien Ecorcheur",
