@@ -43,111 +43,94 @@
   "name": "Le Hiérophante Hémoglobine",
   "number": 6,
     "interpretation": "Ton crucifix d’os ruisselle de doutes sacrés : si tu persistes, ta foi se muera en obsession sanglante. Reviens à la compassion avant que ton zèle n’ankylose ton esprit."
-},
- {
+}, {
   "id": 7,
   "name": "Le Canard Boucher",
   "number": 7,
-    "interpretation": "Ton tablier rose s’imbibe de chaque décision tranchante : continue et ton cœur sera aussi fendu que tes victimes. Remets ce couteau de côté pour que ta bonté ne s’effrite pas."
-},
-    {
+    "interpretation": "Ton tablier s’imbibe de chaque décision tranchante : continue et ton cœur sera aussi fendu que tes victimes. Remets ce couteau de côté pour que ta bonté ne s’effrite pas."
+},    {
   "id": 8,
   "name": "Les Amoureux Lobotomisés",
   "number": 8,
   "interpretation": "Tu vis un amour fusionnel qui délite les frontières de ton esprit : chaque battement de cœur résonne dans ce crâne partagé, équilibre fragile entre extase et effroi."
+},{
+  "id": 9,
+  "name": "Le Chariot Charnivore",
+  "number": 9,
+  "interpretation": "Ton chariot-jouet, joyeux malgré ses chevaux mécaniques affamés, fonce vers un banquet insatiable de chair ; stoppe cette course dévorante avant qu’elle n’écrase ta joie sous ses roues tranchantes."
+},{
+  "id": 10,
+  "name": "La Force Faucheuse",
+  "number": 10,
+  "interpretation": "Ton petit cabri souriant brandit sa faux géante : bientôt, tu récolteras les fruits de tes choix – et pas tous doux. Redresse ta faux avant qu’elle n’assombrisse ta moisson de regrets."
+},   {
+  "id": 11,
+  "name": "L’Hermite Éviscérateur",
+  "number": 11,
+  "interpretation": "Tes piquants lumineux renferment une lame affamée : continue ta quête d’illumination et tu ouvriras les portes de ton propre cœur. Trouve la clarté sans éviscérer ton essence."
+},
+    {
+  "id": 12,
+  "name": "La Roue Rubiconde",
+  "number": 12,
+  "interpretation": "Ta roue-yo-yo éclabousse ton âme de douces gouttes vermeilles : ce cycle sans fin t’épuise. Arrête la cadence avant que ton cœur ne se brise sous les éclaboussures." 
+},{
+  "id": 13,
+  "name": "La Justice Jivariseuse",
+  "number": 13,
+  "interpretation": "Ton regard de panda impassible pèse les âmes sur des crânes réduits : sans compassion, tes verdicts scelleront des destins brisés. Adoucis ton cœur avant que ta balance ne bascule dans la cruauté."
+},   
+{
+  "id": 14,
+  "name": "Le Pendu Pelucheux",
+  "number": 14,
+  "interpretation": "Ton nounours, suspendu par ses propres entrailles et arborant un sourire cousu, te prédit une impasse émotive : si tu restes accroché à tes peurs, ton cœur finira étranglé par ses fils. Lâche prise avant que l’espoir ne se déchire."
+},
+   {
+  "id": 15,
+  "name": "La Mort Macaron",
+  "number": 15,
+  "interpretation": "Ton macaron rose croque doucement ta colonne vertébrale : c’est le signe qu’une fin sucrée approche. Abandonne tes vieilles structures avant que ce festin vermeil ne te réduise en miettes."
+}, {
+  "id": 16,
+  "name": "La Tempérance Tranchante",
+  "number": 16,
+  "interpretation": "Ton cœur vacille entre deux fioles corrosives, dissolvant peu à peu ta douce harmonie ; rétablis l’équilibre avant que tes émotions ne soient entièrement corrodées."
 }
 ,
-    {
-      "id": 9,
-      "name": "Le Chien Ecorcheur",
-      "number": 9,
-      "description": "Le Chien Goudron, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Chien Goudron te juge. Fort."
-    },
-    {
-      "id": 10,
-      "name": "La Peluche Oubliée",
-      "number": 10,
-      "description": "La Peluche Oubliée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Peluche Oubliée te juge. Fort."
-    },
-    {
-      "id": 11,
-      "name": "La Sirène Déchiquetée",
-      "number": 11,
-      "description": "La Sirène Poilue, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Sirène Poilue te juge. Fort."
-    },
-    {
-      "id": 12,
-      "name": "Le Bébé Hurlant",
-      "number": 12,
-      "description": "Le Bébé Hurlant, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Bébé Hurlant te juge. Fort."
-    },
-    {
-      "id": 13,
-      "name": "La Petite Sorcière des Ennuis",
-      "number": 13,
-      "description": "La Petite Sorcière des Ennuis, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Petite Sorcière des Ennuis te juge. Fort."
-    },
-    {
-      "id": 14,
-      "name": "La Gomme Possédée",
-      "number": 14,
-      "description": "La Gomme Possédée, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Gomme Possédée te juge. Fort."
-    },
-    {
-      "id": 15,
-      "name": "Le Mouton Agressif",
-      "number": 15,
-      "description": "Le Mouton Agressif, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Mouton Agressif te juge. Fort."
-    },
-    {
-      "id": 16,
-      "name": "Le Panda Cynique",
-      "number": 16,
-      "description": "Le Panda Cynique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Panda Cynique te juge. Fort."
-    },
-    {
-      "id": 17,
-      "name": "La Coccinelle Infernale",
-      "number": 17,
-      "description": "La Coccinelle Infernale, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Coccinelle Infernale te juge. Fort."
-    },
-    {
-      "id": 18,
-      "name": "Le Marshmallow Toxique",
-      "number": 18,
-      "description": "Le Marshmallow Toxique, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Marshmallow Toxique te juge. Fort."
-    },
-    {
-      "id": 19,
-      "name": "La Colombe Suspecte",
-      "number": 19,
-      "description": "La Colombe Suspecte, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. La Colombe Suspecte te juge. Fort."
-    },
-    {
-      "id": 20,
-      "name": "Le Petit Démon Kawaï",
-      "number": 20,
-      "description": "Le Petit Démon Kawaï, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Petit Démon Kawaï te juge. Fort."
-    },
-    {
-      "id": 21,
-      "name": "Le Gâteau Traître",
-      "number": 21,
-      "description": "Le Gâteau Traître, une créature adorablement instable, entourée de couleurs pastel et de désastre latent.",
-      "interpretation": "Derrière cette apparence mignonne se cache un chaos sucré. Le Gâteau Traître te juge. Fort."
-    },
+{
+  "id": 17,
+  "name": "Le Diable Doudou",
+  "number": 17,
+  "interpretation": "Ses sabots fourchus gravent des croix de clous dans ton cœur naïf : cède à ses câlins piquants et ton âme deviendra son jouet de tourments. Détache-toi avant que la douceur ne se mue en supplice."
+}
+,
+  {
+  "id": 18,
+  "name": "L’Étoile Énucléatrice",
+  "number": 18,
+  "interpretation": "Tu tentes d’arracher la lumière des âmes, croyant qu’elle éclairera ton chemin ; renonce à ce geste avant que ton étoile intérieure ne s’éteigne dans l’obscurité."
+}
+,
+   {
+  "id": 19,
+  "name": "La Lune Lupine",
+  "number": 19,
+  "interpretation": "Sous son air de chiot attendrissant, tu sens monter ta bête intérieure : si tu ne domptes pas ces crocs affamés, ton innocence se noiera dans un sang froid lunaire."
+}
+,{
+  "id": 20,
+  "name": "Le Jugement Joujou",
+  "number": 20,
+  "interpretation": "Ton petit carillon ouvre des cercueils minuscules où somnolent tes erreurs : bientôt, leur chœur funèbre résonnera dans ton âme. Prépare-toi à te libérer avant que le glas ne scelle ton destin."
+}
+,{
+  "id": 21,
+  "name": "La Balle Broyeuse",
+  "number": 21,
+  "interpretation": "Ton petit ballon rebondit joyeusement, broyant les cadavres sous ses sauts : change ta trajectoire avant que tes élans de plaisir ne pulvérisent tes propres fondations."
+}
+,
         {
           "id": 22,
           "name": "As - Le Doudou Perdu",
