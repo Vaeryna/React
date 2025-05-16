@@ -136,92 +136,91 @@
     "name": "Le Doudou Perdu",
     "number": "1"
     "description": "Une pensée douce abandonnée.",
-  "interpretation": "Ton doudou disparu entre tes mains tremblantes laisse s’échapper des perles vermeilles : signe que ta tendresse s’effiloche. Retrouve-le avant que ton réconfort ne soit réduit en lambeaux.",
+    "interpretation": "Ton doudou disparu entre tes mains tremblantes laisse s’échapper des perles vermeilles : signe que ta tendresse s’effiloche. Retrouve-le avant que ton réconfort ne soit réduit en lambeaux.",
     "element": "Air",
     "color": "Peluches Déchirées"
   },
   {
-  "id": 23,
-  "name": "Les Oreilles Recousues",
-  "number": 2,
-  "description": "Deux idées rafistolées ensemble.",
-  "interpretation": "Tes pensées sont cousues comme des oreilles de peluche : si tu ne dissous pas ces rapiècements fragiles, ton esprit s’égarera dans un murmure de fil déchiré.",
-  "color": "Peluches Déchirées",
-  "element": "Air"
-},
-{
-  "id": 24,
-  "name": "Le Bouton qui Crie",
-  "number": 3,
-  "description": "Un détail mental obsède un peu trop.",
-  "interpretation": "Ton petit bouton obsessionnel hurle dans ton esprit, chaque pulsation rosée annonçant une détresse grandissante : apaise cette fixation avant qu’elle n’éclate en gerbes vermeilles de regrets.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
-{
-  "id": 25,
-  "name": "Le Ruban qui Gratte",
-  "number": 4,
-  "description": "La douceur cognitive irrite sans raison.",
-  "interpretation": "Ton ruban soyeux qui gratte préfigure une agitation sourde : ignore cette démangeaison et elle se muera en griffures écarlates. Apprends à apaiser tes irritations avant qu’elles ne déchirent ton âme.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
+    "id": 23,
+    "name": "Les Oreilles Recousues",
+    "number": 2,
+    "description": "Deux idées rafistolées ensemble.",
+    "interpretation": "Tes pensées sont cousues comme des oreilles de peluche : si tu ne dissous pas ces rapiècements fragiles, ton esprit s’égarera dans un murmure de fil déchiré.",
+    "color": "Peluches Déchirées",
+    "element": "Air"
+  },
   {
-  "id": 26,
-  "name": "Les Cils Décousus",
-  "number": 5,
-  "description": "Fatigue mentale en peluche.",
-  "interpretation": "Tes paupières pelucheuses s’effilochent sous le poids de la lassitude : accorde-toi un répit avant que tes rêves ne saignent à travers chaque cil arraché.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
- {
-  "id": 27,
-  "name": "Le Fil de Trop",
-  "number": 6,
-  "description": "Trop tirer, et tout s’effiloche.",
-  "interpretation": "Ton petit fil gémit sous chaque traction : continue et il craquera en gerbes vermeilles. Lâche prise avant que ton être ne se défasse en miettes de laine et de sang.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
- {
-  "id": 28,
-  "name": "Le Cœur Cousu Main",
-  "number": 7,
-  "description": "Pensées tendres, maladroites, sincères.",
-  "interpretation": "Ton cœur cousu main palpite de douceur, mais chaque point fragile retient des perles vermeilles : renforce ta foi intérieure avant que ces coutures ne cèdent et ne laissent ton âme saigner.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
+    "id": 24,
+    "name": "Le Bouton qui Crie",
+    "number": 3,
+    "description": "Un détail mental obsède un peu trop.",
+    "interpretation": "Ton petit bouton obsessionnel hurle dans ton esprit, chaque pulsation rosée annonçant une détresse grandissante : apaise cette fixation avant qu’elle n’éclate en gerbes vermeilles de regrets.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 29,
-  "name": "L’Aiguille qui Pique l’Ame",
-  "number": 8,
-  "description": "Le cerveau pique un peu aujourd’hui.",
-  "interpretation": "Ton esprit tisse des piqûres de vérité : gare aux élancements qui percent ton âme. Accueille ce picotement avant qu’il ne saigne en vagues de doute.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-}
-,
+    "id": 25,
+    "name": "Le Ruban qui Gratte",
+    "number": 4,
+    "description": "La douceur cognitive irrite sans raison.",
+    "interpretation": "Ton ruban soyeux qui gratte préfigure une agitation sourde : ignore cette démangeaison et elle se muera en griffures écarlates. Apprends à apaiser tes irritations avant qu’elles ne déchirent ton âme.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 30,
-  "name": "Le Nœud qui Pleure",
-  "number": 9,
-  "description": "Conflit intérieur tout mignon.",
-  "interpretation": "Ton nœud tout doux verse déjà des perles vermeilles : ce dilemme grandit en toi. Délie ces pensées avant qu’elles ne t’étouffent dans un flot de regrets.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
+    "id": 26,
+    "name": "Les Cils Décousus",
+    "number": 5,
+    "description": "Fatigue mentale en peluche.",
+    "interpretation": "Tes paupières pelucheuses s’effilochent sous le poids de la lassitude : accorde-toi un répit avant que tes rêves ne saignent à travers chaque cil arraché.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 31,
-  "name": "La Couture de la Vérité",
-  "number": 10,
-  "description": "L’intellect se révèle dans un fil tordu.",
-  "interpretation": "Ton petit fil tordu danse dans ton esprit, reliant chaque idée avec douceur… jusqu’à ce que les points saignent la vérité. Accueille ce déchirement sacré avant que tes illusions ne se défassent en lambeaux.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-},
+    "id": 27,
+    "name": "Le Fil de Trop",
+    "number": 6,
+    "description": "Trop tirer, et tout s’effiloche.",
+    "interpretation": "Ton petit fil gémit sous chaque traction : continue et il craquera en gerbes vermeilles. Lâche prise avant que ton être ne se défasse en miettes de laine et de sang.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
+  {
+    "id": 28,
+    "name": "Le Cœur Cousu Main",
+    "number": 7,
+    "description": "Pensées tendres, maladroites, sincères.",
+    "interpretation": "Ton cœur cousu main palpite de douceur, mais chaque point fragile retient des perles vermeilles : renforce ta foi intérieure avant que ces coutures ne cèdent et ne laissent ton âme saigner.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
+  {
+    "id": 29,
+    "name": "L’Aiguille qui Pique l’Ame",
+    "number": 8,
+    "description": "Le cerveau pique un peu aujourd’hui.",
+    "interpretation": "Ton esprit tisse des piqûres de vérité : gare aux élancements qui percent ton âme. Accueille ce picotement avant qu’il ne saigne en vagues de doute.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
+  {
+    "id": 30,
+    "name": "Le Nœud qui Pleure",
+    "number": 9,
+    "description": "Conflit intérieur tout mignon.",
+    "interpretation": "Ton nœud tout doux verse déjà des perles vermeilles : ce dilemme grandit en toi. Délie ces pensées avant qu’elles ne t’étouffent dans un flot de regrets.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
+  {
+    "id": 31,
+    "name": "La Couture de la Vérité",
+    "number": 10,
+    "description": "L’intellect se révèle dans un fil tordu.",
+    "interpretation": "Ton petit fil tordu danse dans ton esprit, reliant chaque idée avec douceur… jusqu’à ce que les points saignent la vérité. Accueille ce déchirement sacré avant que tes illusions ne se défassent en lambeaux.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
     "id": 32,
     "name": "Valet - Le Lapin Troué",
@@ -231,124 +230,113 @@
     "color": "Peluches Déchirées"
   },
   {
-  "id": 32,
-  "name": "Le Lapin Troué",
-  "number": "Valet",
-  "description": "Porte des pensées qui s’effilochent.",
-  "interpretation": "Ton pelage tout doux criblé de petits trous révèle un esprit fragilisé : sans soin, tes idées s’échapperont en gerbes vermeilles. Récoud ta pensée avant qu’elle ne se perde dans le vide sanglant.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-}
-,
+    "id": 32,
+    "name": "Le Lapin Troué",
+    "number": "Valet",
+    "description": "Porte des pensées qui s’effilochent.",
+    "interpretation": "Ton pelage tout doux criblé de petits trous révèle un esprit fragilisé : sans soin, tes idées s’échapperont en gerbes vermeilles. Récoud ta pensée avant qu’elle ne se perde dans le vide sanglant.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 34,
-  "name": "La Fée Patchée",
-  "number": "Reine",
-  "description": "Protège les esprits cassés.",
-  "interpretation": "Tes ailes de fée sont cousues de fil fragiles, veillant sur les cœurs blessés ; attention, chaque couture menacera de céder en gerbes vermeilles. Cultive ta bienveillance avant que ton propre éclat ne se brise.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-}
-,
+    "id": 34,
+    "name": "La Fée Patchée",
+    "number": "Reine",
+    "description": "Protège les esprits cassés.",
+    "interpretation": "Tes ailes de fée sont cousues de fil fragiles, veillant sur les cœurs blessés ; attention, chaque couture menacera de céder en gerbes vermeilles. Cultive ta bienveillance avant que ton propre éclat ne se brise.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 35,
-  "name": "Le Général Peluche",
-  "number": "Roi",
-  "description": "Autorité mentale douce mais ferme.",
-  "interpretation": "Ton uniforme de velours cache une poigne de fer : si tu ne tempères pas ta rigueur douce, tes ordres se mueront en chaînes sanglantes. Adoucis ton commandement avant que tes troupes d’âmes ne ploient sous le fardeau.",
-  "element": "Air",
-  "color": "Peluches Déchirées"
-}
-,
+    "id": 35,
+    "name": "Le Général Peluche",
+    "number": "Roi",
+    "description": "Autorité mentale douce mais ferme.",
+    "interpretation": "Ton uniforme de velours cache une poigne de fer : si tu ne tempères pas ta rigueur douce, tes ordres se mueront en chaînes sanglantes. Adoucis ton commandement avant que tes troupes d’âmes ne ploient sous le fardeau.",
+    "element": "Air",
+    "color": "Peluches Déchirées"
+  },
   {
-  "id": 36,
-  "name": "As - Le Caramel Collant",
-  "number": "As",
-  "description": "Une impulsion qui te colle aux doigts.",
-  "interpretation": "Ton caramel vermeil adhère à ta peau comme une soif ardente ; si tu t’y abandons, tes désirs te consumeront de l’intérieur. Dépose ce sucré poison avant qu’il n’embrase ton cœur.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-},
-{
-  "id": 37,
-  "name": "Les Dragées Explosives",
-  "number": 2,
-  "description": "Duo d’énergie sucrée et imprévisible.",
-  "interpretation": "Deux dragées pétillantes murmurent un désir ardent, prêtes à exploser en gerbes vermeilles : canalise cette fougue sucrée avant qu’elle ne te réduise en poussière de rêve.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 36,
+    "name": "As - Le Caramel Collant",
+    "number": "As",
+    "description": "Une impulsion qui te colle aux doigts.",
+    "interpretation": "Ton caramel vermeil adhère à ta peau comme une soif ardente ; si tu t’y abandons, tes désirs te consumeront de l’intérieur. Dépose ce sucré poison avant qu’il n’embrase ton cœur.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 38,
-  "name": "Le Suçon de Feu",
-  "number": 3,
-  "description": "Tu agis avec douceur qui brûle.",
-  "interpretation": "Ton suçon de feu creuse un sillon vermeil sur ta peau tendre, présage d’une passion ardente ; maîtrise cette flamme sucrée avant qu’elle ne te consume de l’intérieur.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
- {
-  "id": 39,
-  "name": "Le Chewing-gum Éternel",
-  "number": 4,
-  "description": "L’action mâchée trop longtemps.",
-  "interpretation": "Ton chewing-gum éternel colle à ton esprit, tissant des filaments vermeilles de regret ; ôte-le avant qu’il ne dévore ta lumière.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 37,
+    "name": "Les Dragées Explosives",
+    "number": 2,
+    "description": "Duo d’énergie sucrée et imprévisible.",
+    "interpretation": "Deux dragées pétillantes murmurent un désir ardent, prêtes à exploser en gerbes vermeilles : canalise cette fougue sucrée avant qu’elle ne te réduise en poussière de rêve.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 40,
-  "name": "Les Réglisses Rebelles",
-  "number": 5,
-  "description": "Mouvements capricieux et colorés.",
-  "interpretation": "Des réglisses qui se tortillent avec malice annoncent une rébellion intérieure prête à brûler tes certitudes : dompte ton feu avant qu’il n’embrase tes rêves en cendre vermeille.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 38,
+    "name": "Le Suçon de Feu",
+    "number": 3,
+    "description": "Tu agis avec douceur qui brûle.",
+    "interpretation": "Ton suçon de feu creuse un sillon vermeil sur ta peau tendre, présage d’une passion ardente ; maîtrise cette flamme sucrée avant qu’elle ne te consume de l’intérieur.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 41,
-  "name": "Le Marshmallow Hyperactif",
-  "number": 6,
-  "description": "Tu bondis sans savoir pourquoi.",
-  "interpretation": "Ton petit marshmallow bondissant répand des étincelles de braise ; sans repos, cette fougue te consumera de l’intérieur. Trouve la paix avant que ton cœur ne soit réduit en cendres vermeilles.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 39,
+    "name": "Le Chewing-gum Éternel",
+    "number": 4,
+    "description": "L’action mâchée trop longtemps.",
+    "interpretation": "Ton chewing-gum éternel colle à ton esprit, tissant des filaments vermeilles de regret ; ôte-le avant qu’il ne dévore ta lumière.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 42,
-  "name": "Le Piment en Bonbonnière",
-  "number": 7,
-  "description": "Surprise piquante sous emballage mignon.",
-  "interpretation": "Le joli écrin cache une braise vive : si tu craques, ta passion brûlera tes veines en gerbes vermeilles. Lâche ce feu avant qu’il ne consume ton cœur.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
- {
-  "id": 43,
-  "name": "Les Fraises Armées",
-  "number": 8,
-  "description": "Douceur agressive.",
-  "interpretation": "Bientôt tes fraises armées pointent leurs aiguillons rouges vers ton cœur ; à trop mêler douceur et violence, tu finiras blessé par ta propre saveur. Désarme ces épines avant qu’elles ne percent ton âme.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 40,
+    "name": "Les Réglisses Rebelles",
+    "number": 5,
+    "description": "Mouvements capricieux et colorés.",
+    "interpretation": "Des réglisses qui se tortillent avec malice annoncent une rébellion intérieure prête à brûler tes certitudes : dompte ton feu avant qu’il n’embrase tes rêves en cendre vermeille.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 44,
-  "name": "Le Gâteau Fugitif",
-  "number": 9,
-  "description": "Tu poursuis une motivation qui s’enfuit.",
-  "interpretation": "Ton doux gâteau s’éloigne en laissant des miettes vermeilles : cesse cette course vaine avant que tes efforts ne se consument en poussière sanglante.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 41,
+    "name": "Le Marshmallow Hyperactif",
+    "number": 6,
+    "description": "Tu bondis sans savoir pourquoi.",
+    "interpretation": "Ton petit marshmallow bondissant répand des étincelles de braise ; sans repos, cette fougue te consumera de l’intérieur. Trouve la paix avant que ton cœur ne soit réduit en cendres vermeilles.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
+  {
+    "id": 42,
+    "name": "Le Piment en Bonbonnière",
+    "number": 7,
+    "description": "Surprise piquante sous emballage mignon.",
+    "interpretation": "Le joli écrin cache une braise vive : si tu craques, ta passion brûlera tes veines en gerbes vermeilles. Lâche ce feu avant qu’il ne consume ton cœur.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
+  {
+    "id": 43,
+    "name": "Les Fraises Armées",
+    "number": 8,
+    "description": "Douceur agressive.",
+    "interpretation": "Bientôt tes fraises armées pointent leurs aiguillons rouges vers ton cœur ; à trop mêler douceur et violence, tu finiras blessé par ta propre saveur. Désarme ces épines avant qu’elles ne percent ton âme.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
+  {
+    "id": 44,
+    "name": "Le Gâteau Fugitif",
+    "number": 9,
+    "description": "Tu poursuis une motivation qui s’enfuit.",
+    "interpretation": "Ton doux gâteau s’éloigne en laissant des miettes vermeilles : cesse cette course vaine avant que tes efforts ne se consument en poussière sanglante.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
     "id": 45,
     "name": "10 - Le Chupa Volcanique",
@@ -357,35 +345,32 @@
     "element": "Feu"
   },
   {
-  "id": 45,
-  "name": "Le Chupa Volcanique",
-  "number": 10,
-  "description": "C'est trop, mais c'est bon.",
-  "interpretation": "Ta sucette volcanique fond en gerbes de braise sucrée : si tu ne tempères pas ta flamme gourmande, elle t’embrasera de l’intérieur. Modère cet ardeur avant que ton cœur ne se réduise en cendres vermeilles.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 45,
+    "name": "Le Chupa Volcanique",
+    "number": 10,
+    "description": "C'est trop, mais c'est bon.",
+    "interpretation": "Ta sucette volcanique fond en gerbes de braise sucrée : si tu ne tempères pas ta flamme gourmande, elle t’embrasera de l’intérieur. Modère cet ardeur avant que ton cœur ne se réduise en cendres vermeilles.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
-  "id": 47,
-  "name": "Le Cookie en Cavale",
-  "number": "Cavalier",
-  "description": "Il court, il court, sans logique.",
-  "interpretation": "Ton cookie doré file sans but, semant des miettes vermeilles de chaos intérieur ; ralentis ta course avant que tes pensées ne se brisent en fragments sanguinolents.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
- {
-  "id": 48,
-  "name": "La Sucrerie Empoisonnée",
-  "number": "Reine",
-  "description": "Séduction pétillante, mais risquée.",
-  "interpretation": "Bientôt, tes baisers sucrés injecteront une flamme toxique dans tes veines : détourne-toi de cette douceur venimeuse avant qu’elle ne consumer ton cœur d’un brasier vermeil.",
-  "color": "Bonbons Dangereux",
-  "element": "Feu"
-}
-,
+    "id": 47,
+    "name": "Le Cookie en Cavale",
+    "number": "Cavalier",
+    "description": "Il court, il court, sans logique.",
+    "interpretation": "Ton cookie doré file sans but, semant des miettes vermeilles de chaos intérieur ; ralentis ta course avant que tes pensées ne se brisent en fragments sanguinolents.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
+  {
+    "id": 48,
+    "name": "La Sucrerie Empoisonnée",
+    "number": "Reine",
+    "description": "Séduction pétillante, mais risquée.",
+    "interpretation": "Bientôt, tes baisers sucrés injecteront une flamme toxique dans tes veines : détourne-toi de cette douceur venimeuse avant qu’elle ne consumer ton cœur d’un brasier vermeil.",
+    "color": "Bonbons Dangereux",
+    "element": "Feu"
+  },
   {
     "id": 49,
     "name": "Roi - Le Roi Cuberdon",
