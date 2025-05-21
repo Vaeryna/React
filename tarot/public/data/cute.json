@@ -132,50 +132,51 @@
     "interpretation": "Ton petit ballon rebondit joyeusement, broyant les cadavres sous ses sauts : change ta trajectoire avant que tes élans de plaisir ne pulvérisent tes propres fondations."
   },
   {
-    "id": 22,
-    "name": "Le Doudou Perdu",
-    "number": "1"
-    "description": "Une pensée douce abandonnée.",
-    "interpretation": "Ton doudou disparu entre tes mains tremblantes laisse s’échapper des perles vermeilles : signe que ta tendresse s’effiloche. Retrouve-le avant que ton réconfort ne soit réduit en lambeaux.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 22,
+  "name": "Nounours Napalm",
+  "number": "1",
+  "description": "Un nounours en peluche crache un jet de napalm incandescent sur ses petits compagnons de jeu.",
+  "interpretation": "Ton doux gardien de câlins devient pyromane de tendresse : si tu laisses cette colère se répandre, elle consumera tout autour. Rappelle-toi d’éteindre ta flamme intérieure avant qu’elle n’embrase ton monde moelleux.",
+  "color": "Air",
+  "element": "Peluches"
+},
+{
+  "id": 23,
+  "name": "Koala Killer",
+  "number": "2",
+  "description": "Une peluche koala brandissant un couteau de cuisine, prête à frapper dans le silence feutré de la nuit.",
+  "interpretation": "Tes câlins duveteux dissimulent une lame frémissante : sans retour en arrière, elle tranchera le lien fragile qui unit ton cœur à la compassion.",
+  "color": "Peluches",
+  "element": "Air"
+},
   {
-    "id": 23,
-    "name": "Les Oreilles Recousues",
-    "number": 2,
-    "description": "Deux idées rafistolées ensemble.",
-    "interpretation": "Tes pensées sont cousues comme des oreilles de peluche : si tu ne dissous pas ces rapiècements fragiles, ton esprit s’égarera dans un murmure de fil déchiré.",
-    "color": "Peluches Déchirées",
-    "element": "Air"
-  },
+  "id": 24,
+  "name": "Panda Poignardeur",
+  "number": "3",
+  "description": "Un ventre rond, un regard noir, et une lame bien placée.",
+  "interpretation": "Le Panda Poignardeur t’enseigne que la douceur peut cacher un coup mortel. N’ignore pas les silences ronds : ils préparent parfois le pire. La trahison la plus dangereuse est celle qui te sourit.",
+  "element": "Air",
+  "color": "Peluche"
+},
   {
-    "id": 24,
-    "name": "Le Bouton qui Crie",
-    "number": 3,
-    "description": "Un détail mental obsède un peu trop.",
-    "interpretation": "Ton petit bouton obsessionnel hurle dans ton esprit, chaque pulsation rosée annonçant une détresse grandissante : apaise cette fixation avant qu’elle n’éclate en gerbes vermeilles de regrets.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 25,
+  "name": "Alpaga Arrach’‑Artères",
+  "number": "4",
+  "description": "Une laine douce, des crocs planqués.",
+  "interpretation": "Sous les airs timides se cache une violence chirurgicale. L’Alpaga Arrach’‑Artères t’enseigne que même les plus doux peuvent trancher net. Méfie-toi des câlins qui serrent trop fort.",
+  "element": "Air",
+  "color": "Peluche"
+},
   {
-    "id": 25,
-    "name": "Le Ruban qui Gratte",
-    "number": 4,
-    "description": "La douceur cognitive irrite sans raison.",
-    "interpretation": "Ton ruban soyeux qui gratte préfigure une agitation sourde : ignore cette démangeaison et elle se muera en griffures écarlates. Apprends à apaiser tes irritations avant qu’elles ne déchirent ton âme.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
-  {
-    "id": 26,
-    "name": "Les Cils Décousus",
-    "number": 5,
-    "description": "Fatigue mentale en peluche.",
-    "interpretation": "Tes paupières pelucheuses s’effilochent sous le poids de la lassitude : accorde-toi un répit avant que tes rêves ne saignent à travers chaque cil arraché.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 26,
+  "name": "Chinchilla Chirurgien",
+  "number": "5",
+  "description": "Un scalpel dans la patte, la tendresse au bout des doigts.",
+  "interpretation": "Le Chinchilla Chirurgien tranche avec précision. Il rappelle que certaines violences sont froides, méthodiques, presque soignées. Parfois, ce qui t’ouvre le plus… porte une blouse douce.",
+  "element": "Air",
+  "color": "Peluche"
+}
+,
   {
     "id": 27,
     "name": "Le Fil de Trop",
