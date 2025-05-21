@@ -175,17 +175,17 @@
   "interpretation": "Le Chinchilla Chirurgien tranche avec précision. Il rappelle que certaines violences sont froides, méthodiques, presque soignées. Parfois, ce qui t’ouvre le plus… porte une blouse douce.",
   "element": "Air",
   "color": "Peluche"
+},
+ {
+  "id": 27,
+  "name": "Pingouin Pique-Crâne",
+  "number": "6",
+  "description": "Une bombe de duvet qui perce les crânes glacés.",
+  "interpretation": "Le Pingouin Pique-Crâne te rappelle que la froideur peut devenir carnage. Sous son air adorable, un acte brutal peut surgir à tout instant.",
+  "element": "Air",
+  "color": "Peluche"
 }
 ,
-  {
-    "id": 27,
-    "name": "Le Fil de Trop",
-    "number": 6,
-    "description": "Trop tirer, et tout s’effiloche.",
-    "interpretation": "Ton petit fil gémit sous chaque traction : continue et il craquera en gerbes vermeilles. Lâche prise avant que ton être ne se défasse en miettes de laine et de sang.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
   {
     "id": 28,
     "name": "Le Cœur Cousu Main",
