@@ -184,79 +184,83 @@
   "interpretation": "Le Pingouin Pique-Crâne te rappelle que la froideur peut devenir carnage. Sous son air adorable, un acte brutal peut surgir à tout instant.",
   "element": "Air",
   "color": "Peluche"
+},
+  {
+  "id": 28,
+  "name": "Éléphanteau Éventreur",
+  "number": "7",
+  "description": "Une trompe douce, un hachoir cruel.",
+  "interpretation": "L’Éléphanteau Éventreur te rappelle que la force innocente peut trancher net. Sous sa fourrure moelleuse se cache un coup fatal. Méfie-toi des élans trop puissants.",
+  "element": "Air",
+  "color": "Peluche"
+},
+ {
+  "id": 29,
+  "name": "Béluga Broyageur",
+  "number": "8",
+  "description": "Un corps blanc et rond, une force écrasante.",
+  "interpretation": "Le Béluga Broyageur rappelle que la douceur des vagues peut devenir un rouleau compresseur. Ne sous-estime jamais la puissance cachée sous une peau immaculée.",
+  "element": "Air",
+  "color": "Peluche"
+},
+ {
+  "id": 30,
+  "name": "Loutre Lobotomiste",
+  "number": "9",
+  "description": "Une fourrure douce, un crâne percé.",
+  "interpretation": "La Loutre Lobotomiste te rappelle que l’intelligence peut être manipulée au prix de la douleur. Un regard inoffensif cache une oppression mentale.",
+  "element": "Air",
+  "color": "Peluche"
+},
+  {
+  "id": 31,
+  "name": "Mouton Mange-Mains",
+  "number": "10",
+  "description": "Une toison innocente, un festin macabre.",
+  "interpretation": "Le Mouton Mange-Mains rappelle que même la douceur laineuse peut se muer en voracité brutale. Ne sous-estime pas la menace camouflée sous l’innocence la plus feutrée.",
+  "element": "Air",
+  "color": "Peluche"
 }
 ,
   {
-    "id": 28,
-    "name": "Le Cœur Cousu Main",
-    "number": 7,
-    "description": "Pensées tendres, maladroites, sincères.",
-    "interpretation": "Ton cœur cousu main palpite de douceur, mais chaque point fragile retient des perles vermeilles : renforce ta foi intérieure avant que ces coutures ne cèdent et ne laissent ton âme saigner.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 32,
+  "name": "Chat-Trappe",
+  "number": "Valet",
+  "description": "Un chat jouet, un piège sanglant.",
+  "interpretation": "Le Chat-Trappe t’apprend que la ruse peut se retourner contre toi. Le piège le plus sournois dévore même le plus agile.",
+  "element": "Air",
+  "color": "Peluche"
+},
   {
-    "id": 29,
-    "name": "L’Aiguille qui Pique l’Ame",
-    "number": 8,
-    "description": "Le cerveau pique un peu aujourd’hui.",
-    "interpretation": "Ton esprit tisse des piqûres de vérité : gare aux élancements qui percent ton âme. Accueille ce picotement avant qu’il ne saigne en vagues de doute.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 33,
+  "name": "Renard Eventreur",
+  "number": "Cavalier",
+  "description": "Une queue soyeuse, un coup de griffe fatal.",
+  "interpretation": "Le Renard Eventreur t’enseigne que la ruse peut trancher net. Méfie-toi des sourires roux : ils précèdent souvent la lame.",
+  "element": "Air",
+  "color": "Peluche"
+}
+,
   {
-    "id": 30,
-    "name": "Le Nœud qui Pleure",
-    "number": 9,
-    "description": "Conflit intérieur tout mignon.",
-    "interpretation": "Ton nœud tout doux verse déjà des perles vermeilles : ce dilemme grandit en toi. Délie ces pensées avant qu’elles ne t’étouffent dans un flot de regrets.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 34,
+  "name": "Souris Mortifère",
+  "number": "Reine",
+  "description": "Un minuscule museau, une soif royale de sang.",
+  "interpretation": "La Souris Sanguinaire te rappelle que même l’apparence la plus insignifiante peut régner par la terreur. Ne sous-estime jamais la cour cruelle qui se cache sous un duvet moelleux.",
+  "element": "Air",
+  "color": "Peluche"
+}
+,
   {
-    "id": 31,
-    "name": "La Couture de la Vérité",
-    "number": 10,
-    "description": "L’intellect se révèle dans un fil tordu.",
-    "interpretation": "Ton petit fil tordu danse dans ton esprit, reliant chaque idée avec douceur… jusqu’à ce que les points saignent la vérité. Accueille ce déchirement sacré avant que tes illusions ne se défassent en lambeaux.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
-  {
-    "id": 32,
-    "name": "Valet - Le Lapin Troué",
-    "description": "Porte des pensées qui s’effilochent.",
-    "interprétation": "",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
-  {
-    "id": 32,
-    "name": "Le Lapin Troué",
-    "number": "Valet",
-    "description": "Porte des pensées qui s’effilochent.",
-    "interpretation": "Ton pelage tout doux criblé de petits trous révèle un esprit fragilisé : sans soin, tes idées s’échapperont en gerbes vermeilles. Récoud ta pensée avant qu’elle ne se perde dans le vide sanglant.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
-  {
-    "id": 34,
-    "name": "La Fée Patchée",
-    "number": "Reine",
-    "description": "Protège les esprits cassés.",
-    "interpretation": "Tes ailes de fée sont cousues de fil fragiles, veillant sur les cœurs blessés ; attention, chaque couture menacera de céder en gerbes vermeilles. Cultive ta bienveillance avant que ton propre éclat ne se brise.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
-  {
-    "id": 35,
-    "name": "Le Général Peluche",
-    "number": "Roi",
-    "description": "Autorité mentale douce mais ferme.",
-    "interpretation": "Ton uniforme de velours cache une poigne de fer : si tu ne tempères pas ta rigueur douce, tes ordres se mueront en chaînes sanglantes. Adoucis ton commandement avant que tes troupes d’âmes ne ploient sous le fardeau.",
-    "element": "Air",
-    "color": "Peluches Déchirées"
-  },
+  "id": 35,
+  "name": "Ours Omnivore",
+  "number": "Roi",
+  "description": "Une fourrure imposante, un appétit pour tout.",
+  "interpretation": "L’Ours Omnivore te rappelle que le pouvoir se nourrit de toute chose. Sous sa puissante carrure se cache une faim insatiable, capable de tout dévorer.",
+  "element": "Air",
+  "color": "Peluche"
+}
+,
   {
     "id": 36,
     "name": "As - Le Caramel Collant",
