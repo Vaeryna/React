@@ -8,6 +8,7 @@ import {BrowserRouter, Route, Routes} from "react-router";
 import Draws from "./views/Draws";
 import NavigationBar from "./views/Navigation-bar";
 import {useLocation} from "react-router-dom";
+import Footer from "./views/Footer";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ function Layout() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/draws" element={<Draws/>}/>
             </Routes>
+            <Footer/>
         </>
     )
 }
