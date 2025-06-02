@@ -43,20 +43,6 @@ function Draws() {
         return (<>
             <h1 id="title" className="text-md-center"> Bien, {username}, tirez vos cartes et laissez l'Arcanomancie vous
                 révéler votre avenir...</h1>
-            {/*{selectedCards &&*/}
-            {/*    (<div className="btn-group" id="card-group" role="group" aria-label="cards">*/}
-            {/*        {*/}
-            {/*            isFlipped.map((id) => {*/}
-            {/*                const card = selectedCards[id]*/}
-
-            {/*                return card ?*/}
-            {/*                    <img key={id} src={`/assets/cards-${tone}/${card.id}.png`} className="card-img-top"*/}
-            {/*                         alt={`selectedCard ${card.name}`} id={`${card.id}`}/>*/}
-            {/*                    : null*/}
-            {/*            })}*/}
-            {/*    </div>)}*/}
-
-
 
             {selectedCards && lastCard &&
                 (<div className="card text-center" id="last-card" role="group" aria-label="cards">
@@ -101,11 +87,6 @@ function Draws() {
 
 
     return (<>
-
-        {/* username: name,
-                    tone: tone,
-                    draw: draw,
-                    */}
         {((draw === "firstname" && isFlipped.length === letters.length) || (draw === "3cards" && isFlipped.length === 3)) && (
 
             <DrawResult drawnCards={selectedCards} tone={tone} isFlipped={isFlipped} draw={draw} username={username} ></DrawResult>

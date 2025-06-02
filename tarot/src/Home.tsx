@@ -16,7 +16,8 @@ function Home() {
     const sendForm = (e: React.FormEvent) => {
         e.preventDefault()
         const form = e.target as HTMLFormElement;
-        const name = (form.elements.namedItem("userName") as HTMLInputElement)?.value;
+        // const name = (form.elements.namedItem("userName") as HTMLInputElement)?.value;
+        const name = selectedName?.trim();
         const draw = (form.elements.namedItem("drawType") as HTMLInputElement)?.value;
         let tone = (form.elements.namedItem("toneType") as HTMLInputElement)?.value;
 
@@ -35,6 +36,28 @@ function Home() {
         }
     }
 
+    function forbiddenCharacters(word: any) {
+        const goodCharacters: RegExp = /^[a-zA-ZÀ-ÖØ-öø-ÿ\s'-]+$/
+
+        console.log("word", word)
+
+        if (goodCharacters.test(word)) {
+            console.log("pouet")
+            setSelectedName(word)
+        } else {
+            console.log("getby id" , document.getElementById('error'))
+            if (!document.getElementById("error")) {
+                console.log("pas pouet")
+                setSelectedName("")
+                const div = `<div id="error" style="color: red> <p> Votre prénom contient un caractère non autorisé.</p>
+<p> Il doit être composé uniquement de caractère alphabétique</p> </div>`
+
+                const input = document.getElementById("errorName")
+                input?.insertAdjacentHTML('afterend', div)
+            }
+        }
+    }
+
     return (
         <div className={styles.home}>
             <h1 style={{marginBottom: "50px"}} className="text-center"> Bienvenue dans les Arcanes !</h1>
@@ -43,7 +66,11 @@ function Home() {
                 <div className="mb-2">
                     <h2> Quel est ton nom ?</h2>
                     <input type="text" className="form-control w-50" id="userName"
-                           onChange={(e) => setSelectedName(e.target.value)}/>
+                           onBlur={(e) => {
+                               forbiddenCharacters((e.target.value).trim())
+                           }}/>
+                    <div id="errorName"></div>
+                    {selectedName}
                 </div>
                 <br/>
                 <h2> Quel tirage désires-tu ? </h2>
