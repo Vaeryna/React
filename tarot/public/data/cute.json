@@ -249,8 +249,7 @@
   "interpretation": "La Souris Sanguinaire te rappelle que même l’apparence la plus insignifiante peut régner par la terreur. Ne sous-estime jamais la cour cruelle qui se cache sous un duvet moelleux.",
   "element": "Air",
   "color": "Peluche"
-}
-,
+},
   {
   "id": 35,
   "name": "Ours Omnivore",
@@ -261,24 +260,27 @@
   "color": "Peluche"
 }
 ,
-  {
-    "id": 36,
-    "name": "As - Le Caramel Collant",
-    "number": "As",
-    "description": "Une impulsion qui te colle aux doigts.",
-    "interpretation": "Ton caramel vermeil adhère à ta peau comme une soif ardente ; si tu t’y abandons, tes désirs te consumeront de l’intérieur. Dépose ce sucré poison avant qu’il n’embrase ton cœur.",
-    "color": "Bonbons Dangereux",
-    "element": "Feu"
-  },
-  {
-    "id": 37,
-    "name": "Les Dragées Explosives",
-    "number": 2,
-    "description": "Duo d’énergie sucrée et imprévisible.",
-    "interpretation": "Deux dragées pétillantes murmurent un désir ardent, prêtes à exploser en gerbes vermeilles : canalise cette fougue sucrée avant qu’elle ne te réduise en poussière de rêve.",
-    "color": "Bonbons Dangereux",
-    "element": "Feu"
-  },
+{
+  "id": 36,
+  "name": "Lion Lithographe",
+  "number": "As",
+  "description": "Un jeune roi illustrateur, empreintes pourpres sur la pierre.",
+  "interpretation": "Le Lion Lithographe te rappelle que tes actes laissent une empreinte indélébile. Même les pattes les plus innocentes peuvent marquer à jamais.",
+  "element": "Feu",
+  "color": "Animaux"
+}
+
+,
+{
+  "id": 37,
+  "name": "Panthère Pavanteuse",
+  "number": "2",
+  "description": "Une férocité noire, une voie couverte de chair.",
+  "interpretation": "La Panthère Pavanteuse te rappelle que la cruauté peut tracer ta route. Chaque pas sur une route pavée de chair humaine laisse une trace indélébile.",
+  "element": "Feu",
+  "color": "Animaux"
+}
+,
   {
     "id": 38,
     "name": "Le Suçon de Feu",
@@ -288,15 +290,16 @@
     "color": "Bonbons Dangereux",
     "element": "Feu"
   },
-  {
-    "id": 39,
-    "name": "Le Chewing-gum Éternel",
-    "number": 4,
-    "description": "L’action mâchée trop longtemps.",
-    "interpretation": "Ton chewing-gum éternel colle à ton esprit, tissant des filaments vermeilles de regret ; ôte-le avant qu’il ne dévore ta lumière.",
-    "color": "Bonbons Dangereux",
-    "element": "Feu"
-  },
+{
+  "id": 38,
+  "name": "Hérisson Hachoir",
+  "number": "3",
+  "description": "Un petit hérisson, un grand coup de lame.",
+  "interpretation": "Le Hérisson Hachoir te rappelle que même la créature la plus inoffensive peut devenir meurtrière. Sous ses piquants timides, se cache un chef redoutable.",
+  "element": "Feu",
+  "color": "Animaux"
+}
+,
   {
     "id": 40,
     "name": "Les Réglisses Rebelles",
