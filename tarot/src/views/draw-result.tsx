@@ -7,8 +7,6 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
     const location = useLocation();
     let {tone, username, draw} = location.state
 
-    console.log(username, tone, draw)
-
     function resetFirstname() {
         navigate("/draws",
             {
@@ -36,8 +34,8 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
                                 const card = drawnCards[id]
 
                                 return card ?
-                                    (<div className="card">
-                                        <img key={id} src={`/assets/cards-${tone}/${card.id}.png`}
+                                    (<div key={id} className="card">
+                                        <img src={`/assets/cards-${tone}/${card.id}.png`}
                                              className="card-img"
                                              alt={`selectedCard ${card.name}`} id={`${card.id}`}/>
                                     </div>)
@@ -50,7 +48,7 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
                                 const card = drawnCards[id]
 
                                 return card ?
-                                    (<div>
+                                    (<div key={`interpretation-${id}`}>
                                         <p className="interpretation text-center "> {card.interpretation}</p>
                                     </div>)
                                     : null
@@ -65,6 +63,9 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
             <div className="retryButton">
                 <button className="btn btn-dark" onClick={() => resetFirstname()}> Nouveau tirage prénom</button>
                 <button className="btn btn-dark" onClick={() => reset3cards()}> Nouveau tirage trois cartes</button>
+            </div>
+
+            <div>
             </div>
 
         </div>

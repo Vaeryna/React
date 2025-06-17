@@ -14,19 +14,19 @@ function NavigationBar() {
 
     return (
         <div className={styles.navigationBar}>
-            <nav className="navbar ">
+            <nav className="navbar">
 
-                    <button className="nav-item" onClick={ ()=> previousPage()}>
-                        <img src="/assets/arrow-left.png" alt="arrow-left"/>
+                    {/*<button className="nav-item" onClick={ ()=> previousPage()}>*/}
+                    {/*    <img src="/assets/arrow-left.png" alt="arrow-left"/>*/}
+                    {/*</button>*/}
+                <p></p>
 
-                    </button>
+                    <Link className="nav-link " to={"/"} > Accueil </Link>
 
-                    <Link className="nav-link" to={"/"} > Accueil </Link>
-
-                    <button  className="nav-item" onClick={()=> nextPage()}>
-                        <img src="/assets/arrow-right.png" alt="arrow-left"/>
-                    </button>
-
+                    {/*<button  className="nav-item" onClick={()=> nextPage()}>*/}
+                    {/*    <img src="/assets/arrow-right.png" alt="arrow-left"/>*/}
+                    {/*</button>*/}
+<p></p>
 
             </nav>
 
