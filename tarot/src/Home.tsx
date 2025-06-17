@@ -39,26 +39,21 @@ function Home() {
     function forbiddenCharacters(word: any) {
         const goodCharacters: RegExp = /^[a-zA-ZÀ-ÖØ-öø-ÿ\s'-]+$/
 
-        if (goodCharacters.test(word) && word.length < 20) {
+        if (goodCharacters.test(word) && word.length <= 60) {
             setSelectedName(word)
+            document.getElementById("error")?.remove()
+
         } else {
-            if (word.length >= 20) {
-                setSelectedName("")
-                const div = `<div id='error' style='color: #bb0303;'>Votre prénom est beaucoup trop long </div>`
-
-                const input = document.getElementById("errorName")
-                input?.insertAdjacentHTML('afterend', div)
-            }
-            if (!document.getElementById("error")) {
-                setSelectedName("")
-                const div = `<div id='error' style='color: #bb0303;'> 
-<p style='margin-bottom: -0.5rem'> Votre prénom contient un caractère non autorisé.</p>
-<p> Il doit être composé uniquement de caractères alphabétiques</p> </div>`
-
-                const input = document.getElementById("errorName")
-                input?.insertAdjacentHTML('afterend', div)
-            }
+            setSelectedName("")
+            const div = `<div id='error' style='color: #bb0303;'>
+                        <p style="margin-bottom: -0.5rem;">Votre prénom est beaucoup trop long </p>
+                        <p>ou contient des caractères non alphabétiques </p>
+                         </div>`
+            document.getElementById("error")?.remove()
+            const input = document.getElementById("errorName")
+            input?.insertAdjacentHTML('afterend', div)
         }
+
     }
 
     return (
