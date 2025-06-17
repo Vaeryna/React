@@ -80,8 +80,8 @@ function Home() {
                     Object.values(DrawData).map(({name, vf}) =>
                         <div className="mb-3 form-check" key={name}>
                             <input className="form-check-input" type="radio" name="drawType" id={name}
-                                   value="firstname" onChange={(e) => setSelectedDraw(e.target.value)}/>
-                            <label htmlFor="firstname" className={styles.formCheckLabel}> {vf} </label>
+                                   value={name} onChange={(e) => setSelectedDraw(e.target.value)}/>
+                            <label htmlFor={name} className={styles.formCheckLabel}> {vf} </label>
                         </div>
                     )
                 )}
@@ -109,7 +109,7 @@ function Home() {
                                                id={name}
                                                value={name}
                                                onChange={(e) => setSelectedTone(e.target.value)}/>
-                                        <label htmlFor="absurd" className={styles.formCheckLabel}> {vf}</label>
+                                        <label htmlFor={name} className={styles.formCheckLabel}> {vf}</label>
                                     </div>) : null
 
                             })}
