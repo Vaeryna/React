@@ -11,7 +11,7 @@ function Draws() {
     const location = useLocation();
     const {tone, username, draw} = location.state
 
-    const [card, setCard] = useState<TarotCard | null>(null);
+    const [, setCard] = useState<TarotCard | null>(null);
     const [shuffleIDS, setShuffleIDS] = useState<number[]>([])
     const [cardImg, setCardImg] = useState<Record<number, string>>({})
     const backCard = "/assets/back-4.jpg"
@@ -75,7 +75,7 @@ function Draws() {
                             }
                         }
                         }>
-                            {isFlipped.includes(cardID) ? (<img src={cardImg[cardID]} alt="image"/>) :
+                            {isFlipped.includes(cardID) ? (<img src={cardImg[cardID]} alt={`image_${cardImg[cardID]}`}/>) :
                                 <img className="backcard" src={backCard} alt="dos"/>
                             }
                         </button>

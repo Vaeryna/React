@@ -49,8 +49,9 @@ function Home() {
             if (!document.getElementById("error")) {
                 console.log("pas pouet")
                 setSelectedName("")
-                const div = `<div id="error" style="color: red> <p> Votre prénom contient un caractère non autorisé.</p>
-<p> Il doit être composé uniquement de caractère alphabétique</p> </div>`
+                const div = `<div id='error' style='color: #bb0303;'> 
+<p style='margin-bottom: -0.5rem'> Votre prénom contient un caractère non autorisé.</p>
+<p> Il doit être composé uniquement de caractères alphabétiques</p> </div>`
 
                 const input = document.getElementById("errorName")
                 input?.insertAdjacentHTML('afterend', div)
