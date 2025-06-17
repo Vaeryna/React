@@ -29,31 +29,33 @@ export function DrawResult({drawnCards, isFlipped}: DrawResultProps) {
             {drawnCards &&
                 (
                     <div className="card-group" role="group" aria-label="cards">
-                        {
-                            isFlipped.map((id) => {
-                                const card = drawnCards[id]
+                        <div className="cards-images">
+                            {
+                                isFlipped.map((id) => {
+                                    const card = drawnCards[id]
 
-                                return card ?
-                                    (<div key={id} className="card">
-                                        <img src={`/assets/cards-${tone}/${card.id}.png`}
-                                             className="card-img"
-                                             alt={`selectedCard ${card.name}`} id={`${card.id}`}/>
-                                    </div>)
-                                    : null
-                            })
-                        }
+                                    return card ?
+                                        (<div key={id} className="card">
+                                            <img src={`/assets/cards-${tone}/${card.id}.png`}
+                                                 className="card-img"
+                                                 alt={`selectedCard ${card.name}`} id={`${card.id}`}/>
+                                        </div>)
+                                        : null
+                                })
+                            }
+                        </div>
+                        <div>
+                            {
+                                isFlipped.map((id) => {
+                                    const card = drawnCards[id]
 
-                        {
-                            isFlipped.map((id) => {
-                                const card = drawnCards[id]
-
-                                return card ?
-                                    (<div key={`interpretation-${id}`}>
-                                        <p className="interpretation text-center "> {card.interpretation}</p>
-                                    </div>)
-                                    : null
-                            })
-                        }
+                                    return card ?
+                                        (<div key={`interpretation-${id}`}>
+                                            <p className="interpretation text-center "> {card.interpretation}</p>
+                                        </div>)
+                                        : null
+                                })
+                            }</div>
                         <div/>
 
                     </div>
