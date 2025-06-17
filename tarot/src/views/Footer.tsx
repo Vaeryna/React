@@ -2,7 +2,7 @@ import {CSSProperties} from "react";
 
 const styleImg: CSSProperties = {
     borderRadius: "50%",
-    width: "10%"
+    width: "5vh"
 }
 
 const styleFooter: CSSProperties = {
