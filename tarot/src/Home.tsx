@@ -39,15 +39,17 @@ function Home() {
     function forbiddenCharacters(word: any) {
         const goodCharacters: RegExp = /^[a-zA-ZÀ-ÖØ-öø-ÿ\s'-]+$/
 
-        console.log("word", word)
-
-        if (goodCharacters.test(word)) {
-            console.log("pouet")
+        if (goodCharacters.test(word) && word.length < 20) {
             setSelectedName(word)
         } else {
-            console.log("getby id" , document.getElementById('error'))
+            if (word.length >= 20) {
+                setSelectedName("")
+                const div = `<div id='error' style='color: #bb0303;'>Votre prénom est beaucoup trop long </div>`
+
+                const input = document.getElementById("errorName")
+                input?.insertAdjacentHTML('afterend', div)
+            }
             if (!document.getElementById("error")) {
-                console.log("pas pouet")
                 setSelectedName("")
                 const div = `<div id='error' style='color: #bb0303;'> 
 <p style='margin-bottom: -0.5rem'> Votre prénom contient un caractère non autorisé.</p>
@@ -86,7 +88,6 @@ function Home() {
                     )
                 )}
 
-
                 {showButton && (
                     <button type="button" data-bs-toggle="collapse" data-bs-target="#toggleTone"
                             className="btn btn-dark w-50" onClick={() => setShowButton(false)}
@@ -94,7 +95,6 @@ function Home() {
                         Tirage
                     </button>
                 )}
-
 
                 <div className="collapse" id="toggleTone" aria-expanded="false" aria-controls="toggleTone">
                     <h2> Un choix de tirage ? </h2>
@@ -105,7 +105,6 @@ function Home() {
                                 return ToneData ?
                                     (<div className="mb-3 form-check" key={name}>
                                         <input className="form-check-input" type="radio" name="toneType"
-
                                                id={name}
                                                value={name}
                                                onChange={(e) => setSelectedTone(e.target.value)}/>
@@ -120,7 +119,6 @@ function Home() {
                                value="random" onChange={(e) => setSelectedTone(e.target.value)}/>
                         <label htmlFor="random" className={styles.formCheckLabel}> Aléatoire </label>
                     </div>
-
 
                     <button type="submit" className="btn btn-dark w-50" disabled={!selectedTone}>
                         Tirage
