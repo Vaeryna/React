@@ -1,145 +1,185 @@
 [
   {
-    "id": 0,
-    "name": "Le Lapin Sanguinaire",
-    "number": 0,
-    "interpretation": "Tes pattes de velours s’enfoncent déjà dans la boue du cœur : bientôt, tes caresses se feront morsures glacées. Renonce à ce chemin avant que ta douceur ne se transforme en soif insatiable."
-  },
-  {
-    "id": 1,
-    "name": "L’Innocent Acéré",
-    "number": 1,
-    "interpretation": "Ta douceur juvénile manie déjà l’acier : si tu ne tempères pas cette naïveté tranchante, elle lacérera tes certitudes les plus fragiles. Apprends à poser le coupe-papier avant qu’il ne déchire tes rêves."
-  },
-  {
-    "id": 2,
-    "name": "Le Marionnettiste Mutilant",
-    "number": 2,
-    "interpretation": "Ton rire guilleret tisse des fils barbelés autour des cœurs ; bientôt, ces liens arracheront plus que des larmes. Brise tes propres ficelles avant qu’elles ne t’enserrent à jamais."
-  },
-  {
-    "id": 3,
-    "name": "La Papesse Poupée",
-    "number": 3,
-    "interpretation": "Tu chuchotes des secrets cousus dans la chair du temps : chaque page arrachée coûte un fragment de ton innocence. Rends ces grimoires pour préserver la pureté de ton âme."
-  },
-  {
-    "id": 4,
-    "name": "L’Impératrice Incisive",
-    "number": 4,
-    "interpretation": "Tu règnes avec une grâce tranchante : chaque geste dissèque le voile des apparences pour faire jaillir la vérité."
-  },
-  {
-    "id": 5,
-    "name": "L’Empereur Empaleur",
-    "number": 5,
-    "interpretation": "Tu enfonces un pieu dans la chair de la liberté ; sans miséricorde, ton règne gèlera dans un silence funèbre. Dépose-le avant que ta justice ne te scelle un tombeau."
-  },
-  {
-    "id": 6,
-    "name": "Le Hiérophante Hémoglobine",
-    "number": 6,
-    "interpretation": "Ton crucifix d’os ruisselle de doutes sacrés : si tu persistes, ta foi se muera en obsession sanglante. Reviens à la compassion avant que ton zèle n’ankylose ton esprit."
-  },
-  {
-    "id": 7,
-    "name": "Le Canard Boucher",
-    "number": 7,
-    "interpretation": "Ton tablier s’imbibe de chaque décision tranchante : continue et ton cœur sera aussi fendu que tes victimes. Remets ce couteau de côté pour que ta bonté ne s’effrite pas."
-  },
-  {
-    "id": 8,
-    "name": "Les Amoureux Lobotomisés",
-    "number": 8,
-    "interpretation": "Tu vis un amour fusionnel qui délite les frontières de ton esprit : chaque battement de cœur résonne dans ce crâne partagé, équilibre fragile entre extase et effroi."
-  },
-  {
-    "id": 9,
-    "name": "Le Chariot Charnivore",
-    "number": 9,
-    "interpretation": "Ton chariot-jouet, joyeux malgré ses chevaux mécaniques affamés, fonce vers un banquet insatiable de chair ; stoppe cette course dévorante avant qu’elle n’écrase ta joie sous ses roues tranchantes."
-  },
-  {
-    "id": 10,
-    "name": "La Force Faucheuse",
-    "number": 10,
-    "interpretation": "Ton petit cabri souriant brandit sa faux géante : bientôt, tu récolteras les fruits de tes choix – et pas tous doux. Redresse ta faux avant qu’elle n’assombrisse ta moisson de regrets."
-  },
-  {
-    "id": 11,
-    "name": "L’Hermite Éviscérateur",
-    "number": 11,
-    "interpretation": "Tes piquants lumineux renferment une lame affamée : continue ta quête d’illumination et tu ouvriras les portes de ton propre cœur. Trouve la clarté sans éviscérer ton essence."
-  },
-  {
-    "id": 12,
-    "name": "La Roue Rubiconde",
-    "number": 12,
-    "interpretation": "Ta roue-yo-yo éclabousse ton âme de douces gouttes vermeilles : ce cycle sans fin t’épuise. Arrête la cadence avant que ton cœur ne se brise sous les éclaboussures."
-  },
-  {
-    "id": 13,
-    "name": "La Justice Jivariseuse",
-    "number": 13,
-    "interpretation": "Ton regard de panda impassible pèse les âmes sur des crânes réduits : sans compassion, tes verdicts scelleront des destins brisés. Adoucis ton cœur avant que ta balance ne bascule dans la cruauté."
-  },
-  {
-    "id": 14,
-    "name": "Le Pendu Pelucheux",
-    "number": 14,
-    "interpretation": "Ton nounours, suspendu par ses propres entrailles et arborant un sourire cousu, te prédit une impasse émotive : si tu restes accroché à tes peurs, ton cœur finira étranglé par ses fils. Lâche prise avant que l’espoir ne se déchire."
-  },
-  {
-    "id": 15,
-    "name": "La Mort Macaron",
-    "number": 15,
-    "interpretation": "Ton macaron rose croque doucement ta colonne vertébrale : c’est le signe qu’une fin sucrée approche. Abandonne tes vieilles structures avant que ce festin vermeil ne te réduise en miettes."
-  },
-  {
-    "id": 16,
-    "name": "La Tempérance Tranchante",
-    "number": 16,
-    "interpretation": "Ton cœur vacille entre deux fioles corrosives, dissolvant peu à peu ta douce harmonie ; rétablis l’équilibre avant que tes émotions ne soient entièrement corrodées."
-  },
-  {
-    "id": 17,
-    "name": "Le Diable Doudou",
-    "number": 17,
-    "interpretation": "Ses sabots fourchus gravent des croix de clous dans ton cœur naïf : cède à ses câlins piquants et ton âme deviendra son jouet de tourments. Détache-toi avant que la douceur ne se mue en supplice."
-  },
-  {
-    "id": 18,
-    "name": "L’Étoile Énucléatrice",
-    "number": 18,
-    "interpretation": "Tu tentes d’arracher la lumière des âmes, croyant qu’elle éclairera ton chemin ; renonce à ce geste avant que ton étoile intérieure ne s’éteigne dans l’obscurité."
-  },
-  {
-    "id": 19,
-    "name": "La Lune Lupine",
-    "number": 19,
-    "interpretation": "Sous son air de chiot attendrissant, tu sens monter ta bête intérieure : si tu ne domptes pas ces crocs affamés, ton innocence se noiera dans un sang froid lunaire."
-  },
-  {
-    "id": 20,
-    "name": "Le Jugement Joujou",
-    "number": 20,
-    "interpretation": "Ton petit carillon ouvre des cercueils minuscules où somnolent tes erreurs : bientôt, leur chœur funèbre résonnera dans ton âme. Prépare-toi à te libérer avant que le glas ne scelle ton destin."
-  },
-  {
-    "id": 21,
-    "name": "La Balle Broyeuse",
-    "number": 21,
-    "interpretation": "Ton petit ballon rebondit joyeusement, broyant les cadavres sous ses sauts : change ta trajectoire avant que tes élans de plaisir ne pulvérisent tes propres fondations."
-  },
-  {
-  "id": 22,
-  "name": "Nounours Napalm",
-  "number": "1",
-  "description": "Un nounours en peluche crache un jet de napalm incandescent sur ses petits compagnons de jeu.",
-  "interpretation": "Ton doux gardien de câlins devient pyromane de tendresse : si tu laisses cette colère se répandre, elle consumera tout autour. Rappelle-toi d’éteindre ta flamme intérieure avant qu’elle n’embrase ton monde moelleux.",
-  "color": "Air",
-  "element": "Peluches"
+  "id": 0,
+  "name": "Le Lapin Sanguinaire",
+  "number": "0",
+  "description": "Un regard doux, un museau rougi — la naïveté peut mordre.",
+  "interpretation": "Tu avances sans méfiance, le cœur tendre et les crocs bien cachés. Cette carte te rappelle que même les plus innocents peuvent frapper. Sous ton apparente douceur, il y a une force primaire : instinctive, imprévisible. Ne sous-estime ni toi, ni les autres. Le danger n’a pas toujours les traits qu’on attend."
 },
+  {
+  "id": 1,
+  "name": "Le Chien Fidèlement Fêlé",
+  "number": "1",
+  "description": "Il remue la queue… mais quelque chose cloche dans ses yeux.",
+  "interpretation": "Tu cherches l’amour, la reconnaissance, la caresse sur la tête. Mais à trop vouloir plaire, tu perds ta nature. Cette carte parle de dépendance affective, de loyautés bancales, d’un cœur prêt à mordre quand on tire trop sur la laisse. Attention à ce que tu pardonnes. Et à ce que tu t’apprêtes à dévorer en retour."
+}
+,
+  {
+  "id": 2,
+  "name": "Le Hérisson Couturier",
+  "number": "2",
+  "description": "Il pique, il coud, il assemble. Sa tendresse laisse des traces.",
+  "interpretation": "Tu tisses patiemment ton monde, point après point, sans rien laisser paraître. Mais sous cette minutie, il y a une volonté plus tranchante : tu répares ou tu recouds, mais à ta manière. Cette carte parle de contrôle doux, de logique aiguë, et d’instincts enroulés dans la soie… ou dans la chair. Il est temps d’assumer ce que tu tiens entre tes pattes."
+}
+,
+  {
+  "id": 3,
+  "name": "La Souris Morbide",
+  "number": "3",
+  "description": "Elle grignote des secrets, avec des dents trop propres.",
+  "interpretation": "Petite, rapide, discrète — tu avances dans les ombres, à l’abri des regards. Mais ce que tu ramasses, ce que tu caches dans ton terrier, finit par te ronger. Cette carte parle de silence corrosif, de vérités mâchées, de culpabilité avalée. Tu veux être oubliée… mais ta trace est sanglante, même minuscule."
+}
+,
+ {
+  "id": 4,
+  "name": "La Chèvre Scalpée",
+  "number": "4",
+  "description": "Elle broute l’herbe, sans quitter sa coiffe… de peau fraîche.",
+  "interpretation": "Tu fais mine de suivre la pente, de paître comme tout le monde. Mais tu as déjà franchi la ligne. Cette carte parle de façade tranquille et de barbarie dissimulée. D’un instinct de domination caché sous des airs dociles. On te croit soumise — c’est exactement ce que tu veux. Jusqu’à ce qu’il soit trop tard."
+}
+,
+  {
+  "id": 5,
+  "name": "Le Chat Qui Joue Trop",
+  "number": "5",
+  "description": "Il ronronne, il patoune… puis il ne rend pas ce qu’il a pris.",
+  "interpretation": "Tu avances à pas feutrés, charmeur ou charmeuse, imprévisible. Tu n’attaques jamais de face. Mais ce jeu de séduction masque un besoin de contrôle. Cette carte parle de manipulation douce, de griffes rentrées, de cruauté déguisée en câlin. Tu peux aimer sincèrement — mais parfois, tu veux juste posséder ce qui bouge. Même s’il faut le casser pour ça."
+}
+,
+  {
+  "id": 6,
+  "name": "La Chouette Sépulcrale",
+  "number": "6",
+  "description": "Ses plumes sont soyeuses, mais ses serres creusent des tombes.",
+  "interpretation": "Tu observes. Tu restes en hauteur. Tu sais des choses que d’autres ne veulent pas entendre. Cette carte parle de lucidité froide, de silence qui tranche, d’un regard qui enterre sans mot dire. Tu ne cries jamais. Tu constates. Et c’est déjà une forme de jugement."
+}
+,{
+  "id": 7,
+  "name": "Le Dragon Couronné",
+  "number": "7",
+  "description": "Ses ailes couvrent le ciel, son trône est bâti d’ossements aimés.",
+  "interpretation": "Tu es plus grand que ce que tu crois. Tu inspires, tu écrases, tu consumes. Cette carte parle de puissance assumée, de domination sans pitié, de solitude impériale. Tu ne cherches pas l’amour : tu attires la révérence. Mais chaque conquête te laisse plus seul. Il faut choisir entre être adoré… ou être approché."
+}
+,
+ {
+  "id": 8,
+  "name": "Le Lynx Muet",
+  "number": "8",
+  "description": "Il te fixe sans bruit. Et quand tu comprends, il est trop tard.",
+  "interpretation": "Tu ressens plus que tu ne parles. Tu observes, tu analyses, tu attends le moment exact. Cette carte parle d’intuition tranchante, de présence insaisissable, de décisions qui viennent sans explication. Tu ne justifies pas. Tu agis. Et ce que tu ne dis pas… est souvent ce qui fait le plus mal."
+}
+,
+ {
+  "id": 9,
+  "name": "Le Porcelet Bouffi",
+  "number": "9",
+  "description": "Trop rose, trop dodu, trop calme. Quelque chose cloche dans la flaque.",
+  "interpretation": "Tu veux qu’on te voie comme inoffensif. Comme un petit rien de plus. Mais cette carte parle d’accumulation étouffée, de gourmandise malsaine, de violence molle. Celle qui couve dans la mollesse, dans le confort, dans l’oubli de soi. Regarde ce que tu as avalé. Et demande-toi si tu peux encore digérer."
+}
+,
+  {
+  "id": 10,
+  "name": "La Loutre des Reflets",
+  "number": "10",
+  "description": "Elle joue dans l’eau, mais ses cailloux regardent.",
+  "interpretation": "Tu caches tes pensées sous un flot de gestes vifs, de sourires et d’apparences. Mais ce qui t’habite est plus sombre. Cette carte parle de camouflage émotionnel, de surface calme et de profondeur inquiétante. Tu veux faire croire que tu t’amuses. Mais ce que tu manipules a des yeux."
+}
+,
+{
+  "id": 11,
+  "name": "La Grenouille Écorchée",
+  "number": "11",
+  "description": "Elle chante sous la pluie, la peau de sa proie collée au dos.",
+  "interpretation": "Tu t’adaptes. Tu changes de peau, de ton, de forme. Mais à force de mimer, tu oublies qui tu es. Cette carte parle de camouflage toxique, d’identité floue, et d’ambitions qui glissent. Jusqu’où es-tu prêt à t’étirer pour qu’on te croit ?"
+}
+,
+{
+  "id": 12,
+  "name": "Le Chevreuil Coupable",
+  "number": "12",
+  "description": "Il tremble, mais les bois sont encore tachés.",
+  "interpretation": "Tu fais mine d’être la victime, la cible fragile. Mais cette carte parle de passivité complice, de sang sur les mains même quand on n’a pas frappé. Tu étais là. Tu n’as rien dit. Et le monde s’en souvient."
+}
+,
+{
+  "id": 13,
+  "name": "Le Raton Voleur de Vies",
+  "number": "13",
+  "description": "Ses mains sont agiles. Elles volent plus que des miettes.",
+  "interpretation": "Tu prends ce qui t’arrange, sans te demander à qui ça appartenait. Cette carte parle d’opportunisme, de duplicité souriante, de charme destructeur. Tu ris, mais tu as vidé quelqu’un d’autre en passant. Par jeu ? Ou par besoin ?"
+}
+,
+{
+  "id": 14,
+  "name": "Le Panda Roux Dépeceur",
+  "number": "14",
+  "description": "Il a l’air perdu, mais ses pattes sont occupées.",
+  "interpretation": "Tu sembles inoffensif, doux, presque trop pur. Et c’est ce que tu veux. Cette carte parle de stratégie affective, de manipulation par la tendresse, de masques rouges et blancs. On se laisse approcher. Et on ne se rend pas compte que tu arraches des morceaux pendant qu’on t’aime."
+}
+,
+{
+  "id": 15,
+  "name": "L’Orque Rituel",
+  "number": "15",
+  "description": "Ses cercles sont parfaits, ses morts aussi.",
+  "interpretation": "Tu as des règles, des cycles, des gestes répétés. Cette carte parle de cruauté méthodique, de prédation codifiée, de beauté dans la destruction. Tu dis que tu respectes un ordre… mais il est à ton image. Et il laisse flotter trop de morceaux derrière toi."
+}
+,
+{
+  "id": 16,
+  "name": "Le Furet Enthousiaste",
+  "number": "16",
+  "description": "Il adore les surprises. Surtout quand elles crient.",
+  "interpretation": "Tu vis dans l’excitation, l’élan, la curiosité extrême. Mais cette carte parle d’instincts incontrôlés, d’explorations dangereuses, de fascination pour ce qui bouge — ou ce qui saigne. Tu ne veux pas faire mal. Mais tu aimes quand ça réagit."
+}
+,
+{
+  "id": 17,
+  "name": "Le Phénix Affamé",
+  "number": "17",
+  "description": "Il renaît… mais de quoi était fait le nid ?",
+  "interpretation": "Tu parles de renouveau, de transformation, de lumière après les cendres. Mais cette carte te demande ce que tu brûles pour te relever. Combien de vivants dois-tu réduire en cendres pour briller à nouveau ?"
+},
+
+{
+  "id": 18,
+  "name": "Le Paresseux Putréfié",
+  "number": "18",
+  "description": "Il ne bouge plus. Mais quelque chose grandit en dessous.",
+  "interpretation": "Tu restes là, tu laisses couler, tu choisis l’immobilité. Cette carte parle de déni, d’abandon volontaire, d’une paix factice. Mais tout ce que tu ne règles pas pourrit lentement sous ta fourrure. Et ça finira par éclater."
+},
+
+{
+  "id": 19,
+  "name": "Le Zèbre Désaccordé",
+  "number": "19",
+  "description": "Ses rayures ne suivent plus la musique.",
+  "interpretation": "Tu veux entrer dans la cadence, suivre les autres, disparaître dans la foule. Mais cette carte parle de dissonance profonde, de tension intérieure, de camouflage qui ne trompe plus personne. Quelque chose a glissé. Et même ton corps n’est plus aligné."
+} ,
+  
+ {
+  "id": 20,
+  "name": "L’Écureuil Disséqué",
+  "number": "20",
+  "description": "Il cache ses réserves. Mais ce qu’il enterre est trop rouge.",
+  "interpretation": "Tu es prévoyant, minutieux, toujours en train de stocker pour demain. Mais cette carte parle d’un trop-plein, d’un besoin de contrôle qui devient malsain. Tu veux tout garder — même ce qui ne devrait pas survivre. Et à force d'enterrer, tu risques de déterrer pire."
+}
+,
+{
+  "id": 21,
+  "name": "L’Axolotl Clandestin",
+  "number": "21",
+  "description": "Il sourit dans l’eau trouble. Personne ne voit ce qu’il fait pousser.",
+  "interpretation": "Tu sembles inoffensif, presque irréel. Tu brilles doucement dans le fond, sans bruit. Mais cette carte parle de transformations malsaines, de régénérations ratées, de choses qui repoussent quand elles ne devraient pas. Tu n’es plus ce que tu étais — et c’est peut-être trop tard pour revenir en arrière."
+}
+,
+
+
+
+
+  
+
+  
 {
   "id": 23,
   "name": "Koala Killer",
