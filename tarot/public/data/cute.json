@@ -1,24 +1,24 @@
 [
   {
     "id": 0,
-    "name": "Le Lapin Sanguinaire",
+    "name": "Le Lapin",
     "number": "0",
     "description": "Un regard doux, un museau rougi — la naïveté peut mordre.",
     "interpretation": "Tu avances sans méfiance, le cœur tendre et les crocs bien cachés. Cette carte te rappelle que même les plus innocents peuvent frapper. Sous ton apparente douceur, il y a une force primaire : instinctive, imprévisible. Ne sous-estime ni toi, ni les autres. Le danger n’a pas toujours les traits qu’on attend."
   },
   {
     "id": 1,
-    "name": "Le Chien Fidèlement Fêlé",
+    "name": "Le Chien",
     "number": "1",
     "description": "Il remue la queue… mais quelque chose cloche dans ses yeux.",
     "interpretation": "Tu cherches l’amour, la reconnaissance, la caresse sur la tête. Mais à trop vouloir plaire, tu perds ta nature. Cette carte parle de dépendance affective, de loyautés bancales, d’un cœur prêt à mordre quand on tire trop sur la laisse. Attention à ce que tu pardonnes. Et à ce que tu t’apprêtes à dévorer en retour."
   },
   {
     "id": 2,
-    "name": "Le Hérisson Couturier",
+    "name": "Le Hérisson",
     "number": "2",
-    "description": "Il pique, il coud, il assemble. Sa tendresse laisse des traces.",
-    "interpretation": "Tu tisses patiemment ton monde, point après point, sans rien laisser paraître. Mais sous cette minutie, il y a une volonté plus tranchante : tu répares ou tu recouds, mais à ta manière. Cette carte parle de contrôle doux, de logique aiguë, et d’instincts enroulés dans la soie… ou dans la chair. Il est temps d’assumer ce que tu tiens entre tes pattes."
+    "description": "Il tient la lame comme un pinceau, le sang comme une encre ancienne. Sa silhouette douce masque une précision cérémonielle.",
+    "interpretation": "Tu fais les choses proprement. Lentement. Sans trembler. Des gestes maîtrisés, une tendresse armée, une logique qui tranche sans colère. Le hérisson ne tue pas : il inscrit, il corrige, il clôt. Ce que tu laisses couler aujourd’hui, c’est peut-être le prix d’un équilibre que toi seul(e) comprends. Méfie-toi de ceux qui confondent ton calme avec de l’innocence."
   },
   {
     "id": 3,
