@@ -538,7 +538,7 @@
     "description": "Elle creuse sans voir. Et déterre des choses qu’elle ne voulait pas.",
     "interpretation": "Tu avances à l’instinct, tu veux t’abriter. Mais cette carte parle d’exploration inconsciente, de blessures révélées sans le vouloir, de vérités exhumées trop tôt. Tu ne savais pas. Mais maintenant, tu sais.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 65,
@@ -547,7 +547,7 @@
     "description": "Il aspire tout. Même ce qui remue encore.",
     "interpretation": "Tu nettoies, tu régules, tu veux de l’ordre. Mais cette carte parle d’absorption excessive, de consommation aveugle, de digestion de l’autre. Tu ne veux pas faire mal. Mais tu vides tout ce que tu touches.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 66,
@@ -556,7 +556,7 @@
     "description": "Il ne suit plus le troupeau. Il le piétine.",
     "interpretation": "Tu semblais docile. Tu faisais comme tout le monde. Mais cette carte parle de révolte feutrée, de soumission retournée, de douceur qui craque. Tu n’es pas gentil. Tu es resté calme trop longtemps.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 67,
@@ -565,7 +565,7 @@
     "description": "Ses piquants visent juste. Trop juste.",
     "interpretation": "Tu veux te défendre, te tenir à distance. Mais cette carte parle de précision cruelle, de rejet actif, de douleurs qu’on plante avec méthode. Tu ne veux pas qu’on t’approche. Et tu sais comment le faire comprendre.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 68,
@@ -574,7 +574,7 @@
     "description": "Il marche droit. Son flanc est ouvert.",
     "interpretation": "Tu tiens bon, tu portes, tu avances. Mais cette carte parle de résistance blessée, de force silencieuse, de corps usés par le devoir. Tu continues. Même quand tu devrais tomber.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 69,
@@ -583,7 +583,7 @@
     "description": "Il fouille dans les os comme dans des feuilles mortes.",
     "interpretation": "Tu cherches, tu creuses, tu veux comprendre. Mais cette carte parle d’obsession morbide, de savoirs morts, de trésors souillés. Ce que tu exhumes ne brillera plus jamais.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 70,
@@ -592,7 +592,7 @@
     "description": "Il porte tout. Même ce qu’on lui a planté dans le dos.",
     "interpretation": "Tu encaisses, tu stockes, tu avances. Mais cette carte parle de fardeaux injustes, de résilience pervertie, de douleurs intégrées. Tu continues, oui. Mais tu saignes sous la bosse.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 71,
@@ -601,7 +601,7 @@
     "description": "Sa langue est engorgée. Ce qu’il mange se débat encore.",
     "interpretation": "Tu veux nettoyer, t’occuper des détails. Mais cette carte parle d’absorption excessive, d’invasion intérieure, de trop-plein caché. Tu avales plus que tu ne crois.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 72,
@@ -610,7 +610,7 @@
     "description": "Il est trop rond. Trop silencieux. Il garde tout pour lui.",
     "interpretation": "Tu veux rassurer, être aimé, être petit et paisible. Mais cette carte parle d’étouffement intérieur, de surcharge émotionnelle, d’éclatement proche. Quelque chose en toi ne tient plus.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 73,
@@ -619,7 +619,7 @@
     "description": "Elle mâche lentement. Mais ce n’est pas de l’herbe.",
     "interpretation": "Tu veux nourrir, produire, être utile. Mais cette carte parle d’oubli de soi, de routine perverse, de violence intériorisée. Tu fais ce qu’on attend de toi. Même quand c’est ignoble.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 74,
@@ -628,7 +628,7 @@
     "description": "Il recrache. Mais ce n’est pas de la colère.",
     "interpretation": "Tu veux garder le contrôle. Mais cette carte parle de rejet nerveux, de pulsions mal contenues, d’émotions ravalées jusqu’à l’explosion. Ce n’est pas un accident. C’est une fuite programmée.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 75,
@@ -637,7 +637,7 @@
     "description": "Il mange dans le noir. Et personne ne l’a vu faire.",
     "interpretation": "Tu veux être discret, indépendant, tranquille. Mais cette carte parle de solitude dangereuse, de besoins refoulés, de transgressions nocturnes. Ce que tu caches ne dort pas.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 76,
@@ -646,7 +646,7 @@
     "description": "Il chante encore. Mais plus avec sa voix.",
     "interpretation": "Tu veux dominer, annoncer, exister. Mais cette carte parle d’autorité blessée, de pouvoir volé, de symbole vidé. Tu cries, oui… mais est-ce encore toi ?",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   },
   {
     "id": 77,
@@ -655,6 +655,6 @@
     "description": "Elle transporte ses morts dans son fil.",
     "interpretation": "Tu veux relier, construire, tenir ensemble. Mais cette carte parle de mémoire poisseuse, de liens toxiques, de deuils déplacés. Ce que tu tisses n’est pas tout à fait vivant.",
     "element": "Terre",
-    "color": "Racine"
+    "color": "Ronce"
   }
 ]
