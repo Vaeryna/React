@@ -22,133 +22,134 @@
   },
   {
     "id": 3,
-    "name": "La Souris Morbide",
+    "name": "La Souris",
     "number": "3",
     "description": "Elle grignote des secrets, avec des dents trop propres.",
     "interpretation": "Petite, rapide, discrète — tu avances dans les ombres, à l’abri des regards. Mais ce que tu ramasses, ce que tu caches dans ton terrier, finit par te ronger. Cette carte parle de silence corrosif, de vérités mâchées, de culpabilité avalée. Tu veux être oubliée… mais ta trace est sanglante, même minuscule."
   },
   {
-    "id": 4,
-    "name": "La Chèvre Scalpée",
-    "number": "4",
-    "description": "Elle broute l’herbe, sans quitter sa coiffe… de peau fraîche.",
-    "interpretation": "Tu fais mine de suivre la pente, de paître comme tout le monde. Mais tu as déjà franchi la ligne. Cette carte parle de façade tranquille et de barbarie dissimulée. D’un instinct de domination caché sous des airs dociles. On te croit soumise — c’est exactement ce que tu veux. Jusqu’à ce qu’il soit trop tard."
-  },
+  "id": 4,
+  "name": "La Chèvre",
+  "number": "4",
+  "description": "Une silhouette docile dans un champ fleuri. Mais ses sabots sont rouges.",
+  "interpretation": "Tu avances à pas feutrés dans une innocence étudiée. Tu souris, tu berces, tu rassures… mais chaque fleur cache une victime. Cette carte parle de cruauté tranquille, d’actes maquillés en douceur. On te pense inoffensive ? Tu l’as bien voulu. Ce n’est pas toi qui cries — mais c’est bien toi qui tiens la faux."
+}
+,
   {
     "id": 5,
-    "name": "Le Chat Qui Joue Trop",
+    "name": "Le Chat",
     "number": "5",
     "description": "Il ronronne, il patoune… puis il ne rend pas ce qu’il a pris.",
     "interpretation": "Tu avances à pas feutrés, charmeur ou charmeuse, imprévisible. Tu n’attaques jamais de face. Mais ce jeu de séduction masque un besoin de contrôle. Cette carte parle de manipulation douce, de griffes rentrées, de cruauté déguisée en câlin. Tu peux aimer sincèrement — mais parfois, tu veux juste posséder ce qui bouge. Même s’il faut le casser pour ça."
   },
   {
     "id": 6,
-    "name": "La Chouette Sépulcrale",
+    "name": "La Chouette",
     "number": "6",
     "description": "Ses plumes sont soyeuses, mais ses serres creusent des tombes.",
     "interpretation": "Tu observes. Tu restes en hauteur. Tu sais des choses que d’autres ne veulent pas entendre. Cette carte parle de lucidité froide, de silence qui tranche, d’un regard qui enterre sans mot dire. Tu ne cries jamais. Tu constates. Et c’est déjà une forme de jugement."
   },
   {
     "id": 7,
-    "name": "Le Dragon Couronné",
+    "name": "Le Dragon",
     "number": "7",
     "description": "Ses ailes couvrent le ciel, son trône est bâti d’ossements aimés.",
     "interpretation": "Tu es plus grand que ce que tu crois. Tu inspires, tu écrases, tu consumes. Cette carte parle de puissance assumée, de domination sans pitié, de solitude impériale. Tu ne cherches pas l’amour : tu attires la révérence. Mais chaque conquête te laisse plus seul. Il faut choisir entre être adoré… ou être approché."
   },
   {
     "id": 8,
-    "name": "Le Lynx Muet",
+    "name": "Le Lynx",
     "number": "8",
     "description": "Il te fixe sans bruit. Et quand tu comprends, il est trop tard.",
     "interpretation": "Tu ressens plus que tu ne parles. Tu observes, tu analyses, tu attends le moment exact. Cette carte parle d’intuition tranchante, de présence insaisissable, de décisions qui viennent sans explication. Tu ne justifies pas. Tu agis. Et ce que tu ne dis pas… est souvent ce qui fait le plus mal."
   },
   {
     "id": 9,
-    "name": "Le Porcelet Bouffi",
+    "name": "Le Porcelet",
     "number": "9",
     "description": "Trop rose, trop dodu, trop calme. Quelque chose cloche dans la flaque.",
     "interpretation": "Tu veux qu’on te voie comme inoffensif. Comme un petit rien de plus. Mais cette carte parle d’accumulation étouffée, de gourmandise malsaine, de violence molle. Celle qui couve dans la mollesse, dans le confort, dans l’oubli de soi. Regarde ce que tu as avalé. Et demande-toi si tu peux encore digérer."
   },
   {
     "id": 10,
-    "name": "La Loutre des Reflets",
+    "name": "La Loutre",
     "number": "10",
     "description": "Elle joue dans l’eau, mais ses cailloux regardent.",
     "interpretation": "Tu caches tes pensées sous un flot de gestes vifs, de sourires et d’apparences. Mais ce qui t’habite est plus sombre. Cette carte parle de camouflage émotionnel, de surface calme et de profondeur inquiétante. Tu veux faire croire que tu t’amuses. Mais ce que tu manipules a des yeux."
   },
   {
     "id": 11,
-    "name": "La Grenouille Écorchée",
+    "name": "La Grenouille",
     "number": "11",
     "description": "Elle chante sous la pluie, la peau de sa proie collée au dos.",
     "interpretation": "Tu t’adaptes. Tu changes de peau, de ton, de forme. Mais à force de mimer, tu oublies qui tu es. Cette carte parle de camouflage toxique, d’identité floue, et d’ambitions qui glissent. Jusqu’où es-tu prêt à t’étirer pour qu’on te croit ?"
   },
   {
     "id": 12,
-    "name": "Le Chevreuil Coupable",
+    "name": "Le Chevreuil",
     "number": "12",
     "description": "Il tremble, mais les bois sont encore tachés.",
     "interpretation": "Tu fais mine d’être la victime, la cible fragile. Mais cette carte parle de passivité complice, de sang sur les mains même quand on n’a pas frappé. Tu étais là. Tu n’as rien dit. Et le monde s’en souvient."
   },
   {
     "id": 13,
-    "name": "Le Raton Voleur de Vies",
+    "name": "Le Raton Voleur",
     "number": "13",
     "description": "Ses mains sont agiles. Elles volent plus que des miettes.",
     "interpretation": "Tu prends ce qui t’arrange, sans te demander à qui ça appartenait. Cette carte parle d’opportunisme, de duplicité souriante, de charme destructeur. Tu ris, mais tu as vidé quelqu’un d’autre en passant. Par jeu ? Ou par besoin ?"
   },
   {
     "id": 14,
-    "name": "Le Panda Roux Dépeceur",
+    "name": "Le Panda Roux",
     "number": "14",
     "description": "Il a l’air perdu, mais ses pattes sont occupées.",
     "interpretation": "Tu sembles inoffensif, doux, presque trop pur. Et c’est ce que tu veux. Cette carte parle de stratégie affective, de manipulation par la tendresse, de masques rouges et blancs. On se laisse approcher. Et on ne se rend pas compte que tu arraches des morceaux pendant qu’on t’aime."
   },
   {
     "id": 15,
-    "name": "L’Orque Rituel",
+    "name": "L’Orque",
     "number": "15",
     "description": "Ses cercles sont parfaits, ses morts aussi.",
     "interpretation": "Tu as des règles, des cycles, des gestes répétés. Cette carte parle de cruauté méthodique, de prédation codifiée, de beauté dans la destruction. Tu dis que tu respectes un ordre… mais il est à ton image. Et il laisse flotter trop de morceaux derrière toi."
   },
   {
     "id": 16,
-    "name": "Le Furet Enthousiaste",
+    "name": "Le Furet",
     "number": "16",
     "description": "Il adore les surprises. Surtout quand elles crient.",
     "interpretation": "Tu vis dans l’excitation, l’élan, la curiosité extrême. Mais cette carte parle d’instincts incontrôlés, d’explorations dangereuses, de fascination pour ce qui bouge — ou ce qui saigne. Tu ne veux pas faire mal. Mais tu aimes quand ça réagit."
   },
   {
     "id": 17,
-    "name": "Le Phénix Affamé",
+    "name": "Le Phénix",
     "number": "17",
     "description": "Il renaît… mais de quoi était fait le nid ?",
     "interpretation": "Tu parles de renouveau, de transformation, de lumière après les cendres. Mais cette carte te demande ce que tu brûles pour te relever. Combien de vivants dois-tu réduire en cendres pour briller à nouveau ?"
   },
   {
     "id": 18,
-    "name": "Le Paresseux Putréfié",
+    "name": "Le Paresseux",
     "number": "18",
     "description": "Il ne bouge plus. Mais quelque chose grandit en dessous.",
     "interpretation": "Tu restes là, tu laisses couler, tu choisis l’immobilité. Cette carte parle de déni, d’abandon volontaire, d’une paix factice. Mais tout ce que tu ne règles pas pourrit lentement sous ta fourrure. Et ça finira par éclater."
   },
   {
     "id": 19,
-    "name": "Le Zèbre Désaccordé",
+    "name": "Le Zèbre",
     "number": "19",
     "description": "Ses rayures ne suivent plus la musique.",
     "interpretation": "Tu veux entrer dans la cadence, suivre les autres, disparaître dans la foule. Mais cette carte parle de dissonance profonde, de tension intérieure, de camouflage qui ne trompe plus personne. Quelque chose a glissé. Et même ton corps n’est plus aligné."
   },
   {
     "id": 20,
-    "name": "L’Écureuil Disséqué",
+    "name": "L’Écureuil",
     "number": "20",
     "description": "Il cache ses réserves. Mais ce qu’il enterre est trop rouge.",
     "interpretation": "Tu es prévoyant, minutieux, toujours en train de stocker pour demain. Mais cette carte parle d’un trop-plein, d’un besoin de contrôle qui devient malsain. Tu veux tout garder — même ce qui ne devrait pas survivre. Et à force d'enterrer, tu risques de déterrer pire."
   },
   {
     "id": 21,
-    "name": "L’Axolotl Clandestin",
+    "name": "L’Axolotl",
     "number": "21",
     "description": "Il sourit dans l’eau trouble. Personne ne voit ce qu’il fait pousser.",
     "interpretation": "Tu sembles inoffensif, presque irréel. Tu brilles doucement dans le fond, sans bruit. Mais cette carte parle de transformations malsaines, de régénérations ratées, de choses qui repoussent quand elles ne devraient pas. Tu n’es plus ce que tu étais — et c’est peut-être trop tard pour revenir en arrière."
