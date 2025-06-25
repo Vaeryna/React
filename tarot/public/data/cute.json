@@ -488,15 +488,15 @@
     "element": "Eau",
     "color": "Abîme"
   },
-  {
-    "id": 59,
-    "name": "Le Narval Perforé",
-    "number": "10",
-    "description": "Sa corne est un mensonge. Il ne l’a jamais choisie.",
-    "interpretation": "Tu veux être unique, magnifique, légendaire. Mais cette carte parle de symboles imposés, de fardeaux déguisés en miracles, d’une gloire construite sur la douleur. On t’admire… et on ne voit pas ce que ça t’a coûté.",
-    "element": "Eau",
-    "color": "Abîme"
-  },
+{
+  "id": 11,
+  "name": "La Grenouille Écorchée",
+  "number": "11",
+  "description": "Elle chante sous la pluie, la peau de sa proie collée au dos.",
+  "interpretation": "Tu t’adaptes. Tu changes de peau, de ton, de forme. Mais à force de mimer, tu oublies qui tu es. Cette carte parle de camouflage toxique, d’identité floue, et d’ambitions qui glissent. Jusqu’où es-tu prêt à t’étirer pour qu’on te croit ?"
+ "element": "Eau",
+    "color": "Abîme"}
+
   {
     "id": 60,
     "name": "La Raie Paralyseuse",
