@@ -79,15 +79,16 @@
     "interpretation": "Tu caches tes pensées sous un flot de gestes vifs, de sourires et d’apparences. Mais ce qui t’habite est plus sombre. Cette carte parle de camouflage émotionnel, de surface calme et de profondeur inquiétante. Tu veux faire croire que tu t’amuses. Mais ce que tu manipules a des yeux."
   },
   {
-    "id": 11,
-    "name": "La Grenouille",
-    "number": "11",
-    "description": "Elle chante sous la pluie, la peau de sa proie collée au dos.",
-    "interpretation": "Tu t’adaptes. Tu changes de peau, de ton, de forme. Mais à force de mimer, tu oublies qui tu es. Cette carte parle de camouflage toxique, d’identité floue, et d’ambitions qui glissent. Jusqu’où es-tu prêt à t’étirer pour qu’on te croit ?"
-  },
+  "id": 11,
+  "name": "L’Ours Polaire Enveloppé",
+  "number": "11",
+  "description": "Il avance dans la banquise, drapé d’un manteau qui n’est pas à lui.",
+  "interpretation": "Tu te protèges, tu t’adaptes, tu te caches sous ce qui impressionne. Mais ce manteau pèse lourd. Cette carte parle de protection morbide, d’emprunt démesuré, d’un masque glacial cousu trop serré. Tu avances... mais à quel prix ?"
+}
+,
   {
     "id": 12,
-    "name": "Le Chevreuil",
+    "name": "Le Cerf",
     "number": "12",
     "description": "Il tremble, mais les bois sont encore tachés.",
     "interpretation": "Tu fais mine d’être la victime, la cible fragile. Mais cette carte parle de passivité complice, de sang sur les mains même quand on n’a pas frappé. Tu étais là. Tu n’as rien dit. Et le monde s’en souvient."
