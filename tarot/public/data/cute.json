@@ -63,13 +63,14 @@
     "description": "Il te fixe sans bruit. Et quand tu comprends, il est trop tard.",
     "interpretation": "Tu ressens plus que tu ne parles. Tu observes, tu analyses, tu attends le moment exact. Cette carte parle d’intuition tranchante, de présence insaisissable, de décisions qui viennent sans explication. Tu ne justifies pas. Tu agis. Et ce que tu ne dis pas… est souvent ce qui fait le plus mal."
   },
-  {
-    "id": 9,
-    "name": "Le Porcelet",
-    "number": "9",
-    "description": "Trop rose, trop dodu, trop calme. Quelque chose cloche dans la flaque.",
-    "interpretation": "Tu veux qu’on te voie comme inoffensif. Comme un petit rien de plus. Mais cette carte parle d’accumulation étouffée, de gourmandise malsaine, de violence molle. Celle qui couve dans la mollesse, dans le confort, dans l’oubli de soi. Regarde ce que tu as avalé. Et demande-toi si tu peux encore digérer."
-  },
+{
+  "id": 9,
+  "name": "La Girafe",
+  "number": "9",
+  "description": "Elle plie le cou avec grâce… pour mieux tremper ses lèvres dans ce qu’elle ne devrait pas boire.",
+  "interpretation": "Tu te dresses plus haut que les autres, mais tu te nourris de choses que tu refuses de nommer. Cette carte parle de curiosité déplacée, de raffinements douteux, d’élégance souillée. Tu veux rester au-dessus, intact·e — mais ce que tu touches laisse des marques. Et cette hauteur ne t’empêche pas de te salir."
+}
+,
   {
     "id": 10,
     "name": "La Loutre",
