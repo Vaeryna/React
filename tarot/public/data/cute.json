@@ -95,67 +95,71 @@
   },
   {
     "id": 13,
-    "name": "Le Raton Voleur",
+    "name": "Le Raton Laveur",
     "number": "13",
     "description": "Ses mains sont agiles. Elles volent plus que des miettes.",
     "interpretation": "Tu prends ce qui t’arrange, sans te demander à qui ça appartenait. Cette carte parle d’opportunisme, de duplicité souriante, de charme destructeur. Tu ris, mais tu as vidé quelqu’un d’autre en passant. Par jeu ? Ou par besoin ?"
   },
   {
     "id": 14,
-    "name": "Le Panda Roux",
-    "number": "14",
-    "description": "Il a l’air perdu, mais ses pattes sont occupées.",
-    "interpretation": "Tu sembles inoffensif, doux, presque trop pur. Et c’est ce que tu veux. Cette carte parle de stratégie affective, de manipulation par la tendresse, de masques rouges et blancs. On se laisse approcher. Et on ne se rend pas compte que tu arraches des morceaux pendant qu’on t’aime."
-  },
-  {
-    "id": 15,
-    "name": "L’Orque",
-    "number": "15",
-    "description": "Ses cercles sont parfaits, ses morts aussi.",
-    "interpretation": "Tu as des règles, des cycles, des gestes répétés. Cette carte parle de cruauté méthodique, de prédation codifiée, de beauté dans la destruction. Tu dis que tu respectes un ordre… mais il est à ton image. Et il laisse flotter trop de morceaux derrière toi."
-  },
-  {
-    "id": 16,
-    "name": "Le Furet",
-    "number": "16",
-    "description": "Il adore les surprises. Surtout quand elles crient.",
-    "interpretation": "Tu vis dans l’excitation, l’élan, la curiosité extrême. Mais cette carte parle d’instincts incontrôlés, d’explorations dangereuses, de fascination pour ce qui bouge — ou ce qui saigne. Tu ne veux pas faire mal. Mais tu aimes quand ça réagit."
-  },
-  {
-    "id": 17,
     "name": "Le Phénix",
-    "number": "17",
+    "number": "14",
     "description": "Il renaît… mais de quoi était fait le nid ?",
     "interpretation": "Tu parles de renouveau, de transformation, de lumière après les cendres. Mais cette carte te demande ce que tu brûles pour te relever. Combien de vivants dois-tu réduire en cendres pour briller à nouveau ?"
-  },
+ 
+    },
+  {
+    "id": 15,
+   "name": "Le Panda Roux",
+    "number": "15",
+    "description": "Il a l’air perdu, mais ses pattes sont occupées.",
+    "interpretation": "Tu sembles inoffensif, doux, presque trop pur. Et c’est ce que tu veux. Cette carte parle de stratégie affective, de manipulation par la tendresse, de masques rouges et blancs. On se laisse approcher. Et on ne se rend pas compte que tu arraches des morceaux pendant qu’on t’aime."
+    },
+  {
+    "id": 16,
+    "name": "L’Orque",
+    "number": "16",
+    "description": "Ses cercles sont parfaits, ses morts aussi.",
+    "interpretation": "Tu as des règles, des cycles, des gestes répétés. Cette carte parle de cruauté méthodique, de prédation codifiée, de beauté dans la destruction. Tu dis que tu respectes un ordre… mais il est à ton image. Et il laisse flotter trop de morceaux derrière toi."
+   },
+  {
+    "id": 17,
+    "name": "Le Furet",
+    "number": "17",
+    "description": "Il adore les surprises. Surtout quand elles crient.",
+    "interpretation": "Tu vis dans l’excitation, l’élan, la curiosité extrême. Mais cette carte parle d’instincts incontrôlés, d’explorations dangereuses, de fascination pour ce qui bouge — ou ce qui saigne. Tu ne veux pas faire mal. Mais tu aimes quand ça réagit."
+
+     },
   {
     "id": 18,
-    "name": "Le Paresseux",
+    "name": "Le Loup",
     "number": "18",
-    "description": "Il ne bouge plus. Mais quelque chose grandit en dessous.",
-    "interpretation": "Tu restes là, tu laisses couler, tu choisis l’immobilité. Cette carte parle de déni, d’abandon volontaire, d’une paix factice. Mais tout ce que tu ne règles pas pourrit lentement sous ta fourrure. Et ça finira par éclater."
+    "description": "Il attend, silencieux, la truffe posée sur tes traces.",
+  "interpretation": "Tu observes sans agir, tu te tapis dans les angles morts, tu fais croire que tu n’es pas là. Cette carte parle de patience prédateur, de vigilance extrême, et d’un appétit que tu refuses de nommer. Ce n’est pas l’instant qui compte, mais la certitude que tu finiras par mordre. Et plus tu restes immobile, plus tu rends ta morsure inévitable."
   },
   {
     "id": 19,
-    "name": "Le Zèbre",
+  "name": "L’Écureuil",
     "number": "19",
-    "description": "Ses rayures ne suivent plus la musique.",
-    "interpretation": "Tu veux entrer dans la cadence, suivre les autres, disparaître dans la foule. Mais cette carte parle de dissonance profonde, de tension intérieure, de camouflage qui ne trompe plus personne. Quelque chose a glissé. Et même ton corps n’est plus aligné."
-  },
-  {
-    "id": 20,
-    "name": "L’Écureuil",
-    "number": "20",
     "description": "Il cache ses réserves. Mais ce qu’il enterre est trop rouge.",
     "interpretation": "Tu es prévoyant, minutieux, toujours en train de stocker pour demain. Mais cette carte parle d’un trop-plein, d’un besoin de contrôle qui devient malsain. Tu veux tout garder — même ce qui ne devrait pas survivre. Et à force d'enterrer, tu risques de déterrer pire."
-  },
+  
+    },
   {
-    "id": 21,
-    "name": "L’Axolotl",
-    "number": "21",
-    "description": "Il sourit dans l’eau trouble. Personne ne voit ce qu’il fait pousser.",
-    "interpretation": "Tu sembles inoffensif, presque irréel. Tu brilles doucement dans le fond, sans bruit. Mais cette carte parle de transformations malsaines, de régénérations ratées, de choses qui repoussent quand elles ne devraient pas. Tu n’es plus ce que tu étais — et c’est peut-être trop tard pour revenir en arrière."
+    "id": 20,
+    "name": "Le Requin",
+    "number": "20",
+    "description": "Il flotte sans un frisson. Mais l’eau autour de lui s’assombrit.",
+  "interpretation": "Tu choisis de ne plus avancer, de rester immobile dans ce qui t’entoure. Cette carte parle de déni glacé, de paix factice, d’un refus de te confronter à tes propres instincts. Pourtant, ce que tu ignores se gorge de sang et finit par empoisonner l’eau. Tu peux flotter longtemps… mais jamais éternellement."
   },
+{
+  "id": 21,
+  "name": "Le Griffon",
+  "number": "21",
+  "description": "Il veille au sommet, ses ailes tremblantes comme un mauvais présage.",
+  "interpretation": "Tu te penses noble, au-dessus de la mêlée. Mais cette carte parle de transformations inquiétantes, de fiertés corrompues, de grandeur bâtie sur des fondations déformées. Tu n’es plus certain d’être un aigle ou un lion, ni si l’un des deux domine. Et à force de prétendre, tu risques de ne plus savoir qui tu es vraiment."
+},
+
   {
     "id": 22,
     "name": "Le Colibri Vorace",
