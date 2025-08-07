@@ -26,7 +26,7 @@ body {
 }
 
 
-.btn-dark{
+.btn.btn-dark{
     --bs-btn-color: #fff;
     --bs-btn-bg: #240A00;
     --bs-btn-border-color: #240A00;
