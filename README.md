@@ -14,7 +14,7 @@ Framework React avec le langage JavaScript
 # Tarot divinatoire
 https://arcanomancie.vercel.app/
 
-Jeu de tirage de tarto divinatoire. 
+Jeu de tirage de tarot divinatoire. 
 
 Framework React avec le langage TypeScript
 
