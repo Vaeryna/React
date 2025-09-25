@@ -28,8 +28,11 @@ function Footer() {
             </div>
 
             <div className="container-fluid mb-3">
-                <p>
-                    <img src="/assets/Frekinor.png" style={styleImg} alt="Frekinor logo"/> Frekinor </p>
+                <a href="www.frekinor.com">
+                    <p>
+                    <img src="/assets/Frekinor.png" style={styleImg} alt="Frekinor logo"/> Frekinor
+                    </p>
+                </a>
                 <p> ©2025 Arcanomancie. Tous droits réservés</p>
             </div>
 
