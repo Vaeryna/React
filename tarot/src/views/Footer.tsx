@@ -1,22 +1,9 @@
-import {CSSProperties} from "react";
-
-const styleImg: CSSProperties = {
-    borderRadius: "50%",
-    width: "5vh"
-}
-
-const styleFooter: CSSProperties = {
-    fontFamily: "font-mono text-xs",
-    fontSize: "small",
-    display: "flex",
-    flexDirection: "row",
-    paddingTop: "20%"
-}
+import '../scss/footer.scss'
 
 
 function Footer() {
     return (
-        <footer style={styleFooter}>
+        <footer className="styleFooter">
             <div className="container-fluid mb-3">
                 <p> Toutes les images et prédictions ont été générées par Intelligence Artificielle (Gencraft et
                     ChatGPT)</p>
@@ -28,11 +15,11 @@ function Footer() {
             </div>
 
             <div className="container-fluid mb-3">
-                <link href="www.frekinor.com">
+                <a href="https://www.frekinor.com" >
                     <p>
-                    <img src="/assets/Frekinor.png" style={styleImg} alt="Frekinor logo"/> Frekinor
+                    <img src="/assets/Frekinor.png" className="styleImg" alt="Frekinor logo"/> Frekinor
                     </p>
-                </link>
+                </a>
                 <p> ©2025 Arcanomancie. Tous droits réservés</p>
             </div>
 
